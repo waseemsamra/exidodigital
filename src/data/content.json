@@ -1,0 +1,140 @@
+{
+  "site": {
+    "title": "Kinetic Ether | Future-Ready AI & Full-Stack Solutions",
+    "name": "Kinetic Ether",
+    "tagline": "Precise Engineering for the Digital Obsidian"
+  },
+  "navigation": {
+    "logo": "Kinetic Ether",
+    "links": [
+      { "label": "AI", "href": "#", "active": true },
+      { "label": "Ecommerce", "href": "#" },
+      { "label": "Mobile", "href": "#" },
+      { "label": "Marketing", "href": "#" },
+      { "label": "BI", "href": "#" },
+      { "label": "Security", "href": "#" }
+    ],
+    "buttons": [
+      { "label": "Login", "href": "#", "variant": "ghost" },
+      { "label": "Get Started", "href": "#", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "badge": "Digital Obsidion Protocol v2.4",
+    "title": {
+      "line1": "Future-Ready",
+      "line2": "AI & Full-Stack"
+    },
+    "description": "We engineer hyper-scalable architectures for the next era of digital dominance. Precision-coded solutions from neural networks to enterprise ecosystems.",
+    "buttons": [
+      {
+        "label": "Get a Free Consultation",
+        "variant": "primary",
+        "icon": "arrow_forward"
+      },
+      {
+        "label": "View Portfolio",
+        "variant": "secondary"
+      }
+    ],
+    "dashboardImage": "/assets/images/dashboard-preview.png",
+    "dashboardAlt": "Futuristic data dashboard with glowing neon charts, holographic interface elements, and deep blue technological aesthetic"
+  },
+  "trustedBy": {
+    "title": "Trusted by industry titans",
+    "companies": [
+      "AETHER_CORP",
+      "NEXUS_UI",
+      "QUANTUM_SYS",
+      "VORTEX_DATA",
+      "TITAN_DEV"
+    ]
+  },
+  "services": {
+    "header": {
+      "label": "Our Expertise",
+      "title": "Integrated Intelligence Architecture.",
+      "description": "Breaking the silos between AI modeling and enterprise execution. We deliver unified solutions that scale."
+    },
+    "items": [
+      {
+        "id": "ai-data",
+        "icon": "psychology",
+        "title": "AI & Data Services",
+        "description": "Proprietary neural architectures, predictive analytics, and automated data pipelines designed for high-frequency environments.",
+        "image": "/assets/images/neural-network.png",
+        "imageAlt": "Abstract representation of neural networks and artificial intelligence with glowing blue lines and data particles in deep space",
+        "tags": ["LLM Training", "Data Lakes"],
+        "size": "large"
+      },
+      {
+        "id": "ecommerce-mobile",
+        "icon": "shopping_bag",
+        "title": "Ecommerce & Mobile",
+        "description": "Frictionless digital storefronts and native mobile experiences that convert at scale.",
+        "features": [
+          "iOS & Android Native",
+          "headless commerce",
+          "real-time sync"
+        ],
+        "size": "small"
+      },
+      {
+        "id": "enterprise",
+        "icon": "account_balance_wallet",
+        "title": "Enterprise (Accounting/BI)",
+        "description": "Auditable accounting kernels and real-time business intelligence for global enterprises.",
+        "size": "medium"
+      },
+      {
+        "id": "marketing",
+        "icon": "ads_click",
+        "title": "Digital Marketing",
+        "description": "Algorithmic performance marketing and automated funnel optimization that drives exponential growth.",
+        "buttonLabel": "Explore Services",
+        "size": "wide"
+      }
+    ]
+  },
+  "cta": {
+    "title": {
+      "line1": "Ready to build the",
+      "line2": "Digital Future?"
+    },
+    "description": "Our senior architects are ready to discuss your next mission-critical deployment. Zero fluff, absolute precision.",
+    "buttonLabel": "Get a Free Consultation",
+    "backgroundImage": "/assets/images/circuit-board.png",
+    "backgroundAlt": "High-tech circuit board with glowing golden electricity paths on a dark metallic surface"
+  },
+  "footer": {
+    "company": {
+      "name": "Kinetic Ether",
+      "description": "Precise Engineering for the Digital Obsidian. Scaling global infrastructures through localized intelligence and robust architectural patterns."
+    },
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      },
+      {
+        "title": "Compliance",
+        "links": [
+          { "label": "Security Audit", "href": "#" },
+          { "label": "API Documentation", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Kinetic Ether. All rights reserved. Precise Engineering for the Digital Obsidian.",
+    "socialIcons": ["hub", "terminal", "token"]
+  }
+}
