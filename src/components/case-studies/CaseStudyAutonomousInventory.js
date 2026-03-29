@@ -117,7 +117,7 @@ function CaseStudyAutonomousInventory() {
             <div className="lg:col-span-7 flex flex-col space-y-8">
               <div className="glass-panel p-1 rounded-2xl">
                 <img 
-                  src="/assets/images/neural-network-3d.png" 
+                  src="/assets/images/rev-AI.avif" 
                   alt="Abstract data visualization of a complex network mesh with glowing nodes and interconnecting lines in deep blue and neon violet"
                   className="w-full h-80 object-cover rounded-xl" 
                 />
