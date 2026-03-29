@@ -1,0 +1,158 @@
+{
+  "page": {
+    "title": "Exido | Data Warehousing",
+    "badge": "Enterprise Infrastructure"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Architecting",
+      "line2": "Massive-Scale",
+      "line3": "Data Lakes"
+    },
+    "description": "Deploy precision-engineered analytical environments capable of processing petabytes of raw data with sub-second latency. Obsidian-grade security meets elastic compute.",
+    "buttons": [
+      {
+        "label": "Request a Data Architecture Audit",
+        "variant": "primary",
+        "icon": "arrow_forward"
+      },
+      {
+        "label": "Technical Whitepaper",
+        "variant": "secondary",
+        "icon": "description"
+      }
+    ],
+    "backgroundImage": "/assets/images/datawarehousing-hero.png",
+    "backgroundAlt": "abstract digital visualization of a glowing blue data nebula with interconnected nodes and flowing energy filaments in deep space"
+  },
+  "engine": {
+    "label": "Foundation",
+    "title": "Core Warehouse Engine",
+    "description": "Proprietary ACID-compliant storage layer designed for the next decade of data volume.",
+    "items": [
+      {
+        "icon": "storage",
+        "title": "Petabyte-Scale Storage",
+        "description": "Linearly scalable architecture that decouples compute from storage, allowing for infinite growth without performance degradation.",
+        "color": "primary"
+      },
+      {
+        "icon": "verified_user",
+        "title": "ACID Compliance",
+        "description": "Full transactional integrity ensures that your data remains consistent and reliable, even during massive concurrent write operations.",
+        "color": "secondary"
+      },
+      {
+        "icon": "bolt",
+        "title": "Low-Latency Querying",
+        "description": "Optimized execution engine utilizes vectorized processing to return complex analytical results in milliseconds.",
+        "color": "primary-container"
+      }
+    ]
+  },
+  "etl": {
+    "title": "Integrated ETL Pipelines",
+    "items": [
+      {
+        "icon": "input",
+        "title": "Universal Connectors",
+        "description": "Ingest from SQL, NoSQL, SaaS APIs, and IoT streams with zero custom code.",
+        "color": "primary"
+      },
+      {
+        "icon": "transform",
+        "title": "Auto-Schema Evolution",
+        "description": "Pipelines automatically adapt to source changes without breaking downstream analytics.",
+        "color": "secondary"
+      }
+    ]
+  },
+  "governance": {
+    "title": "Governance & Compliance",
+    "description": "Security that doesn't sacrifice speed.",
+    "items": [
+      {
+        "id": "lineage",
+        "icon": "shield_with_heart",
+        "title": "Automated Lineage Tracking",
+        "description": "Trace every data point back to its source. Full visual mapping of transformations, ensuring complete transparency for regulatory audits.",
+        "color": "secondary",
+        "size": "large",
+        "badges": ["GDPR", "SOC2", "HIPAA"]
+      },
+      {
+        "id": "masking",
+        "icon": "fingerprint",
+        "title": "Role-Based Masking",
+        "description": "Dynamic data masking hides sensitive fields based on user identity in real-time.",
+        "color": "primary-container",
+        "size": "wide"
+      },
+      {
+        "id": "accuracy",
+        "value": "99.99%",
+        "label": "Audit Accuracy",
+        "size": "small"
+      },
+      {
+        "id": "monitoring",
+        "value": "24/7",
+        "label": "Security Monitoring",
+        "size": "small"
+      }
+    ]
+  },
+  "analytics": {
+    "title": "High-Performance Analytics",
+    "description": "Direct, native connections to the tools your teams already use. No more extracts. No more stale data.",
+    "image": "/assets/images/analytics-dashboard.png",
+    "imageAlt": "Close up of a dark, professional computer screen displaying high-contrast analytical dashboards with neon line charts and data grids",
+    "features": [
+      "Direct connection to Tableau & Power BI",
+      "Native Python & R SDKs for Data Science",
+      "SQL-API for custom application integration"
+    ]
+  },
+  "cta": {
+    "title": "Ready to Modernize Your Data Stack?",
+    "description": "Our engineers will analyze your current infrastructure and provide a custom blueprint for a Exido warehouse deployment.",
+    "buttonLabel": "Request a Data Architecture Audit",
+    "note": "Limited availability for Q3 partnerships"
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    },
+    "columns": [
+      {
+        "title": "Capabilities",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" },
+          { "label": "Security Audit", "href": "#" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" },
+          { "label": "API Documentation", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved."
+  }
+}

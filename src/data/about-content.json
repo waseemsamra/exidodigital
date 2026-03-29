@@ -1,0 +1,188 @@
+{
+  "page": {
+    "title": "About Us | Exido",
+    "badge": "The Philosophy"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about", "active": true }
+    ],
+    "buttons": [
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "The Architects of",
+      "line2": "Digital Obsidian."
+    },
+    "description": "We construct resilient digital environments where precision engineering meets advanced infrastructure. At Exido, we don't just build software; we forge the digital foundations for the next era of technological dominance.",
+    "backgroundImage": "/assets/images/about-hero.png",
+    "backgroundAlt": "Abstract digital network visualization with flowing data particles and deep obsidian aesthetic in low light"
+  },
+  "mission": {
+    "title": {
+      "line1": "Defining the Next Era of",
+      "line2": "Digital Dominance"
+    },
+    "image": "/assets/images/about-mission.png",
+    "imageAlt": "Close-up of a high-tech server rack with glowing blue fiber optic cables and brushed metal textures",
+    "stat": "99.99%",
+    "statLabel": "Uptime Precision",
+    "items": [
+      {
+        "icon": "terminal",
+        "title": "High-Stakes Software",
+        "description": "Developing mission-critical applications where failure is not an option. Performance-tuned for maximum throughput.",
+        "color": "primary"
+      },
+      {
+        "icon": "psychology",
+        "title": "Artificial Intelligence",
+        "description": "Neural networks designed for industrial-scale automation and predictive cognitive analysis.",
+        "color": "secondary"
+      },
+      {
+        "icon": "encrypted",
+        "title": "Cyber Architecture",
+        "description": "Quantum-resistant encryption protocols integrated into every layer of our obsidian infrastructure.",
+        "color": "error"
+      }
+    ]
+  },
+  "leadership": {
+    "title": {
+      "line1": "The Minds Behind",
+      "line2": "the Ether"
+    },
+    "description": "A collective of specialists dedicated to hyper-precision engineering.",
+    "members": [
+      {
+        "name": "Marcus Thorne",
+        "title": "Chief Executive Architect",
+        "image": "/assets/images/ceo-marcus.png",
+        "imageAlt": "Professional portrait of a visionary male executive in a minimalist studio setting with moody lighting"
+      },
+      {
+        "name": "Elena Vance",
+        "title": "Chief Technical Officer",
+        "image": "/assets/images/cto-elena.png",
+        "imageAlt": "Sharp portrait of a female technology executive with high-tech background and dramatic accent lighting"
+      },
+      {
+        "name": "Julian Sterling",
+        "title": "Head of Digital Aesthetics",
+        "image": "/assets/images/design-julian.png",
+        "imageAlt": "Portrait of a design director in a sleek black outfit with geometric architectural background"
+      }
+    ]
+  },
+  "values": {
+    "label": "Foundation",
+    "title": "The Kinetic Principles",
+    "items": [
+      {
+        "id": "innovation",
+        "icon": "auto_awesome",
+        "title": "Innovation",
+        "description": "Pushing the boundaries of theoretical computation into practical application. We reject the status quo of legacy systems.",
+        "color": "primary",
+        "size": "large"
+      },
+      {
+        "id": "precision",
+        "icon": "target",
+        "title": "Precision",
+        "description": "Calculated execution at every microsecond.",
+        "color": "secondary",
+        "size": "small"
+      },
+      {
+        "id": "integrity",
+        "icon": "verified_user",
+        "title": "Integrity",
+        "description": "Unyielding security protocols and transparency.",
+        "color": "primary-container",
+        "size": "small"
+      },
+      {
+        "id": "scalability",
+        "title": "Scalability",
+        "description": "Systems designed to evolve from local deployments to global hyper-structures without friction. Our architecture is built to withstand the demands of infinite growth.",
+        "stat": "40M+",
+        "statLabel": "Global Requests/sec",
+        "size": "wide"
+      }
+    ]
+  },
+  "global": {
+    "title": "Global Infrastructure",
+    "description": "Command centers and data obsidian hubs across six continents.",
+    "image": "/assets/images/global-map.png",
+    "imageAlt": "Digital dark world map with neon glowing connection points in cyan and purple over a dark obsidian background",
+    "zones": [
+      {
+        "name": "Zone A",
+        "locations": "Singapore / Tokyo",
+        "color": "primary"
+      },
+      {
+        "name": "Zone B",
+        "locations": "London / Berlin",
+        "color": "secondary"
+      }
+    ]
+  },
+  "cta": {
+    "title": {
+      "line1": "Join the",
+      "line2": "Vanguard."
+    },
+    "description": "We are seeking exceptional architects, engineers, and visionaries to expand the boundaries of the digital obsidian ecosystem.",
+    "buttons": [
+      {
+        "label": "Open Positions",
+        "variant": "primary"
+      },
+      {
+        "label": "Partner Inquiry",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "Forging future-ready infrastructure for the world's most critical digital assets."
+    },
+    "columns": [
+      {
+        "title": "Architecture",
+        "links": [
+          { "label": "Security Architecture", "href": "#" },
+          { "label": "AI Systems", "href": "#" },
+          { "label": "Cloud Edge", "href": "#" }
+        ]
+      },
+      {
+        "title": "Enterprise",
+        "links": [
+          { "label": "About", "href": "/about" },
+          { "label": "Careers", "href": "/careers" },
+          { "label": "Contact", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved.",
+    "socialIcons": ["language", "public"]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "page": {
+    "title": "Careers | Exido",
+    "badge": "Future Operations"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Join the",
+      "line2": "Vanguard"
+    },
+    "description": "We are building the substrate of the next digital era. Exido seeks the architects of impossible structures.",
+    "buttons": [
+      {
+        "label": "View Open Roles",
+        "variant": "primary"
+      },
+      {
+        "label": "Our Mission",
+        "variant": "secondary"
+      }
+    ],
+    "backgroundImage": "/assets/images/careers-hero.png",
+    "backgroundAlt": "abstract digital nexus representing global connectivity with deep blue and cyan light pulses in a dark obsidian space",
+    "stat": "94%",
+    "statLabel": "Retention Rate",
+    "quote": "The Ether isn't a workplace; it's an accelerator for human potential."
+  },
+  "culture": {
+    "title": "Life at the Ether",
+    "description": "A culture of silent precision, radical transparency, and unrelenting pursuit of the technical edge.",
+    "linkLabel": "Culture Manifesto",
+    "items": [
+      {
+        "id": "rnd",
+        "icon": "bolt",
+        "title": "Unconstrained R&D",
+        "description": "We allocate 20% of every engineer's time to \"The Void\"—a pure experimentation phase where failure is celebrated as data.",
+        "color": "primary",
+        "size": "large"
+      },
+      {
+        "id": "focus",
+        "title": "Deep Work Sanctuaries",
+        "label": "Focus-First Protocol",
+        "size": "small"
+      },
+      {
+        "id": "autonomy",
+        "title": "Radical Autonomy",
+        "label": "Zero Management Hierarchy",
+        "size": "small"
+      },
+      {
+        "id": "hub",
+        "title": "The Obsidian Hub",
+        "description": "Our flagship environment in Zurich designed for metabolic and cognitive optimization.",
+        "image": "/assets/images/obsidian-hub.png",
+        "imageAlt": "modern brutalist architectural interior with dark concrete and sharp cyan accent lighting representing futuristic global hub",
+        "size": "wide"
+      }
+    ]
+  },
+  "positions": {
+    "label": "Active Deployments",
+    "title": "Open Positions",
+    "items": [
+      {
+        "id": "distributed-systems",
+        "department": "Engineering",
+        "title": "Distributed Systems Architect",
+        "location": "Remote / Zurich",
+        "type": "Full-time"
+      },
+      {
+        "id": "neural-researcher",
+        "department": "AI Research",
+        "title": "Neural Substrate Researcher",
+        "location": "Singapore",
+        "type": "Full-time"
+      },
+      {
+        "id": "security-lead",
+        "department": "Security Architecture",
+        "title": "Zero-Trust Protocol Lead",
+        "location": "Austin / Remote",
+        "type": "Full-time"
+      }
+    ],
+    "generalApplication": "Don't see your specialty? Send us a general transmission."
+  },
+  "benefits": {
+    "title": "Built for the Best",
+    "description": "We remove all friction between thought and execution.",
+    "items": [
+      {
+        "icon": "public",
+        "title": "Global Hubs",
+        "description": "Access to premium Obsidian Hubs in Zurich, Singapore, Tokyo, and Austin. High-frequency environments for focused collaboration."
+      },
+      {
+        "icon": "terminal",
+        "title": "Cutting-Edge Stack",
+        "description": "Direct access to unreleased hardware, private GPU clusters, and custom-built neural-compilers."
+      },
+      {
+        "icon": "health_and_safety",
+        "title": "Total Wellbeing",
+        "description": "Bespoke health protocols, cognitive coaching, and comprehensive insurance that treats you like an elite asset."
+      }
+    ],
+    "interviewStages": [
+      {
+        "label": "Technical Interview",
+        "stage": "Stage 01"
+      },
+      {
+        "label": "Systems Challenge",
+        "stage": "Stage 02"
+      },
+      {
+        "label": "Final Integration",
+        "stage": "Stage 03"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "The bedrock of high-frequency digital infrastructure. Obsidian-grade precision for the autonomous era."
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "AI Processing", "href": "#" },
+          { "label": "Edge Security", "href": "#" },
+          { "label": "Quantum Nodes", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Documentation", "href": "#" },
+          { "label": "Whitepapers", "href": "#" },
+          { "label": "API Reference", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Terms", "href": "#" },
+          { "label": "Privacy", "href": "#" },
+          { "label": "Compliance", "href": "#" }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          { "label": "Support", "href": "#" },
+          { "label": "Careers", "href": "/careers" },
+          { "label": "Press", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. Digital Obsidian Precision.",
+    "socialIcons": ["terminal", "hub", "public"]
+  }
+}

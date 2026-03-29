@@ -1,0 +1,170 @@
+{
+  "page": {
+    "title": "Exido | Digital Marketing Precision",
+    "badge": "Engineered for Dominance"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Precision-",
+      "line2": "Engineered",
+      "line3": "Growth."
+    },
+    "description": "Beyond basic analytics. Exido deploys AI-driven performance frameworks that transform marketing into a high-frequency digital asset.",
+    "buttons": [
+      {
+        "label": "Initiate Protocol",
+        "variant": "primary"
+      },
+      {
+        "label": "View Capabilities",
+        "variant": "secondary",
+        "icon": "play_circle"
+      }
+    ],
+    "backgroundImage": "/assets/images/marketing-hero.png",
+    "backgroundAlt": "abstract digital visualization of 3D data streams and marketing funnel nodes in a dark obsidian space with cyan neon highlights"
+  },
+  "pillars": {
+    "label": "Our Methodology",
+    "title": "The Growth Pillars",
+    "items": [
+      {
+        "id": "seo",
+        "number": "01",
+        "label": "VISIBILITY",
+        "icon": "search_insights",
+        "iconFill": true,
+        "title": "AI-Driven SEO",
+        "description": "Predictive keyword modeling using neural networks to anticipate search trends 90 days before they peak. Automated content optimization at scale.",
+        "color": "primary",
+        "features": [
+          "Semantic Cluster Mapping",
+          "Real-time SERP Adaptation"
+        ]
+      },
+      {
+        "id": "ads",
+        "number": "02",
+        "label": "ACQUISITION",
+        "icon": "ads_click",
+        "iconFill": true,
+        "title": "Programmatic Ads",
+        "description": "High-frequency trading for ad inventory. Our engine executes millions of micro-adjustments per second to secure prime placement with zero-waste precision.",
+        "color": "secondary",
+        "features": [
+          "Dynamic Creative Orchestration",
+          "Dark Pool Inventory Access"
+        ]
+      },
+      {
+        "id": "conversion",
+        "number": "03",
+        "label": "RETENTION",
+        "icon": "psychology",
+        "iconFill": true,
+        "title": "Conversion Engineering",
+        "description": "Where behavioral science meets data-backed UX. We map the friction in your funnel and engineer frictionless pathways to maximize LTV and AOV.",
+        "color": "tertiary",
+        "features": [
+          "Predictive User Paths",
+          "Emotional Response Testing"
+        ]
+      }
+    ]
+  },
+  "growthEngine": {
+    "title": "The Growth Engine",
+    "description": "A closed-loop system of continuous evolution. No guesswork, only algorithmic certainty.",
+    "steps": [
+      {
+        "icon": "database",
+        "title": "Data Ingestion",
+        "description": "Aggregating cross-channel signals into a unified neural lake.",
+        "color": "primary"
+      },
+      {
+        "icon": "analytics",
+        "title": "AI Analysis",
+        "description": "Identifying patterns and opportunities invisible to human analysts.",
+        "color": "secondary"
+      },
+      {
+        "icon": "bolt",
+        "title": "Execution",
+        "description": "Instant deployment across search, social, and programmatic channels.",
+        "color": "primary-fixed"
+      },
+      {
+        "icon": "auto_fix_high",
+        "title": "Optimization",
+        "description": "Feedback loops refine parameters for the next deployment cycle.",
+        "color": "primary"
+      }
+    ]
+  },
+  "metric": {
+    "quote": "The level of precision Exido brings to our marketing stack is unprecedented. We aren't just spending; we are investing with mathematical certainty.",
+    "author": "Chief Growth Officer, Global Logistics Corp",
+    "stat": "320%",
+    "statLabel": "Average Increase in ROAS",
+    "statNote": "CALCULATED FROM 50+ ENTERPRISE DEPLOYMENTS"
+  },
+  "cta": {
+    "title": {
+      "line1": "Calibrate Your",
+      "line2": "Growth Strategy"
+    },
+    "description": "Request a comprehensive audit of your digital ecosystem. We identify the inefficiencies and quantify the untapped potential.",
+    "buttons": [
+      {
+        "label": "Request an Audit",
+        "variant": "primary"
+      },
+      {
+        "label": "Talk to an Architect",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "Precise Engineering for the Digital Obsidian. Transforming raw data into market dominance."
+    },
+    "columns": [
+      {
+        "title": "Platforms",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Security",
+        "links": [
+          { "label": "Security Audit", "href": "#" },
+          { "label": "API Documentation", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+  }
+}

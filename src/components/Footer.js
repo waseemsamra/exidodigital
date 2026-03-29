@@ -6,11 +6,9 @@ function Footer() {
 
   return (
     <footer className="bg-[#091328] w-full rounded-t-none border-t border-[#40485d]/15">
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 px-12 py-16 w-full max-w-[1440px] mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 px-8 md:px-12 py-16 w-full">
         <div className="col-span-2">
-          <span className="text-lg font-black text-[#dee5ff] mb-4 block">
-            {company.name}
-          </span>
+          <img src="/assets/images/exido-logo.png" alt="Exido" className="h-8 w-auto mb-4" />
           <p className="text-[#a3aac4] text-xs leading-relaxed max-w-xs mb-8 normal-case font-body">
             {company.description}
           </p>

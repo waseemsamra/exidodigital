@@ -1,0 +1,160 @@
+{
+  "page": {
+    "title": "Network Solutions | Exido",
+    "badge": "Autonomous Infrastructure"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Orchestrating",
+      "line2": "High-Performance",
+      "line3": "Connectivity"
+    },
+    "description": "Deploy software-defined networking and global edge infrastructure designed for sub-millisecond precision and absolute resilience.",
+    "buttons": [
+      {
+        "label": "Optimize Network",
+        "variant": "primary"
+      },
+      {
+        "label": "View Documentation",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "features": {
+    "label": "Core Capabilities",
+    "title": "The Architecture of Speed",
+    "description": "Our stack eliminates the bottlenecks of legacy protocols, delivering a unified fabric for the next generation of digital obsidian.",
+    "items": [
+      {
+        "id": "sd-wan",
+        "icon": "hub",
+        "title": "SD-WAN 2.0",
+        "description": "Dynamic path selection and zero-touch provisioning for automated enterprise agility.",
+        "color": "primary",
+        "tags": ["Multi-Cloud", "Auto-Healing"],
+        "image": "/assets/images/network-hero.png",
+        "imageAlt": "abstract server room with glowing blue fiber optic cables and high tech networking equipment rack",
+        "size": "large"
+      },
+      {
+        "id": "edge-mesh",
+        "icon": "language",
+        "title": "Global Edge Mesh",
+        "description": "Ultra-low latency edge nodes strategically positioned at the digital frontier.",
+        "color": "secondary",
+        "size": "small",
+        "stat": "210+",
+        "statLabel": "Edge Locations"
+      },
+      {
+        "id": "traffic-shaping",
+        "icon": "query_stats",
+        "title": "Predictive Traffic Shaping",
+        "description": "AI-driven congestion management that anticipates spikes before they impact your throughput. Our neural engine redistributes packets in real-time based on historical traffic patterns and global health signals.",
+        "color": "primary",
+        "size": "wide",
+        "linkLabel": "Explore the Algorithm",
+        "efficiency": "98.4%"
+      }
+    ]
+  },
+  "network": {
+    "title": "Live Global Fabric Intelligence",
+    "image": "/assets/images/global-network-map.png",
+    "imageAlt": "stylized digital world map with neon cyan glowing connection points and light trails over dark blue surface",
+    "items": [
+      {
+        "icon": "speed",
+        "title": "Latency Optimization",
+        "description": "Real-time rerouting across 12 trans-oceanic cables for <12ms average RTT.",
+        "color": "primary"
+      },
+      {
+        "icon": "inventory_2",
+        "title": "Packet Loss Mitigation",
+        "description": "Erasure coding ensures 100% data integrity even during transit degradation.",
+        "color": "secondary"
+      },
+      {
+        "icon": "network_check",
+        "title": "Bandwidth Bursting",
+        "description": "Dynamically scale capacity up to 10Tbps for unexpected demand spikes.",
+        "color": "tertiary"
+      }
+    ]
+  },
+  "reliability": {
+    "title": "Carrier-Grade Reliability",
+    "description": "Engineered for industries where a micro-second of downtime is a non-starter.",
+    "items": [
+      {
+        "value": "99.999%",
+        "title": "Guaranteed Uptime",
+        "description": "SLA-backed performance for mission-critical digital operations and heavy transactional loads.",
+        "color": "primary"
+      },
+      {
+        "value": "SEC-4",
+        "title": "Hardened Nodes",
+        "description": "Physical security and biometric access control across all global co-location centers.",
+        "color": "secondary"
+      },
+      {
+        "value": "∞ SCALE",
+        "title": "Elastic Compute",
+        "description": "Infrastructure that scales with your growth, not your headcount or legacy hardware limits.",
+        "color": "tertiary"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to scale your infrastructure?",
+    "buttons": [
+      {
+        "label": "Get Started Now",
+        "variant": "primary"
+      },
+      {
+        "label": "Talk to an Architect",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "The Digital Obsidian."
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" },
+          { "label": "Security Audit", "href": "#" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" },
+          { "label": "API Documentation", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "page": {
+    "title": "Infrastructure & Security | Exido",
+    "badge": "Infrastructure Integrity"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Fortifying Your",
+      "line2": "Digital Infrastructure"
+    },
+    "description": "Exido provides mission-critical security layers and robust architectural frameworks designed for the digital obsidian—where speed meets impenetrable defense.",
+    "buttons": [
+      {
+        "label": "Deploy Defense",
+        "variant": "primary",
+        "icon": "shield_lock"
+      },
+      {
+        "label": "Technical Specs",
+        "variant": "secondary"
+      }
+    ],
+    "backgroundImage": "/assets/images/security-hero.png",
+    "backgroundAlt": "Abstract server room with glowing blue fiber optic cables and dark metallic surfaces in a high-tech data center environment"
+  },
+  "pillars": {
+    "label": "Our Pillars",
+    "title": "Architectural Resilience",
+    "description": "We replace legacy vulnerabilities with quantum-ready encryption and self-healing network nodes.",
+    "items": [
+      {
+        "id": "zero-trust",
+        "icon": "lan",
+        "title": "Zero-Trust Network Mesh",
+        "description": "Eliminate implicit trust. Every request is verified, regardless of origin, ensuring lateral movement prevention within your most sensitive data clusters.",
+        "color": "primary",
+        "size": "large",
+        "linkLabel": "Explore Mesh Logic"
+      },
+      {
+        "id": "encryption",
+        "icon": "encrypted",
+        "title": "Atomic Encryption",
+        "description": "End-to-end encryption using post-quantum algorithms that safeguard your data transit against future decryption threats.",
+        "color": "secondary",
+        "size": "tall",
+        "cipher": "AES-256-GCM"
+      },
+      {
+        "id": "threat",
+        "icon": "radar",
+        "title": "Threat Detection",
+        "description": "Real-time AI behavioral analysis to stop zero-day exploits before they breach.",
+        "color": "primary",
+        "size": "small"
+      },
+      {
+        "id": "audits",
+        "icon": "verified_user",
+        "title": "Continuous Audits",
+        "description": "Automated compliance mapping for SOC2, GDPR, and HIPAA standards across your stack.",
+        "color": "primary",
+        "size": "small"
+      },
+      {
+        "id": "hybrid",
+        "icon": "cloud_done",
+        "title": "Hybrid Resilience",
+        "description": "Seamless failover protocols for multi-cloud and on-premise hybrid environments.",
+        "color": "secondary",
+        "size": "small"
+      }
+    ]
+  },
+  "stats": {
+    "title": "Proven Performance",
+    "description": "Securing the World's Most Valuable Bits.",
+    "stat": "99.9%",
+    "statLabel": "Threat Neutralization",
+    "image": "/assets/images/security-ops.png",
+    "imageAlt": "Modern cybersecurity operations center with multiple screens showing world maps, code, and threat analytics in a dark room",
+    "items": [
+      {
+        "number": "01",
+        "title": "Global Edge Presence",
+        "description": "200+ localized security nodes ensuring low-latency protection for your global user base."
+      },
+      {
+        "number": "02",
+        "title": "Incident Response",
+        "description": "Average neutralization time of under 4 minutes for detected anomalous activities."
+      },
+      {
+        "number": "03",
+        "title": "Immutable Backups",
+        "description": "Write-once, read-many storage architecture to protect against ransomware manipulation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to fortify?",
+    "description": "Speak with our security architects to design a bespoke infrastructure that scales with your ambition while staying invisible to threats.",
+    "buttons": [
+      {
+        "label": "Request Security Audit",
+        "variant": "primary"
+      },
+      {
+        "label": "Contact Sales",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "Engineering the digital obsidian with precision and security at the core of every connection.",
+      "icons": ["public", "terminal", "hub"]
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" },
+          { "label": "Security Audit", "href": "#" }
+        ]
+      },
+      {
+        "title": "Technical",
+        "links": [
+          { "label": "API Documentation", "href": "#" },
+          { "label": "SDKs", "href": "#" },
+          { "label": "Status", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "href": "/about" },
+          { "label": "Careers", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+  }
+}

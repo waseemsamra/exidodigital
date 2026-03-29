@@ -1,0 +1,158 @@
+{
+  "page": {
+    "title": "Contact & Consultation | Exido",
+    "badge": "Consultation Protocol"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Consultation", "variant": "primary", "link": "/contact" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Architect Your",
+      "line2": "Solution."
+    },
+    "description": "Translate complex technical requirements into high-fidelity digital infrastructure. Our specialists are ready to baseline your project and scale your vision.",
+    "steps": [
+      { "number": "01", "label": "DATA" },
+      { "number": "02", "label": "LOGIC" },
+      { "number": "03", "label": "REACH", "active": true }
+    ]
+  },
+  "form": {
+    "steps": [
+      {
+        "number": "01",
+        "title": "Select Strategic Domain",
+        "options": [
+          { "icon": "neurology", "label": "AI Logic", "value": "ai" },
+          { "icon": "shield", "label": "Security", "value": "security", "selected": true },
+          { "icon": "terminal", "label": "Dev", "value": "dev" },
+          { "icon": "cloud", "label": "Cloud", "value": "cloud" }
+        ]
+      },
+      {
+        "number": "02",
+        "fields": [
+          { "label": "Full Name", "placeholder": "Johnathan Doe", "type": "text" },
+          { "label": "Corporate Email", "placeholder": "j.doe@enterprise.com", "type": "email" }
+        ]
+      },
+      {
+        "number": "03",
+        "label": "Brief Project Scope",
+        "placeholder": "Describe your technical objectives...",
+        "rows": 4
+      }
+    ],
+    "submitLabel": "Initiate Sequence",
+    "securityNote": "Encrypted Submission Protocol Active"
+  },
+  "contact": {
+    "title": "Direct Access",
+    "items": [
+      {
+        "icon": "alternate_email",
+        "label": "Primary Intel",
+        "value": "intelligence@kineticether.com",
+        "href": "mailto:intelligence@kineticether.com",
+        "color": "primary"
+      },
+      {
+        "icon": "forum",
+        "label": "Secure Support",
+        "value": "portal.kineticether.com",
+        "href": "#",
+        "color": "secondary"
+      }
+    ],
+    "socialIcons": ["brand_awareness", "share", "hub"]
+  },
+  "status": {
+    "title": "System Uptime",
+    "label": "Global Nodes",
+    "status": "OPERATIONAL",
+    "percentage": "99.9",
+    "note": "Real-time status: 99.982% Efficiency"
+  },
+  "hubs": {
+    "title": "Global Hubs",
+    "subtitle": "Strategic Presence",
+    "items": [
+      {
+        "city": "Dubai",
+        "label": "Gulf HQ",
+        "color": "primary",
+        "address": "Level 88, Marina One West Tower,\n7 Straits View, Dubai 018936",
+        "image": "/assets/images/singapore-hub.png",
+        "imageAlt": "Modern high-tech skyscraper in Dubai with glowing glass facade reflecting blue city lights at twilight"
+      },
+      {
+        "city": "London",
+        "label": "EMEA HUB",
+        "color": "secondary",
+        "address": "The Shard, 32 London Bridge St,\nLondon SE1 9SG, United Kingdom",
+        "image": "/assets/images/london-hub.png",
+        "imageAlt": "The Shard in London piercing through dark blue evening mist with sharp architectural lighting"
+      },
+      {
+        "city": "Singapore",
+        "label": "APAC Br",
+        "color": "tertiary",
+        "address": "9 Raffles Place, #58-01 Raffles Place Tower,\nSingapore 048619",
+        "image": "/assets/images/singapore-hub.png",
+        "imageAlt": "Singapore financial district at night featuring high-tech towers with blue illumination"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "Advanced digital infrastructure for the next generation of global industry. Precision at scale."
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "AI Processing", "href": "#" },
+          { "label": "Digital Ledger", "href": "#" },
+          { "label": "Security Mesh", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Documentation", "href": "#" },
+          { "label": "API Reference", "href": "#" },
+          { "label": "Architecture Whitepaper", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy", "href": "#" },
+          { "label": "Compliance", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "label": "Status", "href": "#" },
+          { "label": "Contact", "href": "/contact" },
+          { "label": "Hubs", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. Digital Obsidian Precision.",
+    "securityNote": "Security Level: Platinum",
+    "version": "V: 2.0.4-Stable"
+  }
+}

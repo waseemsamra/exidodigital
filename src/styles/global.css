@@ -1,14 +1,28 @@
-/* Global Styles for Kinetic Ether */
+/* Global Styles for Exido */
 
 /* Custom Utility Classes */
 .glass-panel {
   background: rgba(25, 37, 64, 0.6);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(64, 72, 93, 0.15);
+}
+
+.glass-card {
+  background: rgba(25, 37, 64, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.glass-blur-md {
+  backdrop-filter: blur(12px);
 }
 
 .text-glow {
   text-shadow: 0 0 15px rgba(143, 245, 255, 0.3);
+}
+
+.glow-text {
+  text-shadow: 0 0 12px rgba(143, 245, 255, 0.4);
 }
 
 .ambient-shadow {
@@ -19,8 +33,79 @@
   background: radial-gradient(circle at 50% 50%, #141f38 0%, #060e20 100%);
 }
 
+.hero-gradient-data {
+  background: radial-gradient(circle at center, rgba(143, 245, 255, 0.08) 0%, transparent 70%);
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(143, 245, 255, 0.3);
+}
+
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+.circuit-pattern {
+  background-image: radial-gradient(circle at 2px 2px, rgba(143, 245, 255, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.glow-line {
+  filter: drop-shadow(0 0 4px #ac89ff);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #8ff5ff 0%, #00eefc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-power-cell, .obsidian-gradient, .primary-gradient-btn {
+  background: linear-gradient(135deg, #8ff5ff 0%, #00eefc 100%);
+}
+
+.primary-gradient-btn:hover {
+  box-shadow: 0 0 15px #8ff5ff;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #8ff5ff 0%, #00eefc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-glow:hover, .electric-glow:hover {
+  box-shadow: 0 0 15px rgba(143, 245, 255, 0.4);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 40px -5px rgba(248, 241, 255, 0.04);
+}
+
+.bg-obsidian-gradient {
+  background: linear-gradient(135deg, #060e20 0%, #091328 100%);
+}
+
+.glow-on-hover:hover {
+  text-shadow: 0 0 8px rgba(172, 137, 255, 0.6);
+}
+
+.glow-primary {
+  filter: drop-shadow(0 0 8px #8ff5ff);
+}
+
+.glow-secondary {
+  filter: drop-shadow(0 0 8px #ac89ff);
+}
+
+.headline-font {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.label-font {
+  font-family: 'Inter', sans-serif;
 }
 
 /* Base Styles */

@@ -1,0 +1,140 @@
+{
+  "page": {
+    "title": "Exido | AI & BI Solutions",
+    "badge": "Advanced Analytics Suite"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Unlock the Power of",
+      "line2": "Your Data"
+    },
+    "description": "Synthesize raw information into actionable intelligence. Our neural architecture bridges the gap between massive data silos and decisive business leadership.",
+    "buttons": [
+      {
+        "label": "Initialize Protocol",
+        "variant": "primary"
+      },
+      {
+        "label": "View Documentation",
+        "variant": "secondary"
+      }
+    ],
+    "stats": {
+      "inferenceRate": "99.8%",
+      "latency": "12ms"
+    }
+  },
+  "solutions": {
+    "header": {
+      "title": "Core Ecosystem",
+      "description": "Strategic data architecture deployed with surgical precision across your entire enterprise infrastructure."
+    },
+    "items": [
+      {
+        "id": "ai-integration",
+        "icon": "neurology",
+        "title": "AI Integration",
+        "description": "Deploy custom Large Language Models and predictive neural networks directly into your production pipelines. Automated decisioning at scale.",
+        "image": "/assets/images/neural-network-3d.png",
+        "imageAlt": "Abstract 3D rendering of complex neural network nodes connecting in a dark blue digital space with neon highlights",
+        "features": [
+          "Natural Language Processing",
+          "Computer Vision Pipeline",
+          "Generative Logic Controllers"
+        ],
+        "size": "large"
+      },
+      {
+        "id": "bi-dashboards",
+        "icon": "monitoring",
+        "title": "Real-time BI Dashboards",
+        "description": "Zero-latency visual analytics. Monitor every pulse of your business with high-fidelity telemetry that transforms data into clarity.",
+        "buttonLabel": "Explore Telemetry",
+        "size": "small"
+      },
+      {
+        "id": "data-warehousing",
+        "icon": "database",
+        "title": "Scalable Data Warehousing",
+        "description": "Petabyte-scale storage architectures designed for high-concurrency retrieval and secure archival.",
+        "platforms": ["AZ", "AWS", "GC"],
+        "size": "medium"
+      },
+      {
+        "id": "etl-pipelines",
+        "title": "Autonomous ETL Pipelines",
+        "description": "Eliminate manual data preparation. Our AI-driven ETL layers clean, normalize, and enrich your data streams automatically before they ever reach the warehouse.",
+        "image": "/assets/images/server-rack.png",
+        "imageAlt": "Sleek close-up of a server rack with blue glowing LEDs and fiber optic cables in a modern dark data center",
+        "stats": [
+          { "label": "Uptime SLA", "value": "99.9%" },
+          { "label": "Current Load", "value": "5.2PB" }
+        ],
+        "size": "wide"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for the Obsidian Shift?",
+    "description": "Join the elite enterprises building their future on Exido's data-centric foundations.",
+    "buttons": [
+      {
+        "label": "Schedule a Strategic Audit",
+        "variant": "primary"
+      },
+      {
+        "label": "Explore API",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "Precise Engineering for the Digital Obsidian.",
+      "icons": ["terminal", "cloud", "encrypted"]
+    },
+    "columns": [
+      {
+        "title": "Systems",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Compliance",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      },
+      {
+        "title": "Security",
+        "links": [
+          { "label": "Security Audit", "href": "#" },
+          { "label": "API Documentation", "href": "#" }
+        ]
+      },
+      {
+        "title": "Status",
+        "status": {
+          "text": "Operational",
+          "active": true
+        }
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+  }
+}

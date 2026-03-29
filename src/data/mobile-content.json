@@ -1,0 +1,178 @@
+{
+  "page": {
+    "title": "Exido | Mobile Engineering",
+    "badge": "Next-Gen Mobility"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Engineering",
+      "line2": "Native Excellence"
+    },
+    "description": "High-performance iOS and Android applications built for enterprise scale. We fuse low-latency architecture with cinematic user interfaces.",
+    "buttons": [
+      {
+        "label": "Launch Development",
+        "variant": "primary"
+      },
+      {
+        "label": "Explore Our Stack",
+        "variant": "secondary",
+        "icon": "arrow_forward"
+      }
+    ],
+    "backgroundImage": "/assets/images/mobile-hero.png",
+    "backgroundAlt": "Close-up high-tech macro shot of smartphone glass and micro circuitry with cyan neon light pulses and dark obsidian reflections",
+    "phoneImage": "/assets/images/mobile-interface.png",
+    "phoneAlt": "A sleek dark smartphone interface displaying complex data visualizations and glowing biometric security patterns"
+  },
+  "architecture": {
+    "label": "Foundational Core",
+    "title": "High-Performance Mobile Stack",
+    "description": "Our engineering philosophy prioritizes speed, reliability, and security at every layer of the operating system.",
+    "items": [
+      {
+        "id": "swift",
+        "icon": "developer_mode_tv",
+        "iconFill": true,
+        "title": "Swift (iOS)",
+        "description": "Ultra-native optimizations leveraging SwiftUI and Metal for buttery-smooth 120Hz interfaces and rigorous memory safety.",
+        "linkLabel": "View iOS Capabilities",
+        "color": "primary"
+      },
+      {
+        "id": "kotlin",
+        "icon": "android",
+        "iconFill": true,
+        "title": "Kotlin (Android)",
+        "description": "Jetpack Compose architecture providing modular, testable codebases for the entire Android ecosystem, from foldables to tablets.",
+        "linkLabel": "View Android Docs",
+        "color": "secondary"
+      },
+      {
+        "id": "cross-platform",
+        "icon": "dynamic_feed",
+        "iconFill": true,
+        "title": "Cross-Platform",
+        "description": "Enterprise React Native implementations for unified business logic without compromising on the native experience or performance.",
+        "linkLabel": "Hybrid Strategy",
+        "color": "tertiary"
+      }
+    ]
+  },
+  "features": {
+    "title": "Advanced Mobile Capabilities",
+    "items": [
+      {
+        "icon": "sync_saved_locally",
+        "title": "Offline-First Synchronization",
+        "description": "Robust data persistence with delta-sync technology ensuring zero data loss in low-connectivity environments.",
+        "color": "primary"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Biometric Authentication",
+        "description": "Hardware-level security integration with FaceID, TouchID, and Android BiometricPrompt for zero-trust access.",
+        "color": "secondary"
+      },
+      {
+        "icon": "hub",
+        "title": "Real-Time Push Mesh",
+        "description": "Proprietary socket-based notification delivery with sub-100ms latency for critical real-time enterprise alerts.",
+        "color": "primary"
+      },
+      {
+        "icon": "view_in_ar",
+        "title": "AR/VR Integration",
+        "description": "Leveraging ARKit and ARCore for spatial computing applications, industrial maintenance, and remote collaboration.",
+        "color": "tertiary"
+      }
+    ]
+  },
+  "sdk": {
+    "title": "Seamless Backend Synergy",
+    "description": "Our mobile SDKs serve as high-speed conduits, connecting your interface directly to Exido's AI Neural Engines and BI Data Lakes via dedicated gRPC and GraphQL layers.",
+    "diagram": {
+      "client": "Client",
+      "gateway": "Kinetic API Gateway",
+      "core": "AI Core"
+    },
+    "cards": [
+      {
+        "icon": "speed",
+        "title": "High-Speed APIs",
+        "description": "Optimized JSON serialization and binary data transport for extreme mobile efficiency.",
+        "color": "primary"
+      },
+      {
+        "icon": "lock_reset",
+        "title": "End-to-End Encryption",
+        "description": "Military-grade encryption for all data in transit between mobile devices and the Ether cloud.",
+        "color": "secondary"
+      }
+    ]
+  },
+  "caseStudy": {
+    "label": "Success in the Field",
+    "title": "Global Logistics Corp",
+    "description": "How Exido developed a custom fleet management mobile OS that reduced delivery latency by 24% and empowered 15,000+ drivers with real-time AI routing.",
+    "buttonLabel": "Read the Case Study",
+    "image": "/assets/images/logistics-dashboard.png",
+    "imageAlt": "Digital representation of a global logistics fleet dashboard with moving light trails across a world map in shades of obsidian and cyan"
+  },
+  "cta": {
+    "title": "Deploy Your Next-Gen Mobile Solution",
+    "description": "Join the ranks of elite enterprises leveraging Exido's engineering for high-stakes mobility.",
+    "buttons": [
+      {
+        "label": "Start Development",
+        "variant": "primary"
+      },
+      {
+        "label": "Consult an Architect",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "© 2024 Exido. Digital Obsidian Intelligence."
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "API Documentation", "href": "#" },
+          { "label": "Security Audit", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      }
+    ],
+    "socialIcons": ["language", "share"],
+    "copyright": "© 2024 Exido. All rights reserved."
+  }
+}

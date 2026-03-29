@@ -1,0 +1,158 @@
+{
+  "page": {
+    "title": "Exido | Software & App Development",
+    "badge": "Architecting the Future"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Crafting Seamless",
+      "line2": "Digital Experiences"
+    },
+    "description": "We transform complex operational requirements into fluid, high-performance digital environments. From bespoke Shopify architectures to enterprise-grade accounting engines.",
+    "buttons": [
+      {
+        "label": "Explore Solutions",
+        "variant": "primary"
+      },
+      {
+        "label": "View Portfolio",
+        "variant": "secondary"
+      }
+    ],
+    "backgroundImage": "/assets/images/software-dev-hero.png",
+    "backgroundAlt": "Modern software development workspace with multiple high-resolution monitors displaying complex code and analytics charts in a dark atmospheric studio"
+  },
+  "ecommerce": {
+    "title": "Ecommerce Architecture",
+    "description": "Precision engineering for high-conversion retail environments. We bridge the gap between aesthetic brilliance and technical scalability.",
+    "items": [
+      {
+        "id": "shopify",
+        "icon": "shopping_bag",
+        "title": "Shopify Plus Experts",
+        "description": "Custom liquid development, private app ecosystems, and headless hydrogen implementations for global scale.",
+        "image": "/assets/images/shopify-mobile.png",
+        "imageAlt": "Macro shot of a sleek smartphone screen displaying a minimalist luxury fashion ecommerce interface with high-end typography",
+        "size": "large"
+      },
+      {
+        "id": "performance",
+        "icon": "speed",
+        "title": "99.9% Performance",
+        "description": "Optimized for LCP and conversion velocity.",
+        "size": "small"
+      },
+      {
+        "id": "erp",
+        "icon": "hub",
+        "title": "Custom ERP Sync",
+        "description": "Bi-directional data flow between your storefront and inventory management.",
+        "size": "medium"
+      },
+      {
+        "id": "headless",
+        "title": "Headless Commerce",
+        "description": "Decouple your frontend for infinite creative freedom and blazing fast mobile speeds.",
+        "size": "wide"
+      }
+    ]
+  },
+  "lifecycle": {
+    "title": "The App Lifecycle",
+    "label": "Evolutionary Development",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery & UX",
+        "description": "Mapping user journeys and defining the architectural core of the application.",
+        "icon": "architecture"
+      },
+      {
+        "number": "02",
+        "title": "Native Forge",
+        "description": "Swift and Kotlin development focused on high-frame-rate interactions and native features.",
+        "icon": "phone_iphone"
+      },
+      {
+        "number": "03",
+        "title": "QA & Hardening",
+        "description": "Rigorous automated testing and security audits to ensure zero-day stability.",
+        "icon": "verified_user"
+      },
+      {
+        "number": "04",
+        "title": "Scale & Pulse",
+        "description": "Cloud-native deployment with real-time monitoring and iterative feature sprints.",
+        "icon": "monitoring"
+      }
+    ]
+  },
+  "accounting": {
+    "label": "Enterprise Systems",
+    "title": "Robust Accounting Systems for Scale",
+    "description": "We build high-integrity financial software that automates reconciliation, ensures multi-region tax compliance, and provides real-time treasury visibility.",
+    "features": [
+      {
+        "icon": "check_circle",
+        "title": "Double-Entry Core",
+        "description": "Immutable ledger architecture for absolute financial truth."
+      },
+      {
+        "icon": "check_circle",
+        "title": "Regulatory Automation",
+        "description": "Automated filing engines for VAT, GST, and complex corporate structures."
+      },
+      {
+        "icon": "check_circle",
+        "title": "Global Payouts",
+        "description": "Seamless multi-currency handling and cross-border settlement logic."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Build the Invisible?",
+    "description": "Join the elite enterprises leveraging Exido for their mission-critical digital infrastructure.",
+    "buttonLabel": "Initiate Consultation"
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    },
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      },
+      {
+        "title": "Assurance",
+        "links": [
+          { "label": "Security Audit", "href": "#" },
+          { "label": "API Documentation", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+  }
+}

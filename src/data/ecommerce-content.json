@@ -1,0 +1,160 @@
+{
+  "page": {
+    "title": "Ecommerce Development | Exido",
+    "badge": "Digital Retail Engineering"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Login", "variant": "ghost" },
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Architecting",
+      "line2": "High-Performance",
+      "line3": "Storefronts"
+    },
+    "description": "We build conversion-optimized, headless commerce ecosystems that scale with global demand.",
+    "buttons": [
+      {
+        "label": "Initiate Audit",
+        "variant": "primary"
+      },
+      {
+        "label": "View Framework",
+        "variant": "secondary"
+      }
+    ],
+    "backgroundImage": "/assets/images/ecommerce-hero.png",
+    "backgroundAlt": "Dark futuristic network background with glowing cyan and purple fiber optic lines against deep black obsidian-like surfaces"
+  },
+  "headlessCommerce": {
+    "header": {
+      "title": "Decoupled Architecture",
+      "description": "Breaking free from monolithic constraints through surgical API precision and agnostic frontends.",
+      "protocol": "Protocol: Headless_v4.0"
+    },
+    "items": [
+      {
+        "id": "frontend-agnostic",
+        "icon": "devices",
+        "title": "Frontend Agnostic",
+        "description": "Deploy to web, mobile, AR, or IoT devices using a single unified backend. No limitations on UI frameworks.",
+        "tags": ["React", "Next.js", "Swift"]
+      },
+      {
+        "id": "api-first",
+        "icon": "api",
+        "iconFill": true,
+        "title": "API-First Architecture",
+        "description": "GraphQL and REST endpoints designed for sub-millisecond data retrieval and robust data integrity.",
+        "tags": ["GraphQL", "Webhooks", "gRPC"]
+      },
+      {
+        "id": "microservices",
+        "icon": "view_quilt",
+        "title": "Microservices",
+        "description": "Modular components for cart, checkout, and search that function independently for 99.99% uptime.",
+        "tags": ["Node.js", "Rust", "Go"]
+      }
+    ]
+  },
+  "operations": {
+    "title": "Global Operational Intelligence",
+    "backgroundImage": "/assets/images/global-shipping.png",
+    "backgroundAlt": "Abstract glowing data visualization showing global shipping lanes and financial transactions with clean blue lines",
+    "items": [
+      {
+        "id": "payments",
+        "icon": "payments",
+        "iconColor": "secondary",
+        "title": "Multi-Currency Settlement",
+        "description": "Intelligent routing for over 130 currencies with real-time FX optimization and local payment method support."
+      },
+      {
+        "id": "inventory",
+        "icon": "inventory_2",
+        "iconColor": "primary",
+        "title": "Real-Time Inventory Mesh",
+        "description": "Synchronize global stock levels across 100+ warehouses with atomic precision and predictive reordering."
+      },
+      {
+        "id": "tax",
+        "icon": "gavel",
+        "iconColor": "secondary",
+        "title": "Global Tax Compliance",
+        "description": "Automated VAT, GST, and sales tax calculation across 200 jurisdictions with dynamic localized filing."
+      }
+    ]
+  },
+  "metrics": {
+    "items": [
+      {
+        "label": "PageSpeed Score",
+        "value": "100",
+        "color": "primary",
+        "description": "Edge-cached delivery network"
+      },
+      {
+        "label": "Average AOV Increase",
+        "value": "+20%",
+        "color": "secondary",
+        "description": "AI-driven personalization engine"
+      },
+      {
+        "label": "API Latency",
+        "value": "50ms",
+        "color": "primary",
+        "description": "High-frequency data streaming"
+      }
+    ]
+  },
+  "caseStudy": {
+    "label": "Enterprise Success",
+    "title": "See how we transformed Global Logistics Corp's supply chain.",
+    "buttonLabel": "Read the technical breakdown",
+    "image": "/assets/images/logistics-hub.png",
+    "imageAlt": "High-tech logistics hub with automated robots moving pallets under cool blue industrial lighting"
+  },
+  "cta": {
+    "title": "Ready to Scale Your Digital Storefront?",
+    "description": "Our team of digital engineers is ready to deploy your next-generation commerce solution. No legacy baggage, just pure performance.",
+    "buttonLabel": "Request Strategy Session"
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "API Documentation", "href": "#" },
+          { "label": "Security Audit", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+  }
+}

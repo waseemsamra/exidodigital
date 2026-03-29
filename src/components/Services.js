@@ -106,12 +106,18 @@ function Services() {
             )}
 
             {item.id === 'marketing' && (
-              <div className="hidden lg:block w-48 h-48 rounded-full border border-dashed border-outline-variant animate-[spin_20s_linear_infinite] flex items-center justify-center">
-                <div className="w-32 h-32 rounded-full border border-outline-variant flex items-center justify-center">
-                  <span className="material-symbols-outlined text-3xl text-secondary">
-                    insights
-                  </span>
+              <div className="hidden lg:flex items-center gap-6 mt-6 p-6 bg-surface-container rounded-xl border border-outline-variant/15">
+                <div className="flex-1">
+                  <h4 className="font-headline text-lg font-bold mb-2 text-on-surface">Data-Driven Results</h4>
+                  <p className="text-sm text-on-surface-variant leading-relaxed">
+                    Leverage AI-powered analytics and automated campaigns to maximize ROI and accelerate growth.
+                  </p>
                 </div>
+                <img
+                  className="w-32 h-32 object-cover rounded-lg opacity-80"
+                  alt="Marketing analytics dashboard"
+                  src="/assets/images/dashboard-preview.png"
+                />
               </div>
             )}
           </div>

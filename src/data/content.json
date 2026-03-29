@@ -1,22 +1,18 @@
 {
   "site": {
-    "title": "Kinetic Ether | Future-Ready AI & Full-Stack Solutions",
-    "name": "Kinetic Ether",
+    "title": "Exido | Future-Ready AI & Full-Stack Solutions",
+    "name": "Exido",
     "tagline": "Precise Engineering for the Digital Obsidian"
   },
   "navigation": {
-    "logo": "Kinetic Ether",
+    "logo": "Exido",
     "links": [
-      { "label": "AI", "href": "#", "active": true },
-      { "label": "Ecommerce", "href": "#" },
-      { "label": "Mobile", "href": "#" },
-      { "label": "Marketing", "href": "#" },
-      { "label": "BI", "href": "#" },
-      { "label": "Security", "href": "#" }
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
     ],
     "buttons": [
       { "label": "Login", "href": "#", "variant": "ghost" },
-      { "label": "Get Started", "href": "#", "variant": "primary" }
+      { "label": "Free Consultation", "href": "/contact", "variant": "primary" }
     ]
   },
   "hero": {
@@ -108,33 +104,50 @@
   },
   "footer": {
     "company": {
-      "name": "Kinetic Ether",
+      "name": "Exido",
       "description": "Precise Engineering for the Digital Obsidian. Scaling global infrastructures through localized intelligence and robust architectural patterns."
     },
     "columns": [
       {
         "title": "Services",
         "links": [
-          { "label": "Data Warehousing", "href": "#" },
-          { "label": "Accounting Systems", "href": "#" }
+          { "label": "AI & Data Services", "href": "/ai" },
+          { "label": "Ecommerce & Mobile", "href": "/ecommerce" },
+          { "label": "Enterprise (Accounting/BI)", "href": "/accounting" },
+          { "label": "Digital Marketing", "href": "/marketing" },
+          { "label": "Data Warehousing", "href": "/data-warehousing" },
+          { "label": "Software Development", "href": "/software" },
+          { "label": "Security", "href": "/security" },
+          { "label": "Network Infrastructure", "href": "/network" },
+          { "label": "Hosting", "href": "/hosting" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Insight Hub", "href": "/insight-hub" },
+          { "label": "Mission & Manifesto", "href": "/mission-manifesto" },
+          { "label": "Partner Ecosystem", "href": "/partner-ecosystem" },
+          { "label": "Careers", "href": "/careers" },
+          { "label": "About Us", "href": "/about" }
         ]
       },
       {
         "title": "Legal",
         "links": [
-          { "label": "Privacy Policy", "href": "#" },
-          { "label": "Terms of Service", "href": "#" }
+          { "label": "Privacy Policy", "href": "/privacy-policy" },
+          { "label": "Terms of Service", "href": "/terms-of-service" }
         ]
       },
       {
         "title": "Compliance",
         "links": [
-          { "label": "Security Audit", "href": "#" },
-          { "label": "API Documentation", "href": "#" }
+          { "label": "Security Audit", "href": "/security-audit" },
+          { "label": "API Documentation", "href": "/api-documentation" }
         ]
       }
     ],
-    "copyright": "© 2024 Kinetic Ether. All rights reserved. Precise Engineering for the Digital Obsidian.",
-    "socialIcons": ["hub", "terminal", "token"]
+    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian.",
+    "socialIcons": ["hub", "terminal", "token", "link"]
   }
 }

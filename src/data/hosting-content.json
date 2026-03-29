@@ -1,0 +1,165 @@
+{
+  "page": {
+    "title": "Hosting & Infrastructure | KINETIC",
+    "badge": "High-Performance Infrastructure"
+  },
+  "navigation": {
+    "logo": "KINETIC",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Get Started", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Architecting the",
+      "line2": "Digital Obsidian",
+      "line3": "Cloud"
+    },
+    "description": "Sovereign data infrastructure engineered for sub-15ms global delivery. High-performance compute meet unyielding security in the Digital Obsidian core.",
+    "buttons": [
+      {
+        "label": "Initialize Deployment",
+        "variant": "primary"
+      },
+      {
+        "label": "Technical Specs",
+        "variant": "secondary"
+      }
+    ],
+    "backgroundImage": "/assets/images/hosting-hero.png",
+    "backgroundAlt": "Abstract server room with deep blue neon lines and glowing server racks in a dark futuristic environment"
+  },
+  "tiers": {
+    "title": "Compute Tiers",
+    "items": [
+      {
+        "id": "vps",
+        "icon": "dns",
+        "title": "Managed VPS Obsidian",
+        "description": "NVMe storage with dedicated virtual CPUs. Optimized for rapid scaling and sub-15ms delivery.",
+        "features": ["Fully Managed OS", "Automated Backups", "Global CDN Integration"],
+        "price": "$149",
+        "period": "/ month",
+        "color": "primary"
+      },
+      {
+        "id": "enterprise",
+        "icon": "hub",
+        "title": "Enterprise Cloud Clusters",
+        "description": "Auto-scaling infrastructure with multi-region redundancy and AI-driven load balancing protocols.",
+        "features": ["Multi-Region Hot Failover", "AI Resource Reallocation", "Direct Connect API"],
+        "price": "$899",
+        "period": "/ month",
+        "color": "secondary",
+        "featured": true
+      },
+      {
+        "id": "dedicated",
+        "icon": "terminal",
+        "title": "Dedicated Obsidian Nodes",
+        "description": "Bare-metal performance for mission-critical apps with quantum-resistant security and zero hardware sharing.",
+        "features": ["Single-Tenant Isolation", "Quantum Encryption Keys", "Root Level Access Control"],
+        "price": "Custom",
+        "period": "Enterprise Quote",
+        "color": "on-surface"
+      }
+    ]
+  },
+  "email": {
+    "label": "Secure Email Kernels",
+    "title": "Atomic Email Orchestration",
+    "description": "Experience zero-trust, end-to-end encrypted communication designed for global enterprises. Our kernel-level security ensures that your corporate intelligence remains invisible to outside actors.",
+    "image": "/assets/images/secure-email.png",
+    "imageAlt": "Digital representation of zero-trust architecture with floating holographic security shields and data encryption nodes",
+    "features": [
+      {
+        "icon": "verified_user",
+        "title": "PGP Native Support",
+        "description": "Seamless integration of advanced encryption protocols."
+      },
+      {
+        "icon": "lock_reset",
+        "title": "Rotating Encryption Kernels",
+        "description": "Session-based keys generated in secure hardware modules."
+      }
+    ]
+  },
+  "mesh": {
+    "title": "The Kinetic Mesh",
+    "description": "Our global footprint leverages Tier-1 carrier interconnections to provide sub-10ms delivery across every continent.",
+    "image": "/assets/images/global-mesh-map.png",
+    "imageAlt": "Minimalist abstract global map with glowing dots representing server locations connected by thin cyan light lines",
+    "stats": [
+      {
+        "label": "Active Regions",
+        "value": "52"
+      },
+      {
+        "label": "Global POPs",
+        "value": "184"
+      }
+    ]
+  },
+  "metrics": {
+    "items": [
+      {
+        "value": "99.999%",
+        "label": "SLA-Backed Uptime",
+        "description": "Continuous availability for high-traffic environments.",
+        "color": "primary"
+      },
+      {
+        "value": "4PB+",
+        "label": "Daily Data Protected",
+        "description": "Military-grade encryption for all storage volumes.",
+        "color": "secondary"
+      },
+      {
+        "value": "0.0s",
+        "label": "Unplanned Downtime",
+        "description": "Zero disruptions across our global mesh since genesis.",
+        "color": "on-surface"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Initialize Your Infrastructure",
+    "description": "Ready to migrate to the Digital Obsidian Cloud? Our engineers are standing by to architect your sovereign environment.",
+    "buttonLabel": "Request Architecture Consultation",
+    "note": "Enterprise response time guaranteed within 60 minutes."
+  },
+  "footer": {
+    "company": {
+      "name": "KINETIC",
+      "description": "© 2024 Exido. All Rights Reserved."
+    },
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "API Documentation", "href": "#" },
+          { "label": "Security Audit", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All Rights Reserved."
+  }
+}

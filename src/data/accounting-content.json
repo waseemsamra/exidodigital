@@ -1,0 +1,193 @@
+{
+  "page": {
+    "title": "EtherAccounting | Immutable Ledger Architectures",
+    "badge": "Autonomous Finance"
+  },
+  "navigation": {
+    "logo": "EtherAccounting",
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Enterprise Portal", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "Immutable Ledger",
+      "line2": "Architectures for",
+      "line3": "Global Enterprise."
+    },
+    "description": "Automate reconciliation, ensure multi-region tax compliance, and gain real-time treasury visibility with high-integrity financial kernels.",
+    "buttons": [
+      {
+        "label": "Request a Financial Infrastructure Audit",
+        "variant": "primary"
+      },
+      {
+        "label": "View Technical Specs",
+        "variant": "secondary"
+      }
+    ],
+    "backgroundImage": "/assets/images/accounting-hero.png",
+    "backgroundAlt": "abstract 3D financial visualization showing complex data nodes and glowing neon lines in a dark digital space"
+  },
+  "engine": {
+    "label": "01 / Infrastructure",
+    "title": "Core Accounting Engine",
+    "description": "Precision-engineered systems for multi-entity orchestration and absolute ledger integrity.",
+    "items": [
+      {
+        "id": "multi-entity",
+        "icon": "account_tree",
+        "title": "Multi-Entity Management",
+        "description": "Consolidate unlimited subsidiaries into a single unified truth with localized currency conversion and inter-company elimination.",
+        "size": "large"
+      },
+      {
+        "id": "consolidation",
+        "icon": "sync",
+        "title": "Real-time Consolidation",
+        "description": "Instant financial close across all global accounts with sub-millisecond data synchronization.",
+        "size": "small",
+        "color": "secondary"
+      },
+      {
+        "id": "payable",
+        "title": "Automated Accounts Payable",
+        "description": "OCR-powered invoice processing and automated vendor matching protocols.",
+        "accuracy": "99.9% ACCURACY",
+        "size": "medium"
+      },
+      {
+        "id": "treasury",
+        "title": "Dynamic Treasury Control",
+        "description": "Predictive liquidity buffers and automated yield optimization across segregated banking environments.",
+        "size": "wide"
+      }
+    ]
+  },
+  "compliance": {
+    "label": "02 / Trust Protocol",
+    "title": "Compliance & Security",
+    "image": "/assets/images/accounting-security.png",
+    "imageAlt": "high-tech secure server room with digital circuit overlays and neon blue security shields",
+    "certification": "SOC2 Type II Certified",
+    "certificationDesc": "Continuous monitoring and immutable audit trails for every transaction executed within the kernel.",
+    "items": [
+      {
+        "icon": "history_edu",
+        "title": "Audit-Ready Reporting",
+        "description": "Export GAAP and IFRS compliant statements with a single cryptographically-signed request."
+      },
+      {
+        "icon": "key",
+        "title": "Role-Based Access Control",
+        "description": "Granular permissions with multi-signature authorization for high-value treasury movements."
+      },
+      {
+        "icon": "gavel",
+        "title": "Multi-Region Tax Intelligence",
+        "description": "Autonomous VAT, GST, and Sales Tax calculation across 140+ jurisdictions."
+      }
+    ]
+  },
+  "integrations": {
+    "title": "Seamless Integrations",
+    "description": "The EtherAccounting API is designed for total interoperability. Connect your existing tech stack with zero friction.",
+    "partners": ["Stripe", "Adyen", "SAP S/4HANA", "Plaid API", "Workday"],
+    "items": [
+      {
+        "icon": "api",
+        "title": "Banking APIs",
+        "description": "Real-time bank feed synchronization with over 15,000 global financial institutions.",
+        "color": "primary"
+      },
+      {
+        "icon": "hub",
+        "title": "ERP Connectors",
+        "description": "Bidirectional data flow between our core engine and your legacy ERP systems.",
+        "color": "secondary"
+      },
+      {
+        "icon": "payments",
+        "title": "Gateway Mesh",
+        "description": "Aggregated payment data from multiple gateways into a unified treasury view.",
+        "color": "primary"
+      }
+    ]
+  },
+  "intelligence": {
+    "label": "03 / Neural Layer",
+    "title": "Financial Intelligence",
+    "description": "Move from reactive reporting to predictive strategy. Our proprietary AI models analyze patterns that the human eye misses, protecting your capital and uncovering hidden alpha.",
+    "items": [
+      {
+        "icon": "insights",
+        "title": "Cash Flow Forecasting",
+        "description": "98.4% accurate 12-month projections based on historical cycles and market volatility markers."
+      },
+      {
+        "icon": "search_check",
+        "title": "Expense Anomaly Detection",
+        "description": "Immediate flagging of non-compliant spending and fraudulent patterns via machine learning heuristics."
+      }
+    ],
+    "alerts": [
+      {
+        "type": "error",
+        "title": "Duplicate Vendor Payment",
+        "value": "$14,200.00"
+      },
+      {
+        "type": "secondary",
+        "title": "Unusual Currency Flux",
+        "value": "JPY/USD"
+      },
+      {
+        "type": "primary",
+        "title": "Forecast Deviation",
+        "value": "-4.2%"
+      }
+    ]
+  },
+  "cta": {
+    "title": {
+      "line1": "Architect Your",
+      "line2": "Financial Future."
+    },
+    "description": "Join the elite enterprises running on EtherAccounting. Secure, immutable, and hyper-automated.",
+    "buttonLabel": "Request a Financial Infrastructure Audit"
+  },
+  "footer": {
+    "company": {
+      "name": "EtherAccounting",
+      "description": "© 2024 Exido Enterprise. All rights reserved. Data-Driven Authority."
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "Data Warehousing", "href": "#" },
+          { "label": "Accounting Systems", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "API Documentation", "href": "#" },
+          { "label": "Security Audit", "href": "#" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. All rights reserved."
+  }
+}

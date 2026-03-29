@@ -1,0 +1,216 @@
+{
+  "page": {
+    "title": "Services | Exido",
+    "badge": "The Digital Obsidian Authority"
+  },
+  "navigation": {
+    "logo": "Exido",
+    "links": [
+      { "label": "Services", "href": "/services", "active": true },
+      { "label": "About", "href": "/about" }
+    ],
+    "buttons": [
+      { "label": "Network Solutions", "variant": "primary" }
+    ]
+  },
+  "hero": {
+    "title": {
+      "line1": "The Exido",
+      "line2": "Service Stack"
+    },
+    "description": "We architect atmospheric digital environments through high-fidelity precision. Our integrated approach treats enterprise infrastructure as a living, breathing ecosystem of data-driven authority.",
+    "buttons": [
+      {
+        "label": "Initiate Consultation",
+        "variant": "primary"
+      },
+      {
+        "label": "Explore Ecosystem",
+        "variant": "link",
+        "href": "#services"
+      }
+    ],
+    "backgroundImage": "/assets/images/services-hero.png",
+    "backgroundAlt": "Abstract 3D digital visualization of obsidian shards floating in deep blue space with cyan light pulses and geometric glowing lines"
+  },
+  "services": {
+    "title": "Core Competencies",
+    "description": "Precision-engineered solutions for the next generation of digital dominance.",
+    "items": [
+      {
+        "id": "ai-bi",
+        "icon": "hub",
+        "title": "AI & BI Solutions",
+        "description": "Unlocking data power with autonomous pipelines and real-time dashboards. We turn chaotic streams into strategic clarity.",
+        "image": "/assets/images/ai-bi.png",
+        "imageAlt": "Macro view of neural network glowing lines and data points connected in a three-dimensional digital space",
+        "color": "primary",
+        "link": "/ai",
+        "size": "large"
+      },
+      {
+        "id": "software-dev",
+        "icon": "code_blocks",
+        "title": "Software & App Dev",
+        "description": "Custom enterprise solutions, high-performance Shopify stores, and native mobile apps built for scale.",
+        "color": "secondary",
+        "link": "/software",
+        "linkLabel": "Architecture Specs"
+      },
+      {
+        "id": "infrastructure",
+        "icon": "encrypted",
+        "title": "Infrastructure & Security",
+        "description": "Zero-trust networking and atomic encryption protocols. Global edge presence with ironclad reliability.",
+        "color": "primary",
+        "link": "/security",
+        "linkLabel": "Security Audit"
+      },
+      {
+        "id": "marketing",
+        "icon": "trending_up",
+        "title": "Digital Marketing",
+        "description": "AI-driven growth strategies and conversion engineering that moves beyond metrics into tangible revenue authority.",
+        "image": "/assets/images/marketing-dashboard.png",
+        "imageAlt": "Digital dashboard showing complex data visualization with neon purple and blue glowing bars and lines",
+        "color": "secondary",
+        "buttonLabel": "Engineering Growth",
+        "size": "wide"
+      },
+      {
+        "id": "network",
+        "icon": "router",
+        "title": "Network Solutions",
+        "description": "SD-WAN 2.0 and predictive traffic shaping for carrier-grade network reliability across continents.",
+        "color": "primary",
+        "link": "/network",
+        "linkLabel": "Network Map"
+      },
+      {
+        "id": "accounting",
+        "icon": "account_balance_wallet",
+        "title": "Accounting Software",
+        "description": "Immutable ledger architectures and real-time financial consolidation for the modern enterprise.",
+        "color": "secondary",
+        "link": "/accounting",
+        "linkLabel": "View Technical Specs",
+        "size": "wide"
+      },
+      {
+        "id": "ecommerce-card",
+        "icon": "shopping_bag",
+        "title": "E-Commerce",
+        "description": "Headless commerce ecosystems with frontend-agnostic architecture and API-first design for global scale.",
+        "image": "/assets/images/ecommerce-card.png",
+        "imageAlt": "Macro shot of a sleek smartphone screen displaying a minimalist luxury fashion ecommerce interface",
+        "color": "primary",
+        "link": "/ecommerce",
+        "linkLabel": "Explore Platform",
+        "size": "medium"
+      },
+      {
+        "id": "mobile-app-dev",
+        "icon": "smartphone",
+        "title": "Mobile App Dev",
+        "description": "Native iOS and Android applications with cinematic UI and enterprise-scale performance.",
+        "image": "/assets/images/mobile-card.png",
+        "imageAlt": "A sleek dark smartphone interface displaying complex data visualizations and glowing biometric security patterns",
+        "color": "secondary",
+        "link": "/mobile",
+        "linkLabel": "View Capabilities",
+        "size": "medium"
+      },
+      {
+        "id": "data-warehousing",
+        "icon": "database",
+        "title": "Data Warehousing",
+        "description": "Petabyte-scale storage architectures with ACID compliance and sub-second query latency for enterprise analytics.",
+        "image": "/assets/images/datawarehousing-hero.png",
+        "imageAlt": "Abstract digital visualization of a glowing blue data nebula with interconnected nodes",
+        "color": "primary",
+        "link": "/data-warehousing",
+        "linkLabel": "Explore Architecture",
+        "size": "large"
+      },
+      {
+        "id": "hosting",
+        "icon": "cloud",
+        "title": "Hosting & Infrastructure",
+        "description": "Sovereign cloud infrastructure with sub-15ms global delivery and quantum-resistant security.",
+        "image": "/assets/images/hosting-hero.png",
+        "imageAlt": "Abstract server room with deep blue neon lines and glowing server racks",
+        "color": "primary",
+        "link": "/hosting",
+        "linkLabel": "Initialize Deployment",
+        "size": "large"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Global Deployments"
+    },
+    {
+      "value": "99.999",
+      "label": "Network Uptime %"
+    },
+    {
+      "value": "1.2B",
+      "label": "Data Points Processed"
+    },
+    {
+      "value": "14",
+      "label": "Security Certifications"
+    }
+  ],
+  "cta": {
+    "title": "Architect Your Future",
+    "description": "Connect with our lead architects to discuss how Exido can redefine your digital boundaries.",
+    "buttons": [
+      {
+        "label": "Schedule Consultation",
+        "variant": "primary"
+      },
+      {
+        "label": "Review Portfolio",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "name": "Exido",
+      "description": "Elevating enterprise software to the realm of high-fidelity precision and atmospheric depth."
+    },
+    "columns": [
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "AI Solutions", "href": "/ai" },
+          { "label": "Ecommerce", "href": "/ecommerce" },
+          { "label": "Mobile Development", "href": "/mobile" },
+          { "label": "Marketing Strategy", "href": "/marketing" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Business Intelligence", "href": "/bi" },
+          { "label": "Security Protocols", "href": "/security" },
+          { "label": "Privacy Policy", "href": "#" },
+          { "label": "Terms of Service", "href": "#" }
+        ]
+      },
+      {
+        "title": "Compliance",
+        "links": [
+          { "label": "GDPR Standards", "href": "#" },
+          { "label": "SOC2 Audit", "href": "#" },
+          { "label": "Digital Ethics", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2024 Exido. Digital Obsidian Authority."
+  }
+}
