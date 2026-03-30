@@ -117,7 +117,7 @@
       {
         "icon": "lock_reset",
         "title": "End-to-End Encryption",
-        "description": "Military-grade encryption for all data in transit between mobile devices and the Ether cloud.",
+        "description": "Military-grade encryption for all data in transit between mobile devices and the Exido cloud.",
         "color": "secondary"
       }
     ]

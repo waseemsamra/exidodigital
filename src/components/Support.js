@@ -221,7 +221,7 @@ function Support() {
                   <label className="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">Workspace ID</label>
                   <input 
                     className="bg-surface-container-low border-none border-b-2 border-outline-variant focus:border-primary py-3 px-4 text-on-surface outline-none transition-all" 
-                    placeholder="ETHER-XXXX" 
+                    placeholder="EXIDO-XXXX" 
                     type="text"
                   />
                 </div>

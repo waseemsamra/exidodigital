@@ -187,7 +187,7 @@ function CaseStudyZeroTrustFleet() {
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 rounded-full bg-surface-container-high border border-outline-variant mb-4 overflow-hidden">
                 <img 
-                  src="/assets/images/ceo-marcus.png" 
+                  src="/assets/images/waseem_samra.png" 
                   alt="Professional portrait of logistics security executive"
                   className="w-full h-full object-cover" 
                 />

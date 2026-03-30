@@ -56,7 +56,7 @@ function SoftwarePage() {
                   <div className="flex items-center justify-between">
                     <div>
                       <div className="text-xs text-on-surface-variant uppercase tracking-widest mb-1">Current Sprint</div>
-                      <div className="text-xl font-bold font-headline text-primary">EtherOS v4.2</div>
+                      <div className="text-xl font-bold font-headline text-primary">ExidoOS v4.2</div>
                     </div>
                     <div className="text-right">
                       <div className="text-xs text-on-surface-variant uppercase tracking-widest mb-1">Status</div>

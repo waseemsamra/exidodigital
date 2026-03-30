@@ -67,7 +67,7 @@ function TermsOfService() {
                 <ul className="space-y-3 text-on-surface-variant font-body">
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
-                    Reverse engineering of proprietary ether-logic.
+                    Reverse engineering of proprietary Exido-logic.
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>

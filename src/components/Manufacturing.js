@@ -35,7 +35,7 @@ function Manufacturing() {
                 PRODUCTION.
               </h1>
               <p className="font-body text-xl text-on-surface-variant max-w-xl leading-relaxed mb-10">
-                Deploy Kinetic Ether's neural mesh to transform legacy hardware into a living, breathing industrial ecosystem. Real-time cognitive manufacturing starts here.
+                Deploy Exido's neural mesh to transform legacy hardware into a living, breathing industrial ecosystem. Real-time cognitive manufacturing starts here.
               </p>
               <div className="flex flex-wrap gap-6">
                 <a href="/contact" className="px-10 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-extrabold uppercase tracking-widest rounded-lg hover:shadow-[0_0_30px_rgba(143,245,255,0.4)] transition-all">
@@ -229,7 +229,7 @@ function Manufacturing() {
               <div>
                 <span className="text-primary font-label text-xs uppercase tracking-[0.3em] font-bold block mb-4">Vertical Integration</span>
                 <h2 className="font-headline text-5xl font-bold tracking-tight text-on-surface mb-8">Autonomous Supply <br/> Chain Synergy</h2>
-                <p className="text-on-surface-variant text-lg leading-relaxed mb-10">Extend your factory intelligence beyond the walls. Kinetic Ether synchronizes raw material intake with live production pacing and global logistics demand.</p>
+                <p className="text-on-surface-variant text-lg leading-relaxed mb-10">Extend your factory intelligence beyond the walls. Exido synchronizes raw material intake with live production pacing and global logistics demand.</p>
                 <div className="space-y-6">
                   <div className="flex gap-6 items-start">
                     <div className="w-12 h-12 shrink-0 flex items-center justify-center rounded-lg bg-surface-container-high border border-outline-variant/30 text-primary">
@@ -295,7 +295,7 @@ function Manufacturing() {
               <span className="text-primary italic">INDUSTRIAL LEGACY.</span>
             </h2>
             <p className="text-on-surface-variant text-xl max-w-2xl mx-auto mb-12">
-              Connect your assets to the Ether. Join the vanguard of autonomous manufacturing today.
+              Connect your assets to Exido. Join the vanguard of autonomous manufacturing today.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-6">
               <a href="/contact" className="px-12 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-extrabold uppercase tracking-widest rounded-lg shadow-2xl hover:scale-105 transition-transform">

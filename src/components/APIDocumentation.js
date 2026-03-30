@@ -134,7 +134,7 @@ func main() {
                     <span className="font-mono text-primary font-bold">metadata</span>
                     <span className="text-[10px] bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded uppercase">Optional</span>
                   </div>
-                  <p className="text-sm text-on-surface-variant mb-3">Custom key-value pairs for tracking purposes within the ether.</p>
+                  <p className="text-sm text-on-surface-variant mb-3">Custom key-value pairs for tracking purposes within the Exido.</p>
                   <span className="font-mono text-[11px] text-secondary">object (max 10 keys)</span>
                 </div>
               </div>

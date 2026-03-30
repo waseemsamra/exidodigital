@@ -61,14 +61,14 @@
       {
         "icon": "alternate_email",
         "label": "Primary Intel",
-        "value": "intelligence@kineticether.com",
-        "href": "mailto:intelligence@kineticether.com",
+        "value": "intelligence@exidodigital.com",
+        "href": "mailto:intelligence@exidodigital.com",
         "color": "primary"
       },
       {
         "icon": "forum",
         "label": "Secure Support",
-        "value": "portal.kineticether.com",
+        "value": "portal.exidodigital.com",
         "href": "#",
         "color": "secondary"
       }

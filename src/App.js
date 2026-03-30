@@ -37,6 +37,15 @@ import Platform from './components/Platform';
 import Support from './components/Support';
 import Partnership from './components/Partnership';
 import NewsPress from './components/NewsPress';
+import ETLSAutomationBlog from './components/blogs/ETLSAutomationBlog';
+import ObsidianLayerBlog from './components/blogs/ObsidianLayerBlog';
+import AtmosphericDataVizBlog from './components/blogs/AtmosphericDataVizBlog';
+import GlobalNodeExpansionBlog from './components/blogs/GlobalNodeExpansionBlog';
+import NeuralSynapseBlog from './components/blogs/NeuralSynapseBlog';
+import EtherNetAnomalyBlog from './components/blogs/EtherNetAnomalyBlog';
+import AsymmetricShardingBlog from './components/blogs/AsymmetricShardingBlog';
+import MediaSolutions from './components/MediaSolutions';
+import AllArticles from './components/AllArticles';
 import FreeConsultation from './components/FreeConsultation';
 import CaseStudyAutonomousInventory from './components/case-studies/CaseStudyAutonomousInventory';
 import CaseStudyDiagnosticAI from './components/case-studies/CaseStudyDiagnosticAI';
@@ -92,6 +101,15 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/partnership" element={<Partnership />} />
         <Route path="/news" element={<NewsPress />} />
+        <Route path="/news/etl-automation" element={<ETLSAutomationBlog />} />
+        <Route path="/news/obsidian-layer" element={<ObsidianLayerBlog />} />
+        <Route path="/news/atmospheric-viz" element={<AtmosphericDataVizBlog />} />
+        <Route path="/news/global-expansion" element={<GlobalNodeExpansionBlog />} />
+        <Route path="/news/neural-synapse" element={<NeuralSynapseBlog />} />
+        <Route path="/news/ether-net-anomaly" element={<EtherNetAnomalyBlog />} />
+        <Route path="/news/asymmetric-sharding" element={<AsymmetricShardingBlog />} />
+        <Route path="/news/all-articles" element={<AllArticles />} />
+        <Route path="/media-solutions" element={<MediaSolutions />} />
         <Route path="/works/autonomous-inventory" element={<CaseStudyAutonomousInventory />} />
         <Route path="/works/diagnostic-ai" element={<CaseStudyDiagnosticAI />} />
         <Route path="/works/predictive-trading" element={<CaseStudyPredictiveTrading />} />

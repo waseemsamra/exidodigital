@@ -69,7 +69,7 @@ function CareersPage() {
           </div>
         </section>
 
-        {/* Life at the Ether Section */}
+        {/* Life at the Exido Section */}
         <section className="py-24 px-8 bg-surface-container-low">
           <div className="max-w-screen-2xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">

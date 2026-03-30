@@ -24,7 +24,7 @@ function Ecommerce() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Future of Commerce</span>
               </h1>
               <p className="text-on-surface-variant text-xl max-w-2xl mb-12 leading-relaxed">
-                Kinetic Ether powers global retail through high-fidelity headless engines and neural personalization. We don't just process transactions; we engineer digital experiences that convert.
+                Exido powers global retail through high-fidelity headless engines and neural personalization. We don't just process transactions; we engineer digital experiences that convert.
               </p>
               <div className="flex flex-wrap gap-6">
                 <a href="/contact" className="px-8 py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg flex items-center gap-3 transition-transform hover:scale-105 active:scale-95">
@@ -138,7 +138,7 @@ function Ecommerce() {
               <span className="label-md uppercase tracking-[0.2em] text-secondary font-bold mb-4 block">Precision Control</span>
               <h2 className="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-8">Real-Time Inventory Sync</h2>
               <p className="text-on-surface-variant text-lg mb-8 leading-relaxed">
-                Eliminate overselling and stockouts with our sub-second synchronization engine. Kinetic Ether tracks every movement from the warehouse shelf to the customer's cart in real-time.
+                Eliminate overselling and stockouts with our sub-second synchronization engine. Exido tracks every movement from the warehouse shelf to the customer's cart in real-time.
               </p>
               <ul className="space-y-6">
                 <li className="flex items-start gap-4">
@@ -170,7 +170,7 @@ function Ecommerce() {
             <div className="text-center max-w-3xl mx-auto mb-20">
               <span className="label-md uppercase tracking-[0.2em] text-primary font-bold mb-4 block">Neural Intelligence</span>
               <h2 className="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-6">AI-Driven Personalization Layers</h2>
-              <p className="text-on-surface-variant text-lg">Hyper-relevant shopping experiences at scale. Kinetic Ether analyzes 200+ intent signals to deliver the right product at the exact millisecond of interest.</p>
+              <p className="text-on-surface-variant text-lg">Hyper-relevant shopping experiences at scale. Exido analyzes 200+ intent signals to deliver the right product at the exact millisecond of interest.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="p-8 bg-surface rounded-xl border border-outline-variant/10 hover:border-primary/50 transition-all duration-300 group">

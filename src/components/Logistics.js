@@ -164,7 +164,7 @@ function Logistics() {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
             <h2 className="text-4xl md:text-6xl font-black font-headline mb-8">Ready to sync your <br/><span className="text-primary-dim">Global Operations?</span></h2>
             <p className="text-on-surface-variant text-lg mb-12 max-w-2xl mx-auto">
-              Contact our systems engineering team to deploy Kinetic Ether across your logistics network.
+              Contact our systems engineering team to deploy Exido across your logistics network.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <a href="/contact" className="px-12 py-5 bg-primary text-on-primary font-bold rounded-lg shadow-[0_0_30px_rgba(143,245,255,0.2)] hover:shadow-primary/40 transition-all uppercase tracking-widest text-sm">Schedule Demo</a>

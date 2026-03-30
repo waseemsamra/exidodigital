@@ -25,7 +25,7 @@ function AboutPage() {
   };
 
   return (
-    <div className="selection:bg-primary-container selection:text-on-primary-container">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
       <NavBar links={aboutContent.navigation.links} buttons={aboutContent.navigation.buttons} />
       <main>
         {/* Hero Section */}

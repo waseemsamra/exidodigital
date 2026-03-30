@@ -39,7 +39,7 @@ function PrivacyPolicy() {
               </div>
               <div className="lg:col-span-8">
                 <div className="space-y-6 text-on-surface-variant leading-relaxed font-light">
-                  <p>Exido ("we," "our," or "us") operates the high-performance ether-compute platform. We respect your privacy and are committed to protecting it through our compliance with this policy.</p>
+                  <p>Exido ("we," "our," or "us") operates the high-performance Exido-compute platform. We respect your privacy and are committed to protecting it through our compliance with this policy.</p>
                   <p>This policy describes the types of information we may collect from you or that you may provide when you visit the Exido console or use our distributed API services.</p>
                 </div>
               </div>

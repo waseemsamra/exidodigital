@@ -22,9 +22,9 @@ function CTA() {
           <p className="text-on-surface-variant text-lg mb-12 max-w-xl mx-auto">
             {description}
           </p>
-          <button className="px-12 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-lg font-bold text-xl hover:shadow-[0_0_40px_rgba(143,245,255,0.4)] transition-all duration-300">
+          <a href="/contact" className="px-12 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-lg font-bold text-xl hover:shadow-[0_0_40px_rgba(143,245,255,0.4)] transition-all duration-300 inline-block">
             {buttonLabel}
-          </button>
+          </a>
         </div>
       </div>
     </section>

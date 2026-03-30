@@ -55,14 +55,14 @@
   "leadership": {
     "title": {
       "line1": "The Minds Behind",
-      "line2": "the Ether"
+      "line2": "the Exido"
     },
     "description": "A collective of specialists dedicated to hyper-precision engineering.",
     "members": [
       {
-        "name": "Marcus Thorne",
-        "title": "Chief Executive Architect",
-        "image": "/assets/images/ceo-marcus.png",
+        "name": "Waseem Samra",
+        "title": "Chief Technology Officer",
+        "image": "/assets/images/waseem_samra.png",
         "imageAlt": "Professional portrait of a visionary male executive in a minimalist studio setting with moody lighting"
       },
       {

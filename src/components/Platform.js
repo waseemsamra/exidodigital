@@ -25,7 +25,7 @@ function Platform() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary-container">Digital Obsidian</span> Core
               </h1>
               <p className="text-on-surface-variant text-xl max-w-2xl mb-12 leading-relaxed">
-                Ether_OS defines a new standard in sovereign infrastructure—merging neural processing with atomic security at the edge.
+                Exido_OS defines a new standard in sovereign infrastructure—merging neural processing with atomic security at the edge.
               </p>
               <div className="flex flex-wrap gap-6">
                 <a href="/contact" className="px-10 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg flex items-center gap-3 transition-transform hover:scale-105 active:scale-95">
@@ -50,7 +50,7 @@ function Platform() {
               </div>
               <div className="text-right">
                 <div className="text-primary font-mono text-sm uppercase tracking-widest">Protocol Version</div>
-                <div className="text-2xl font-headline font-black">X-0.9.4.ETHER</div>
+                <div className="text-2xl font-headline font-black">X-0.9.4.EXIDO</div>
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-6 h-auto">
@@ -81,7 +81,7 @@ function Platform() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-4 bg-surface-container-low rounded-lg border border-outline-variant/10">
                     <div className="text-xs font-bold text-primary mb-2 uppercase">Orchestration</div>
-                    <div className="text-lg font-bold">K8s.ETHER</div>
+                    <div className="text-lg font-bold">K8s.EXIDO</div>
                   </div>
                   <div className="p-4 bg-surface-container-low rounded-lg border border-outline-variant/10">
                     <div className="text-xs font-bold text-primary mb-2 uppercase">Storage</div>

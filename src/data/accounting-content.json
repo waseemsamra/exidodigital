@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "EtherAccounting | Immutable Ledger Architectures",
+    "title": "ExidoAccounting | Immutable Ledger Architectures",
     "badge": "Autonomous Finance"
   },
   "navigation": {
-    "logo": "EtherAccounting",
+    "logo": "ExidoAccounting",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -95,7 +95,7 @@
   },
   "integrations": {
     "title": "Seamless Integrations",
-    "description": "The EtherAccounting API is designed for total interoperability. Connect your existing tech stack with zero friction.",
+    "description": "The ExidoAccounting API is designed for total interoperability. Connect your existing tech stack with zero friction.",
     "partners": ["Stripe", "Adyen", "SAP S/4HANA", "Plaid API", "Workday"],
     "items": [
       {
@@ -157,12 +157,12 @@
       "line1": "Architect Your",
       "line2": "Financial Future."
     },
-    "description": "Join the elite enterprises running on EtherAccounting. Secure, immutable, and hyper-automated.",
+    "description": "Join the elite enterprises running on ExidoAccounting. Secure, immutable, and hyper-automated.",
     "buttonLabel": "Request a Financial Infrastructure Audit"
   },
   "footer": {
     "company": {
-      "name": "EtherAccounting",
+      "name": "ExidoAccounting",
       "description": "© 2024 Exido Enterprise. All rights reserved. Data-Driven Authority."
     },
     "columns": [

@@ -175,7 +175,7 @@ function Healthcare() {
                 <span className="label-md uppercase text-primary font-bold tracking-[0.2em] text-xs mb-4 inline-block">Data Sovereignty</span>
                 <h2 className="text-4xl md:text-5xl font-headline font-extrabold tracking-tight mb-6">Secure Clinical Data Lakes</h2>
                 <p className="text-on-surface-variant text-lg leading-relaxed mb-8">
-                  Kinetic Ether provides a zero-trust architecture for health information exchanges. Our Data Lakes allow for anonymized, collaborative research at massive scale without compromising individual patient privacy.
+                  Exido provides a zero-trust architecture for health information exchanges. Our Data Lakes allow for anonymized, collaborative research at massive scale without compromising individual patient privacy.
                 </p>
                 <ul className="space-y-4 mb-10">
                   <li className="flex items-start gap-4">
@@ -252,7 +252,7 @@ function Healthcare() {
             </div>
             <div className="relative z-10 max-w-2xl">
               <h3 className="text-3xl md:text-4xl font-headline font-extrabold mb-6">Ready to integrate Kinetic Intelligence?</h3>
-              <p className="text-on-surface-variant mb-8 text-lg">Partner with Kinetic Ether to build the next generation of life-saving digital infrastructure.</p>
+              <p className="text-on-surface-variant mb-8 text-lg">Partner with Exido to build the next generation of life-saving digital infrastructure.</p>
               <div className="flex flex-wrap gap-4">
                 <a href="/contact" className="primary-gradient-btn text-on-primary font-headline font-bold px-8 py-3 rounded-lg">Speak with an Engineer</a>
                 <a href="/contact" className="bg-white/5 backdrop-blur-md border border-white/10 text-on-surface font-headline font-bold px-8 py-3 rounded-lg hover:bg-white/10 transition-colors">Request Platform Demo</a>

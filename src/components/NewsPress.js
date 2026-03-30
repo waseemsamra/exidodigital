@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from './NavBar';
 import Footer from './Footer';
 
@@ -52,50 +53,52 @@ function NewsPress() {
                   <span className="font-label text-[10px] uppercase tracking-widest text-secondary font-bold">Latest Innovation</span>
                   <h2 className="font-headline text-4xl font-bold mt-2">Engineering Blog</h2>
                 </div>
-                <a className="text-on-surface-variant hover:text-primary text-sm flex items-center gap-1 transition-colors" href="#">
+                <Link to="/news/all-articles" className="text-on-surface-variant hover:text-primary text-sm flex items-center gap-1 transition-colors">
                   View all articles <span className="material-symbols-outlined text-sm">open_in_new</span>
-                </a>
+                </Link>
               </div>
               <div className="group relative overflow-hidden rounded-xl bg-surface-container-low p-1">
-                <div className="aspect-[21/9] w-full overflow-hidden rounded-lg relative">
-                  <img 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
-                    src="/assets/images/news-blog.png"
-                    alt="Futuristic server room with glowing blue cables and dark metallic surfaces emphasizing high-tech security and data infrastructure"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-80"></div>
-                  <div className="absolute bottom-8 left-8 right-8">
-                    <span className="bg-primary/20 text-primary-fixed text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4 inline-block backdrop-blur-md">Deep Tech</span>
-                    <h3 className="font-headline text-3xl font-bold text-on-surface group-hover:text-primary transition-colors">Decoding the Obsidian Layer: A New Standard in Quantum Encryption</h3>
-                    <p className="text-on-surface-variant mt-4 line-clamp-2 max-w-xl font-light">How our latest cryptographic breakthrough ensures data atmospheric depth even in post-quantum environments.</p>
+                <Link to="/news/etl-automation" className="block">
+                  <div className="aspect-[21/9] w-full overflow-hidden rounded-lg relative">
+                    <img
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      src="/assets/images/news-blog.png"
+                      alt="Futuristic server room with glowing blue cables and dark metallic surfaces emphasizing high-tech security and data infrastructure"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-80"></div>
+                    <div className="absolute bottom-8 left-8 right-8">
+                      <span className="bg-primary/20 text-primary-fixed text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4 inline-block backdrop-blur-md">Data Engineering</span>
+                      <h3 className="font-headline text-3xl font-bold text-on-surface group-hover:text-primary transition-colors">ETL Automation: The Future of Data Integration</h3>
+                      <p className="text-on-surface-variant mt-4 line-clamp-2 max-w-xl font-light">How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows with zero-touch orchestration.</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Blog Item 2 */}
-                <div className="flex flex-col gap-4 group">
+                <Link to="/news/global-expansion" className="flex flex-col gap-4 group">
                   <div className="aspect-video rounded-lg overflow-hidden bg-surface-container">
-                    <img 
-                      className="w-full h-full object-cover group-hover:opacity-80 transition-opacity" 
+                    <img
+                      className="w-full h-full object-cover group-hover:opacity-80 transition-opacity"
                       src="/assets/images/news-satellite.png"
                       alt="Satellites in orbit around earth at night with glowing data connectivity lines representing global infrastructure"
                     />
                   </div>
                   <p className="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">January 14, 2024 • Infrastructure</p>
                   <h4 className="font-headline text-xl font-semibold group-hover:text-secondary transition-colors">Global Node Expansion: Reaching the Edge of the Atmosphere</h4>
-                </div>
+                </Link>
                 {/* Blog Item 3 */}
-                <div className="flex flex-col gap-4 group">
+                <Link to="/news/neural-synapse" className="flex flex-col gap-4 group">
                   <div className="aspect-video rounded-lg overflow-hidden bg-surface-container">
-                    <img 
-                      className="w-full h-full object-cover group-hover:opacity-80 transition-opacity" 
+                    <img
+                      className="w-full h-full object-cover group-hover:opacity-80 transition-opacity"
                       src="/assets/images/news-abstract.png"
                       alt="Minimalist abstract digital landscape with crystalline structures and cyan light pulses"
                     />
                   </div>
                   <p className="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">January 08, 2024 • AI Research</p>
                   <h4 className="font-headline text-xl font-semibold group-hover:text-secondary transition-colors">Neural Synapse Integration for Predictive Commerce Engines</h4>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -108,12 +111,12 @@ function NewsPress() {
                   <div className="p-6 rounded-lg bg-surface-container-low border border-outline-variant/10 hover:border-primary/30 transition-all">
                     <p className="font-label text-[10px] text-primary mb-2 uppercase tracking-widest">TechCrunch</p>
                     <h4 className="font-body font-bold text-lg leading-snug">"Exido is redefining how we think about cloud security with their Obsidian Layer."</h4>
-                    <a className="mt-4 inline-block text-xs text-on-surface-variant underline hover:text-on-surface" href="#">Read Full Story</a>
+                    <Link to="/news/obsidian-layer" className="mt-4 inline-block text-xs text-on-surface-variant underline hover:text-on-surface">Read Full Story</Link>
                   </div>
                   <div className="p-6 rounded-lg bg-surface-container-low border border-outline-variant/10 hover:border-primary/30 transition-all">
                     <p className="font-label text-[10px] text-primary mb-2 uppercase tracking-widest">Wired</p>
                     <h4 className="font-body font-bold text-lg leading-snug">"The atmospheric depth of data visualization at Exido sets a new UI benchmark."</h4>
-                    <a className="mt-4 inline-block text-xs text-on-surface-variant underline hover:text-on-surface" href="#">Read Full Story</a>
+                    <Link to="/news/atmospheric-viz" className="mt-4 inline-block text-xs text-on-surface-variant underline hover:text-on-surface">Read Full Story</Link>
                   </div>
                 </div>
               </div>

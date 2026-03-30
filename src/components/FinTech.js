@@ -134,7 +134,7 @@ function FinTech() {
                 <div className="text-label text-sm uppercase font-bold tracking-[0.3em] text-primary">Security Protocol</div>
                 <h3 className="font-headline text-4xl md:text-6xl font-black text-on-surface tracking-tighter">Zero-Trust Fraud Detection</h3>
                 <p className="text-on-surface-variant text-lg leading-relaxed">
-                  Moving beyond reactive filters. Kinetic Ether implements AI-driven predictive modeling at the edge, identifying malicious patterns before the handshake is even complete.
+                  Moving beyond reactive filters. Exido implements AI-driven predictive modeling at the edge, identifying malicious patterns before the handshake is even complete.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-center gap-4 group">

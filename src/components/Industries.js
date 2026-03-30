@@ -144,6 +144,25 @@ function Industries() {
                 Frictionless global mobility. Orchestrating complex booking networks with quantum-secure verification.
               </p>
             </a>
+
+            {/* Media Solutions */}
+            <a href="/media-solutions" className="md:col-span-2 group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high block">
+              <div className="absolute top-0 right-0 p-8">
+                <span className="material-symbols-outlined text-tertiary text-5xl opacity-20 group-hover:opacity-100 transition-opacity">movie_filter</span>
+              </div>
+              <div className="relative z-10 h-full flex flex-col justify-between">
+                <div>
+                  <h3 className="font-headline text-2xl font-bold mb-4">Media & Entertainment</h3>
+                  <p className="text-on-surface-variant max-w-md leading-relaxed">
+                    Next-generation content synthesis and global distribution mesh with sovereign digital rights management for the entertainment industry.
+                  </p>
+                </div>
+                <div className="mt-8 flex items-center text-tertiary text-xs font-bold uppercase tracking-widest gap-2">
+                  <span>Explore Solutions</span>
+                  <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                </div>
+              </div>
+            </a>
           </div>
         </section>
 
