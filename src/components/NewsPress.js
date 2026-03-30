@@ -228,7 +228,7 @@ function NewsPress() {
               <div className="mt-12 flex items-center gap-6 text-sm">
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-secondary text-base">alternate_email</span>
-                  <span className="text-on-surface-variant">press@exido.io</span>
+                  <span className="text-on-surface-variant">press@exidodigital.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-secondary text-base">call</span>

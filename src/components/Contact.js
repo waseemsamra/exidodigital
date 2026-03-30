@@ -49,7 +49,7 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-headline font-bold text-on-surface">Direct Command</h4>
-                    <p className="text-on-surface-variant text-sm">ops@exido.io</p>
+                    <p className="text-on-surface-variant text-sm">ops@exidodigital.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-6 group">
@@ -188,19 +188,15 @@ function Contact() {
                   <img 
                     className="w-full h-full object-cover" 
                     src="/assets/images/contact-berlin.png"
-                    alt="Futuristic glass architecture of Berlin central district with violet lighting at dusk"
+                    alt="Modern office building in India with contemporary architecture"
                   />
                 </div>
-                <h3 className="font-headline text-2xl font-bold mb-2">Europe</h3>
-                <p className="text-secondary text-sm font-bold uppercase tracking-widest mb-6">Berlin HUB</p>
+                <h3 className="font-headline text-2xl font-bold mb-2">India</h3>
+                <p className="text-secondary text-sm font-bold uppercase tracking-widest mb-6">India Operations</p>
                 <div className="space-y-3 text-on-surface-variant text-sm font-body">
                   <p className="flex items-center gap-2">
-                    <span className="material-symbols-outlined text-xs">location_on</span> 
-                    Rosenthaler Str. 40, 10119 Berlin
-                  </p>
-                  <p className="flex items-center gap-2">
-                    <span className="material-symbols-outlined text-xs">call</span> 
-                    +49 30 555-0123
+                    <span className="material-symbols-outlined text-xs">alternate_email</span> 
+                    india-ops@exidodigital.com
                   </p>
                 </div>
               </div>
@@ -218,12 +214,8 @@ function Contact() {
                 <p className="text-primary text-sm font-bold uppercase tracking-widest mb-6">Singapore HUB</p>
                 <div className="space-y-3 text-on-surface-variant text-sm font-body">
                   <p className="flex items-center gap-2">
-                    <span className="material-symbols-outlined text-xs">location_on</span> 
-                    10 Collyer Quay, Ocean Financial Centre
-                  </p>
-                  <p className="flex items-center gap-2">
-                    <span className="material-symbols-outlined text-xs">call</span> 
-                    +65 6555 0101
+                    <span className="material-symbols-outlined text-xs">alternate_email</span> 
+                    sng-ops@exidodigital.com
                   </p>
                 </div>
               </div>

@@ -6,7 +6,7 @@ function APIDocumentation() {
   const [activeTab, setActiveTab] = React.useState('curl');
 
   const codeExamples = {
-    curl: `curl -X POST "https://api.exido.io/v1/core/execute" \\
+    curl: `curl -X POST "https://api.exidodigital.com/v1/core/execute" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -18,7 +18,7 @@ function APIDocumentation() {
   }'`,
     python: `import requests
 
-url = "https://api.exido.io/v1/core/execute"
+url = "https://api.exidodigital.com/v1/core/execute"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -37,7 +37,7 @@ print(response.json())`,
 
 const config = {
   method: 'post',
-  url: 'https://api.exido.io/v1/core/execute',
+  url: 'https://api.exidodigital.com/v1/core/execute',
   headers: { 
     'Authorization': 'Bearer YOUR_API_KEY', 
     'Content-Type': 'application/json'
@@ -64,7 +64,7 @@ import (
 )
 
 func main() {
-  url := "https://api.exido.io/v1/core/execute"
+  url := "https://api.exidodigital.com/v1/core/execute"
   payload := map[string]interface{}{
     "flow_id": "a83f-9128-44dc-bd10",
     "sync_mode": true,
@@ -106,7 +106,7 @@ func main() {
             <section className="mb-16">
               <div className="flex items-center gap-4 mb-8 bg-surface-container-low p-4 rounded-xl border border-outline-variant/15">
                 <span className="bg-primary text-on-primary px-3 py-1 font-mono text-xs font-bold rounded">POST</span>
-                <span className="font-mono text-on-surface text-sm tracking-tight break-all">https://api.exido.io/v1/core/execute</span>
+                <span className="font-mono text-on-surface text-sm tracking-tight break-all">https://api.exidodigital.com/v1/core/execute</span>
               </div>
 
               <h3 className="text-on-surface font-headline font-bold text-xl mb-6">Request Parameters</h3>

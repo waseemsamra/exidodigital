@@ -203,8 +203,8 @@ function PrivacyPolicy() {
                 </p>
               </div>
               <div className="flex flex-col items-start md:items-end justify-center">
-                <a className="text-2xl md:text-3xl font-headline font-bold text-primary hover:text-primary-container transition-colors tracking-tight" href="mailto:privacy@exido.io">
-                  privacy@exido.io
+                <a className="text-2xl md:text-3xl font-headline font-bold text-primary hover:text-primary-container transition-colors tracking-tight" href="mailto:privacy@exidodigital.com">
+                  privacy@exidodigital.com
                 </a>
                 <p className="text-on-surface-variant text-sm mt-2">Typical response window: 24-48 Business Hours</p>
               </div>

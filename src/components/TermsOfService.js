@@ -107,7 +107,7 @@ function TermsOfService() {
             <div className="p-12 rounded-xl bg-gradient-to-br from-surface-container-high to-surface-container-low border border-outline-variant/10 text-center">
               <h3 className="font-headline text-2xl font-bold text-on-surface mb-4">Need further clarification?</h3>
               <p className="text-on-surface-variant mb-8 text-base">Our legal architecture team is available for consultative inquiries regarding these protocols.</p>
-              <a href="mailto:legal@exido.io" className="inline-block bg-surface-container-highest border border-outline-variant/30 text-primary px-8 py-3 rounded-lg font-bold text-xs uppercase tracking-widest hover:bg-surface-bright transition-all">
+              <a href="mailto:legal@exidodigital.com" className="inline-block bg-surface-container-highest border border-outline-variant/30 text-primary px-8 py-3 rounded-lg font-bold text-xs uppercase tracking-widest hover:bg-surface-bright transition-all">
                 Contact Compliance
               </a>
             </div>

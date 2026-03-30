@@ -278,7 +278,7 @@ function Partnership() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4 text-on-surface-variant">
                   <span className="material-symbols-outlined text-primary">mail</span>
-                  <span className="text-sm">alliances@exido.io</span>
+                  <span className="text-sm">alliances@exidodigital.com</span>
                 </div>
                 <div className="flex items-center gap-4 text-on-surface-variant">
                   <span className="material-symbols-outlined text-primary">location_on</span>
