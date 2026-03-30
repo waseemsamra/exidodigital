@@ -21,7 +21,7 @@ function Footer() {
             {column.links.map((link, linkIndex) => (
               <a
                 key={linkIndex}
-                className="font-['Inter'] text-xs uppercase tracking-widest text-[#a3aac4] hover:text-[#8ff5ff] transition-colors duration-200"
+                className="font-['Inter'] text-xs tracking-widest text-[#a3aac4] hover:text-[#8ff5ff] transition-colors duration-200"
                 href={link.href}
               >
                 {link.label}

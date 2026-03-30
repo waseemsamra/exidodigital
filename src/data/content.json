@@ -11,8 +11,8 @@
       { "label": "About", "href": "/about" }
     ],
     "buttons": [
-      { "label": "Login", "href": "#", "variant": "ghost" },
-      { "label": "Free Consultation", "href": "/contact", "variant": "primary" }
+      { "label": "Support", "href": "/support", "variant": "ghost" },
+      { "label": "Free Consultation", "href": "/free-consultation", "variant": "primary" }
     ]
   },
   "hero": {
@@ -136,14 +136,26 @@
         "title": "Legal",
         "links": [
           { "label": "Privacy Policy", "href": "/privacy-policy" },
-          { "label": "Terms of Service", "href": "/terms-of-service" }
+          { "label": "Terms of Service", "href": "/terms-of-service" },
+          { "label": "Security Audit", "href": "/security-audit" },
+          { "label": "API Documentation", "href": "/api-documentation" },
+          { "label": "Partnership", "href": "/partnership" }
         ]
       },
       {
-        "title": "Compliance",
+        "title": "Resources",
         "links": [
-          { "label": "Security Audit", "href": "/security-audit" },
-          { "label": "API Documentation", "href": "/api-documentation" }
+          { "label": "News & Press", "href": "/news" },
+          { "label": "Support", "href": "/support" },
+          { "label": "Partners", "href": "/partnership" },
+          { "label": "Healthcare", "href": "/healthcare" },
+          { "label": "Fintech & Banking", "href": "/fintech" },
+          { "label": "Logistics", "href": "/logistics" },
+          { "label": "Real Estate", "href": "/realestate" },
+          { "label": "Ecommerce", "href": "/ecommerce" },
+          { "label": "Travel", "href": "/travel" },
+          { "label": "Education", "href": "/education" },
+          { "label": "Manufacturing", "href": "/manufacturing" }
         ]
       }
     ],

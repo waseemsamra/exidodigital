@@ -15,7 +15,7 @@ import AccountingPage from './components/AccountingPage';
 import DataWarehousingPage from './components/DataWarehousingPage';
 import HostingPage from './components/HostingPage';
 import CareersPage from './components/CareersPage';
-import ContactPage from './components/ContactPage';
+import Contact from './components/Contact';
 import InsightHub from './components/InsightHub';
 import PartnerEcosystem from './components/PartnerEcosystem';
 import MissionManifesto from './components/MissionManifesto';
@@ -29,6 +29,15 @@ import Healthcare from './components/Healthcare';
 import FinTech from './components/FinTech';
 import Logistics from './components/Logistics';
 import RealEstate from './components/RealEstate';
+import Ecommerce from './components/Ecommerce';
+import Travel from './components/Travel';
+import Education from './components/Education';
+import Manufacturing from './components/Manufacturing';
+import Platform from './components/Platform';
+import Support from './components/Support';
+import Partnership from './components/Partnership';
+import NewsPress from './components/NewsPress';
+import FreeConsultation from './components/FreeConsultation';
 import CaseStudyAutonomousInventory from './components/case-studies/CaseStudyAutonomousInventory';
 import CaseStudyDiagnosticAI from './components/case-studies/CaseStudyDiagnosticAI';
 import CaseStudyPredictiveTrading from './components/case-studies/CaseStudyPredictiveTrading';
@@ -50,7 +59,8 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/careers" element={<CareersPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/free-consultation" element={<FreeConsultation />} />
         <Route path="/ai" element={<AIPage />} />
         <Route path="/ecommerce" element={<EcommercePage />} />
         <Route path="/mobile" element={<MobilePage />} />
@@ -74,6 +84,14 @@ function App() {
         <Route path="/fintech" element={<FinTech />} />
         <Route path="/logistics" element={<Logistics />} />
         <Route path="/realestate" element={<RealEstate />} />
+        <Route path="/ecommerce" element={<Ecommerce />} />
+        <Route path="/travel" element={<Travel />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/manufacturing" element={<Manufacturing />} />
+        <Route path="/platform" element={<Platform />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/partnership" element={<Partnership />} />
+        <Route path="/news" element={<NewsPress />} />
         <Route path="/works/autonomous-inventory" element={<CaseStudyAutonomousInventory />} />
         <Route path="/works/diagnostic-ai" element={<CaseStudyDiagnosticAI />} />
         <Route path="/works/predictive-trading" element={<CaseStudyPredictiveTrading />} />

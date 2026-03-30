@@ -82,13 +82,13 @@ function Industries() {
             </a>
 
             {/* eCommerce */}
-            <div className="group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high">
+            <a href="/ecommerce" className="group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high block">
               <span className="material-symbols-outlined text-primary text-4xl mb-6 block">shopping_cart</span>
               <h3 className="font-headline text-xl font-bold mb-3">eCommerce</h3>
               <p className="text-on-surface-variant text-sm leading-relaxed">
                 Hyper-personalized consumer nodes leveraging predictive neural paths to optimize conversion at scale.
               </p>
-            </div>
+            </a>
 
             {/* Real Estate */}
             <a href="/realestate" className="md:col-span-2 group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high block">
@@ -119,22 +119,31 @@ function Industries() {
             </a>
 
             {/* Education */}
-            <div className="group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high">
+            <a href="/education" className="group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high block">
               <span className="material-symbols-outlined text-primary-dim text-4xl mb-6 block">school</span>
               <h3 className="font-headline text-xl font-bold mb-3">Education</h3>
               <p className="text-on-surface-variant text-sm leading-relaxed">
                 Asynchronous learning nodes powered by distributed knowledge graphs for specialized enterprise training.
               </p>
-            </div>
+            </a>
+
+            {/* Manufacturing */}
+            <a href="/manufacturing" className="group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high block">
+              <span className="material-symbols-outlined text-primary text-4xl mb-6 block">precision_manufacturing</span>
+              <h3 className="font-headline text-xl font-bold mb-3">Manufacturing</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed">
+                Neural mesh networks binding every sensor and actuator into a unified industrial consciousness with sub-millisecond control loops.
+              </p>
+            </a>
 
             {/* Travel */}
-            <div className="group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high">
+            <a href="/travel" className="group relative overflow-hidden rounded-xl bg-surface-container-low p-8 transition-all hover:bg-surface-container-high block">
               <span className="material-symbols-outlined text-tertiary text-4xl mb-6 block">flight_takeoff</span>
               <h3 className="font-headline text-xl font-bold mb-3">Travel</h3>
               <p className="text-on-surface-variant text-sm leading-relaxed">
                 Frictionless global mobility. Orchestrating complex booking networks with quantum-secure verification.
               </p>
-            </div>
+            </a>
           </div>
         </section>
 

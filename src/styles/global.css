@@ -60,6 +60,26 @@
   background: radial-gradient(circle at 50% 50%, rgba(0, 222, 236, 0.15) 0%, rgba(6, 14, 32, 0) 70%);
 }
 
+.neural-gradient {
+  background: radial-gradient(circle at 50% 50%, #141f38 0%, #060e20 100%);
+}
+
+.glow-secondary {
+  filter: drop-shadow(0 0 4px #ac89ff);
+}
+
+.glow-primary {
+  box-shadow: 0 0 20px rgba(143, 245, 255, 0.15);
+}
+
+.glow-text {
+  text-shadow: 0 0 15px rgba(143, 245, 255, 0.3);
+}
+
+.pulse-glow {
+  box-shadow: 0 0 15px rgba(172, 137, 255, 0.4);
+}
+
 .hero-gradient-data {
   background: radial-gradient(circle at center, rgba(143, 245, 255, 0.08) 0%, transparent 70%);
 }

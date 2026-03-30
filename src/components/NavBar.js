@@ -63,16 +63,22 @@ function NavBar() {
             )
           ))}
           <a
-            href="/works"
+            href="/platform"
             className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#a3aac4] hover:text-[#dee5ff]"
           >
-            Works
+            Platform
           </a>
           <a
             href="/industries"
-            className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#8ff5ff] border-b-2 border-[#ac89ff] pb-1"
+            className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#a3aac4] hover:text-[#dee5ff]"
           >
             Industries
+          </a>
+          <a
+            href="/contact"
+            className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#8ff5ff] border-b-2 border-[#ac89ff] pb-1"
+          >
+            Contact
           </a>
         </nav>
 
@@ -80,12 +86,13 @@ function NavBar() {
         <div className="hidden md:flex items-center gap-4">
           {buttons.map((button, index) => (
             button.variant === 'ghost' ? (
-              <button
+              <a
                 key={index}
+                href={button.href}
                 className="px-5 py-2 text-sm font-semibold transition-all text-[#a3aac4] hover:text-[#dee5ff]"
               >
                 {button.label}
-              </button>
+              </a>
             ) : (
               <a
                 key={index}
@@ -140,17 +147,20 @@ function NavBar() {
                 </a>
               )
             ))}
+            <a href="/platform" className="block text-[#8ff5ff] font-semibold py-2">Platform</a>
             <a href="/works" className="block text-[#a3aac4] font-semibold py-2">Works</a>
-            <a href="/industries" className="block text-[#8ff5ff] font-semibold py-2">Industries</a>
+            <a href="/industries" className="block text-[#a3aac4] font-semibold py-2">Industries</a>
+            <a href="/contact" className="block text-[#8ff5ff] font-semibold py-2">Contact</a>
             <div className="pt-4 border-t border-outline-variant/20 space-y-3">
               {buttons.map((button, index) => (
                 button.variant === 'ghost' ? (
-                  <button
+                  <a
                     key={index}
-                    className="w-full text-left text-[#a3aac4] font-semibold py-2"
+                    href={button.href}
+                    className="block w-full text-left text-[#a3aac4] font-semibold py-2"
                   >
                     {button.label}
-                  </button>
+                  </a>
                 ) : (
                   <a
                     key={index}
