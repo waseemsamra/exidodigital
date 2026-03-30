@@ -4,106 +4,209 @@ import Footer from '../Footer';
 
 function CaseStudyPredictiveTrading() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+    <div className="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">
       <NavBar />
-      <main className="pt-24">
-        <section className="px-8 py-20 max-w-[1440px] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <main className="pt-20">
+        {/* Hero Section */}
+        <section className="relative h-[870px] flex items-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10"></div>
+            <img 
+              src="/assets/images/analytics-dashboard.png" 
+              alt="Financial trading dashboard with real-time market data, candlestick charts, and AI-powered predictive analytics"
+              className="w-full h-full object-cover grayscale-[0.5] contrast-[1.1]" 
+            />
+          </div>
+          
+          <div className="relative z-20 max-w-7xl mx-auto px-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <span className="inline-block px-3 py-1 rounded bg-primary/10 text-primary text-xs font-bold mb-4 uppercase tracking-widest">AI & Finance</span>
-              <h1 className="font-headline text-5xl md:text-6xl font-extrabold tracking-tighter mb-6">Predictive Trading Algorithm for Hedge Funds</h1>
-              <p className="text-on-surface-variant text-xl leading-relaxed mb-8">Neural network-based market analysis processing 50M+ data points per second for alpha generation.</p>
-              <div className="flex flex-wrap gap-6">
-                <div className="bg-surface-container-low p-6 rounded-xl border-l-4 border-primary">
-                  <p className="text-3xl font-headline font-bold text-primary">240%</p>
-                  <p className="text-xs uppercase tracking-widest text-on-surface-variant mt-1">ROI Improvement</p>
+              <span className="inline-block label-sm text-secondary font-bold tracking-[0.3em] uppercase mb-6 drop-shadow-[0_0_4px_#ac89ff]">
+                Phase 03: Active Implementation
+              </span>
+              <h1 className="font-headline text-6xl font-extrabold tracking-tighter text-on-background leading-tight mb-8">
+                Predictive Trading with <span className="text-primary glow-text">Neural Intelligence</span>
+              </h1>
+              <p className="text-on-surface-variant text-xl leading-relaxed font-light max-w-xl mb-12">
+                How Exido's AI algorithms process 50M+ data points per second to generate alpha for institutional hedge funds.
+              </p>
+              <div className="flex items-center space-x-8">
+                <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_25px_#8ff5ff] transition-all duration-300 rounded-lg">
+                  Read Full Report
+                </button>
+                <div className="flex flex-col">
+                  <span className="text-primary font-bold font-headline text-2xl">240%</span>
+                  <span className="text-on-surface-variant text-[10px] uppercase tracking-widest">ROI Improvement</span>
                 </div>
-                <div className="bg-surface-container-low p-6 rounded-xl border-l-4 border-secondary">
-                  <p className="text-3xl font-headline font-bold text-secondary">50M+</p>
-                  <p className="text-xs uppercase tracking-widest text-on-surface-variant mt-1">Data Points/Sec</p>
-                </div>
-                <div className="bg-surface-container-low p-6 rounded-xl border-l-4 border-tertiary">
-                  <p className="text-3xl font-headline font-bold text-tertiary">&lt;10μs</p>
-                  <p className="text-xs uppercase tracking-widest text-on-surface-variant mt-1">Latency</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="aspect-video glass-panel rounded-xl overflow-hidden">
-                <img src="/assets/images/dashboard-preview.png" alt="Trading algorithm dashboard" className="w-full h-full object-cover opacity-60" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="bg-surface-container-low py-20 px-8">
-          <div className="max-w-[1440px] mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        {/* Bento Grid Results */}
+        <section className="py-24 px-12 bg-surface-container-low">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+              <div className="md:col-span-2 glass-panel p-10 rounded-xl relative overflow-hidden group">
+                <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+                  <span className="material-symbols-outlined text-8xl text-primary">trending_up</span>
+                </div>
+                <span className="text-primary font-headline text-6xl font-black mb-2 block">240%</span>
+                <h3 className="text-on-background font-headline text-xl font-bold mb-4">ROI Improvement</h3>
+                <p className="text-on-surface-variant text-sm leading-relaxed">Alpha generation through neural network-based market analysis and predictive modeling.</p>
+              </div>
+              
+              <div className="glass-panel p-10 rounded-xl border-l-4 border-secondary">
+                <span className="text-secondary font-headline text-4xl font-black mb-2 block">50M+</span>
+                <h3 className="text-on-background font-headline text-lg font-bold mb-2">Data Points/Sec</h3>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest">Processing Speed</p>
+              </div>
+
+              <div className="glass-panel p-10 rounded-xl">
+                <span className="text-primary font-headline text-4xl font-black mb-2 block">&lt;10μs</span>
+                <h3 className="text-on-background font-headline text-lg font-bold mb-2">Decision Latency</h3>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest">Ultra-Low Latency</p>
+              </div>
+
+              <div className="md:col-span-4 glass-panel p-8 flex justify-between items-center rounded-xl bg-surface-container-high/40">
+                <div className="flex items-center space-x-4">
+                  <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>verified</span>
+                  <span className="font-headline font-bold uppercase tracking-widest text-sm">Data Integrity Protocol: 100% Verified across Trading Mesh</span>
+                </div>
+                <div className="h-px flex-grow mx-12 bg-outline-variant/20"></div>
+                <div className="flex space-x-2">
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></div>
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse delay-75"></div>
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse delay-150"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* The Breakdown: Challenge & Solution */}
+        <section className="py-32 px-12 bg-surface">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-20">
+            <div className="lg:col-span-5">
+              <div className="mb-16">
+                <span className="text-secondary label-md uppercase font-bold tracking-widest mb-4 block">01. The Challenge</span>
+                <h2 className="font-headline text-4xl font-extrabold text-on-background mb-8 tracking-tight">The Alpha Gap</h2>
+                <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
+                  A quantitative hedge fund managing $10B+ AUM struggled with legacy trading systems that couldn't process alternative data sources fast enough to capture market inefficiencies. Their existing models relied on structured financial data with significant latency.
+                </p>
+                <ul className="space-y-4">
+                  <li className="flex items-start space-x-3 text-on-surface-variant">
+                    <span className="material-symbols-outlined text-error text-sm mt-1">close</span>
+                    <span>High latency in signal processing missing micro-opportunities</span>
+                  </li>
+                  <li className="flex items-start space-x-3 text-on-surface-variant">
+                    <span className="material-symbols-outlined text-error text-sm mt-1">close</span>
+                    <span>Limited alternative data integration capabilities</span>
+                  </li>
+                  <li className="flex items-start space-x-3 text-on-surface-variant">
+                    <span className="material-symbols-outlined text-error text-sm mt-1">close</span>
+                    <span>Inconsistent alpha generation across market conditions</span>
+                  </li>
+                </ul>
+              </div>
+
               <div>
-                <h2 className="font-headline text-4xl font-bold mb-6">The Challenge</h2>
-                <p className="text-on-surface-variant text-lg leading-relaxed mb-6">A quantitative hedge fund managing $10B+ AUM struggled with legacy trading systems that couldn't process alternative data sources fast enough to capture market inefficiencies.</p>
-                <p className="text-on-surface-variant text-lg leading-relaxed">Their existing models relied on structured financial data with significant latency, missing opportunities in the microseconds where alpha is generated.</p>
+                <span className="text-primary label-md uppercase font-bold tracking-widest mb-4 block">02. The Solution</span>
+                <h2 className="font-headline text-4xl font-extrabold text-on-background mb-8 tracking-tight">Neural Trading Engine</h2>
+                <p className="text-on-surface-variant text-lg leading-relaxed">
+                  We implemented a proprietary <span className="text-on-background font-semibold">Transformer-based Trading Architecture</span> with FPGA-accelerated inference achieving sub-10 microsecond decision cycles for high-frequency strategies.
+                </p>
               </div>
-              <div className="space-y-6">
-                <div className="bg-surface p-6 rounded-xl border border-outline-variant/10">
-                  <h3 className="font-headline text-xl font-bold mb-4">Key Challenges</h3>
-                  <ul className="space-y-3 text-on-surface-variant">
-                    <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-error mt-2"></span><span>High latency in signal processing</span></li>
-                    <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-error mt-2"></span><span>Limited alternative data integration</span></li>
-                    <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-error mt-2"></span><span>Inconsistent alpha generation</span></li>
-                  </ul>
+            </div>
+
+            <div className="lg:col-span-7 flex flex-col space-y-8">
+              <div className="glass-panel p-1 rounded-2xl">
+                <img 
+                  src="/assets/images/rev-AI.avif" 
+                  alt="Abstract data visualization of neural network processing financial market data with glowing nodes representing trading signals"
+                  className="w-full h-80 object-cover rounded-xl" 
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-8">
+                <div className="p-8 bg-surface-container-low rounded-xl">
+                  <span className="material-symbols-outlined text-primary mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>neurology</span>
+                  <h4 className="font-headline font-bold text-on-background mb-2">Deep Learning Models</h4>
+                  <p className="text-on-surface-variant text-xs">Transformer architecture processing market data, news sentiment, and satellite imagery for predictive signals.</p>
+                </div>
+                <div className="p-8 bg-surface-container-low rounded-xl">
+                  <span className="material-symbols-outlined text-secondary mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>speed</span>
+                  <h4 className="font-headline font-bold text-on-background mb-2">Ultra-Low Latency</h4>
+                  <p className="text-on-surface-variant text-xs">FPGA-accelerated inference achieving sub-10 microsecond decision cycles for HFT strategies.</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="py-20 px-8">
-          <div className="max-w-[1440px] mx-auto">
-            <h2 className="font-headline text-4xl font-bold mb-12 text-center">The Solution</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10">
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
-                  <span className="material-symbols-outlined text-primary text-2xl">neurology</span>
-                </div>
-                <h3 className="font-headline text-xl font-bold mb-4">Deep Learning Models</h3>
-                <p className="text-on-surface-variant leading-relaxed">Transformer-based architecture processing market data, news sentiment, and satellite imagery for predictive signals.</p>
+        {/* Tech Stack Component */}
+        <section className="py-32 px-12 bg-surface-container-low">
+          <div className="max-w-7xl mx-auto text-center mb-20">
+            <span className="text-primary-dim label-sm font-bold tracking-[0.4em] uppercase mb-4 block">The Exido Architecture</span>
+            <h2 className="font-headline text-5xl font-black text-on-background tracking-tighter">The Tech Stack</h2>
+          </div>
+          
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="text-center group">
+              <div className="w-20 h-20 mx-auto bg-surface-container-highest rounded-full flex items-center justify-center mb-8 border border-outline-variant/20 group-hover:border-primary transition-colors duration-500">
+                <span className="material-symbols-outlined text-3xl text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>model_training</span>
               </div>
-              <div className="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10">
-                <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mb-6">
-                  <span className="material-symbols-outlined text-secondary text-2xl">speed</span>
-                </div>
-                <h3 className="font-headline text-xl font-bold mb-4">Ultra-Low Latency</h3>
-                <p className="text-on-surface-variant leading-relaxed">FPGA-accelerated inference achieving sub-10 microsecond decision cycles for high-frequency strategies.</p>
+              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Transformer Models</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed px-4">Deep learning architecture processing 50M+ data points per second for market prediction.</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-20 h-20 mx-auto bg-surface-container-highest rounded-full flex items-center justify-center mb-8 border border-outline-variant/20 group-hover:border-secondary transition-colors duration-500">
+                <span className="material-symbols-outlined text-3xl text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>memory</span>
               </div>
-              <div className="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10">
-                <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center mb-6">
-                  <span className="material-symbols-outlined text-tertiary text-2xl">security</span>
-                </div>
-                <h3 className="font-headline text-xl font-bold mb-4">Risk Management</h3>
-                <p className="text-on-surface-variant leading-relaxed">Real-time portfolio risk monitoring with automated position sizing and dynamic hedging protocols.</p>
+              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">FPGA Acceleration</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed px-4">Hardware-accelerated inference achieving sub-10μs latency for HFT execution.</p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-20 h-20 mx-auto bg-surface-container-highest rounded-full flex items-center justify-center mb-8 border border-outline-variant/20 group-hover:border-primary transition-colors duration-500">
+                <span className="material-symbols-outlined text-3xl text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>security</span>
               </div>
+              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Risk Management</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed px-4">Real-time portfolio monitoring with automated position sizing and dynamic hedging.</p>
             </div>
           </div>
         </section>
 
-        <section className="bg-surface-container-low py-20 px-8">
-          <div className="max-w-[1440px] mx-auto">
-            <h2 className="font-headline text-4xl font-bold mb-12 text-center">Measurable Results</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div className="text-center"><p className="text-5xl font-headline font-black text-primary mb-2">240%</p><p className="text-sm uppercase tracking-widest text-on-surface-variant">ROI Improvement</p></div>
-              <div className="text-center"><p className="text-5xl font-headline font-black text-secondary mb-2">50M+</p><p className="text-sm uppercase tracking-widest text-on-surface-variant">Data Points/Sec</p></div>
-              <div className="text-center"><p className="text-5xl font-headline font-black text-tertiary mb-2">&lt;10μs</p><p className="text-sm uppercase tracking-widest text-on-surface-variant">Decision Latency</p></div>
-              <div className="text-center"><p className="text-5xl font-headline font-black text-primary mb-2">$2.4B</p><p className="text-sm uppercase tracking-widest text-on-surface-variant">Alpha Generated</p></div>
+        {/* Testimonial Section */}
+        <section className="py-32 px-12 relative overflow-hidden">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/5 blur-[120px] rounded-full"></div>
+          <div className="max-w-5xl mx-auto relative z-10 text-center">
+            <span className="material-symbols-outlined text-6xl text-secondary mb-12 opacity-40">format_quote</span>
+            <blockquote className="font-headline text-4xl md:text-5xl font-bold text-on-background leading-tight mb-12 tracking-tight">
+              "Exido's neural trading engine transformed our alpha generation. We're now capturing opportunities that were invisible to our legacy systems."
+            </blockquote>
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 rounded-full bg-surface-container-high border border-outline-variant mb-4 overflow-hidden">
+                <img 
+                  src="/assets/images/ceo-marcus.png" 
+                  alt="Professional portrait of hedge fund executive"
+                  className="w-full h-full object-cover" 
+                />
+              </div>
+              <p className="font-headline font-bold text-on-background text-lg uppercase tracking-wider">Chief Investment Officer</p>
+              <p className="text-on-surface-variant text-xs uppercase tracking-[0.2em] mt-1">$10B+ Quantitative Hedge Fund</p>
             </div>
           </div>
         </section>
 
-        <section className="py-20 px-8">
-          <div className="max-w-4xl mx-auto bg-surface-container-high rounded-2xl p-12 text-center border border-outline-variant/10">
-            <h2 className="font-headline text-3xl font-bold mb-4">Ready to Gain Your Edge?</h2>
-            <p className="text-on-surface-variant mb-8">Discover how AI-powered trading can transform your fund's performance.</p>
-            <a href="/contact" className="inline-block bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-4 rounded-lg font-bold hover:shadow-[0_0_20px_rgba(143,245,255,0.4)] transition-all">Schedule a Consultation</a>
+        {/* CTA Section */}
+        <section className="py-24 px-12">
+          <div className="max-w-7xl mx-auto bg-surface-bright/40 rounded-2xl p-20 text-center border border-outline-variant/10 backdrop-blur-xl relative overflow-hidden group">
+            <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-all duration-700"></div>
+            <h2 className="font-headline text-5xl font-black text-on-background mb-8 tracking-tighter">Transform Your Trading Edge.</h2>
+            <p className="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto">Discover how AI-powered trading can generate alpha in any market condition.</p>
+            <button className="hero-gradient text-on-primary px-12 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_30px_#8ff5ff] transition-all duration-300 rounded-lg">
+              Schedule a consultation
+            </button>
           </div>
         </section>
       </main>

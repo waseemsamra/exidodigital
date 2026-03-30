@@ -25,12 +25,39 @@
   text-shadow: 0 0 12px rgba(143, 245, 255, 0.4);
 }
 
+.glow-line {
+  filter: drop-shadow(0 0 4px #ac89ff);
+}
+
+.glow-accent {
+  filter: drop-shadow(0 0 8px rgba(172, 137, 255, 0.4));
+}
+
+.primary-glow {
+  filter: drop-shadow(0 0 8px #8ff5ff);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #8ff5ff 0%, #00eefc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.primary-gradient-btn {
+  background: linear-gradient(135deg, #8ff5ff 0%, #00eefc 100%);
+}
+
 .ambient-shadow {
   box-shadow: 0 0 40px -5px rgba(248, 241, 255, 0.04);
 }
 
 .hero-gradient {
   background: radial-gradient(circle at 50% 50%, #141f38 0%, #060e20 100%);
+}
+
+.hero-gradient-logistics {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 222, 236, 0.15) 0%, rgba(6, 14, 32, 0) 70%);
 }
 
 .hero-gradient-data {

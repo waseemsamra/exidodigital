@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import content from '../data/content.json';
 
 function NavBar() {
   const { links, buttons } = content.navigation;
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
   return (
     <header className="fixed top-0 w-full z-50 bg-[#060e20] shadow-[0_0_40px_rgba(248,241,255,0.04)]">
@@ -10,6 +12,8 @@ function NavBar() {
         <a href="/" className="hover:opacity-80 transition-opacity">
           <img src="/assets/images/exido-logo.png" alt="Exido" className="h-10 w-auto" />
         </a>
+        
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {links.map((link, index) => (
             link.label === 'About' ? (
@@ -64,8 +68,16 @@ function NavBar() {
           >
             Works
           </a>
+          <a
+            href="/industries"
+            className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#8ff5ff] border-b-2 border-[#ac89ff] pb-1"
+          >
+            Industries
+          </a>
         </nav>
-        <div className="flex items-center gap-4">
+
+        {/* Desktop Buttons */}
+        <div className="hidden md:flex items-center gap-4">
           {buttons.map((button, index) => (
             button.variant === 'ghost' ? (
               <button
@@ -85,7 +97,74 @@ function NavBar() {
             )
           ))}
         </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden text-[#dee5ff] p-2"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          <span className="material-symbols-outlined text-2xl">
+            {mobileMenuOpen ? 'close' : 'menu'}
+          </span>
+        </button>
       </div>
+
+      {/* Mobile Menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden bg-[#091328] border-t border-outline-variant/20">
+          <div className="px-8 py-4 space-y-4">
+            {links.map((link, index) => (
+              link.label === 'About' ? (
+                <div key={index}>
+                  <button
+                    className="flex items-center justify-between w-full text-[#a3aac4] font-semibold py-2"
+                    onClick={() => setAboutDropdownOpen(!aboutDropdownOpen)}
+                  >
+                    <span>{link.label}</span>
+                    <span className={`material-symbols-outlined text-sm transition-transform ${aboutDropdownOpen ? 'rotate-180' : ''}`}>expand_more</span>
+                  </button>
+                  {aboutDropdownOpen && (
+                    <div className="pl-4 mt-2 space-y-3 border-l-2 border-outline-variant/20">
+                      <a href="/about" className="block text-[#a3aac4] text-sm py-1">About Us</a>
+                      <a href="/mission-manifesto" className="block text-[#a3aac4] text-sm py-1">Mission & Manifesto</a>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <a
+                  key={index}
+                  href={link.href}
+                  className="block text-[#a3aac4] font-semibold py-2"
+                >
+                  {link.label}
+                </a>
+              )
+            ))}
+            <a href="/works" className="block text-[#a3aac4] font-semibold py-2">Works</a>
+            <a href="/industries" className="block text-[#8ff5ff] font-semibold py-2">Industries</a>
+            <div className="pt-4 border-t border-outline-variant/20 space-y-3">
+              {buttons.map((button, index) => (
+                button.variant === 'ghost' ? (
+                  <button
+                    key={index}
+                    className="w-full text-left text-[#a3aac4] font-semibold py-2"
+                  >
+                    {button.label}
+                  </button>
+                ) : (
+                  <a
+                    key={index}
+                    href={button.href}
+                    className="block w-full text-center px-6 py-3 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-lg font-bold text-sm"
+                  >
+                    {button.label}
+                  </a>
+                )
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

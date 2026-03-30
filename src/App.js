@@ -24,10 +24,22 @@ import TermsOfService from './components/TermsOfService';
 import SecurityAudit from './components/SecurityAudit';
 import APIDocumentation from './components/APIDocumentation';
 import Works from './components/Works';
+import Industries from './components/Industries';
+import Healthcare from './components/Healthcare';
+import FinTech from './components/FinTech';
+import Logistics from './components/Logistics';
+import RealEstate from './components/RealEstate';
 import CaseStudyAutonomousInventory from './components/case-studies/CaseStudyAutonomousInventory';
 import CaseStudyDiagnosticAI from './components/case-studies/CaseStudyDiagnosticAI';
 import CaseStudyPredictiveTrading from './components/case-studies/CaseStudyPredictiveTrading';
 import CaseStudyHeadlessCommerce from './components/case-studies/CaseStudyHeadlessCommerce';
+import CaseStudyShoppingAssistant from './components/case-studies/CaseStudyShoppingAssistant';
+import CaseStudyInventorySync from './components/case-studies/CaseStudyInventorySync';
+import CaseStudyBankingApp from './components/case-studies/CaseStudyBankingApp';
+import CaseStudyPatientMonitoring from './components/case-studies/CaseStudyPatientMonitoring';
+import CaseStudyBiometricSecurity from './components/case-studies/CaseStudyBiometricSecurity';
+import CaseStudyZeroTrustFleet from './components/case-studies/CaseStudyZeroTrustFleet';
+import CaseStudyZeroTrustNetwork from './components/case-studies/CaseStudyZeroTrustNetwork';
 import CaseStudyFleetManagement from './components/case-studies/CaseStudyFleetManagement';
 
 function App() {
@@ -57,10 +69,22 @@ function App() {
         <Route path="/security-audit" element={<SecurityAudit />} />
         <Route path="/api-documentation" element={<APIDocumentation />} />
         <Route path="/works" element={<Works />} />
+        <Route path="/industries" element={<Industries />} />
+        <Route path="/healthcare" element={<Healthcare />} />
+        <Route path="/fintech" element={<FinTech />} />
+        <Route path="/logistics" element={<Logistics />} />
+        <Route path="/realestate" element={<RealEstate />} />
         <Route path="/works/autonomous-inventory" element={<CaseStudyAutonomousInventory />} />
         <Route path="/works/diagnostic-ai" element={<CaseStudyDiagnosticAI />} />
         <Route path="/works/predictive-trading" element={<CaseStudyPredictiveTrading />} />
         <Route path="/works/headless-commerce" element={<CaseStudyHeadlessCommerce />} />
+        <Route path="/works/shopping-assistant" element={<CaseStudyShoppingAssistant />} />
+        <Route path="/works/inventory-sync" element={<CaseStudyInventorySync />} />
+        <Route path="/works/banking-app" element={<CaseStudyBankingApp />} />
+        <Route path="/works/patient-monitoring" element={<CaseStudyPatientMonitoring />} />
+        <Route path="/works/biometric-security" element={<CaseStudyBiometricSecurity />} />
+        <Route path="/works/zero-trust-fleet" element={<CaseStudyZeroTrustFleet />} />
+        <Route path="/works/zero-trust-network" element={<CaseStudyZeroTrustNetwork />} />
         <Route path="/works/fleet-management" element={<CaseStudyFleetManagement />} />
         <Route path="/bi" element={<AIPage />} />
       </Routes>

@@ -15,7 +15,7 @@ function Works() {
       description: 'Self-correcting supply chain intelligence that predicts demand fluctuations with 94% accuracy.',
       color: 'primary',
       slug: 'autonomous-inventory',
-      image: '/assets/images/analytics-dashboard.png'
+      image: '/assets/images/autonomous-retail.avif'
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ function Works() {
       description: 'Neural network-based market analysis processing 50M+ data points per second for alpha generation.',
       color: 'primary',
       slug: 'predictive-trading',
-      image: '/assets/images/neural-network-3d.png'
+      image: '/assets/images/analytics-dashboard.png'
     },
     // Ecommerce Projects (3)
     {
@@ -46,7 +46,7 @@ function Works() {
       description: 'Omnichannel retail experience serving 2M+ customers with sub-100ms page load times globally.',
       color: 'secondary',
       slug: 'headless-commerce',
-      image: '/assets/images/ecommerce-hero.png'
+      image: '/assets/images/ecommerce-card.png'
     },
     {
       id: 5,
@@ -56,7 +56,7 @@ function Works() {
       description: 'AI-driven product recommendations increasing average order value by 47% for enterprise retailers.',
       color: 'secondary',
       slug: 'shopping-assistant',
-      image: '/assets/images/ecommerce-card.png'
+      image: '/assets/images/analytics-dashboard.png'
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ function Works() {
       description: 'Distributed ledger system managing 100K+ SKUs across 500+ physical and digital storefronts.',
       color: 'secondary',
       slug: 'inventory-sync',
-      image: '/assets/images/shopify-mobile.png'
+      image: '/assets/images/ecommerce-hero.png'
     },
     // Mobile Projects (3)
     {
@@ -281,7 +281,36 @@ function Works() {
               </button>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Mobile Horizontal Carousel */}
+          <div className="md:hidden overflow-x-auto pb-8 -mx-8 px-8">
+            <div className="flex gap-6">
+              {filteredProjects.map((project) => (
+                <div key={project.id} className="min-w-[85vw] group bg-surface-container-low rounded-xl overflow-hidden flex flex-col h-full border border-outline-variant/5 hover:border-primary/20 transition-all duration-300">
+                  <div className="aspect-[4/3] overflow-hidden relative">
+                    <img
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      src={project.image}
+                      alt={project.title}
+                    />
+                    <div className={`absolute inset-0 bg-${project.color}/10 opacity-0 group-hover:opacity-100 transition-opacity`}></div>
+                  </div>
+                  <div className="p-6 flex flex-col flex-grow">
+                    <span className={`label-sm uppercase text-${project.color} tracking-widest mb-3`}>{project.label}</span>
+                    <h4 className="font-headline text-lg font-bold mb-3 text-on-surface">{project.title}</h4>
+                    <p className="text-on-surface-variant text-xs leading-relaxed mb-6 flex-grow">
+                      {project.description}
+                    </p>
+                    <a className={`inline-flex items-center gap-2 text-${project.color} text-xs font-bold uppercase tracking-wider group/link`} href={`/works/${project.slug}`}>
+                      View Case Study
+                      <span className="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* Desktop Grid */}
+          <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project) => (
               <div key={project.id} className="group bg-surface-container-low rounded-xl overflow-hidden flex flex-col h-full border border-outline-variant/5 hover:border-primary/20 transition-all duration-300">
                 <div className="aspect-[4/3] overflow-hidden relative">

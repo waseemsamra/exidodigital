@@ -11,10 +11,10 @@ function CaseStudyAutonomousInventory() {
         <section className="relative h-[870px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10"></div>
-            <img 
-              src="/assets/images/logistics-hub.png" 
+            <img
+              src="/assets/images/autonomous-retail.avif"
               alt="Futuristic retail warehouse interior with high-tech shelving, blue holographic data overlays, motion blur of automated robots, and cold cinematic lighting"
-              className="w-full h-full object-cover grayscale-[0.5] contrast-[1.1]" 
+              className="w-full h-full object-cover grayscale-[0.5] contrast-[1.1]"
             />
           </div>
           

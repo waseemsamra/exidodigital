@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../NavBar';
 import Footer from '../Footer';
 
-function CaseStudyHeadlessCommerce() {
+function CaseStudyBiometricSecurity() {
   return (
     <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
       <NavBar />
@@ -12,8 +12,8 @@ function CaseStudyHeadlessCommerce() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10"></div>
             <img 
-              src="/assets/images/shopify-mobile.png" 
-              alt="Luxury ecommerce platform with high-end fashion products, elegant UI design, and seamless shopping experience"
+              src="/assets/images/security-ops.png" 
+              alt="Biometric security system with fingerprint scanner and facial recognition interface for financial services"
               className="w-full h-full object-cover grayscale-[0.5] contrast-[1.1]" 
             />
           </div>
@@ -21,21 +21,21 @@ function CaseStudyHeadlessCommerce() {
           <div className="relative z-20 max-w-7xl mx-auto px-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <span className="inline-block label-sm text-secondary font-bold tracking-[0.3em] uppercase mb-6 drop-shadow-[0_0_4px_#ac89ff]">
-                Phase 02: Active Implementation
+                Phase 04: Active Implementation
               </span>
               <h1 className="font-headline text-6xl font-extrabold tracking-tighter text-on-background leading-tight mb-8">
-                Headless Commerce for <span className="text-primary glow-text">Luxury Brands</span>
+                Biometric Security with <span className="text-primary glow-text">Zero-Trust Architecture</span>
               </h1>
               <p className="text-on-surface-variant text-xl leading-relaxed font-light max-w-xl mb-12">
-                How Exido's headless architecture delivers omnichannel retail experiences serving 2M+ customers with sub-100ms page load times globally.
+                How Exido's multi-layered authentication architecture processes 10K+ transactions per second with military-grade encryption for FinTech security.
               </p>
               <div className="flex items-center space-x-8">
                 <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_25px_#8ff5ff] transition-all duration-300 rounded-lg">
                   Read Full Report
                 </button>
                 <div className="flex flex-col">
-                  <span className="text-primary font-bold font-headline text-2xl">2M+</span>
-                  <span className="text-on-surface-variant text-[10px] uppercase tracking-widest">Customers Served</span>
+                  <span className="text-primary font-bold font-headline text-2xl">10K+</span>
+                  <span className="text-on-surface-variant text-[10px] uppercase tracking-widest">Transactions/Sec</span>
                 </div>
               </div>
             </div>
@@ -48,29 +48,29 @@ function CaseStudyHeadlessCommerce() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div className="md:col-span-2 glass-panel p-10 rounded-xl relative overflow-hidden group">
                 <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
-                  <span className="material-symbols-outlined text-8xl text-secondary">shopping_bag</span>
+                  <span className="material-symbols-outlined text-8xl text-secondary">fingerprint</span>
                 </div>
-                <span className="text-secondary font-headline text-6xl font-black mb-2 block">67%</span>
-                <h3 className="text-on-background font-headline text-xl font-bold mb-4">Conversion Increase</h3>
-                <p className="text-on-surface-variant text-sm leading-relaxed">Improved checkout flow and personalized product discovery driving higher cart completion.</p>
+                <span className="text-secondary font-headline text-6xl font-black mb-2 block">99.97%</span>
+                <h3 className="text-on-background font-headline text-xl font-bold mb-4">Fraud Prevention</h3>
+                <p className="text-on-surface-variant text-sm leading-relaxed">Multi-modal biometric verification eliminating account takeover and synthetic identity fraud.</p>
               </div>
               
               <div className="glass-panel p-10 rounded-xl border-l-4 border-primary">
-                <span className="text-primary font-headline text-4xl font-black mb-2 block">&lt;100ms</span>
-                <h3 className="text-on-background font-headline text-lg font-bold mb-2">Page Load Time</h3>
-                <p className="text-on-surface-variant text-xs uppercase tracking-widest">Global Performance</p>
+                <span className="text-primary font-headline text-4xl font-black mb-2 block">&lt;50ms</span>
+                <h3 className="text-on-background font-headline text-lg font-bold mb-2">Auth Latency</h3>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest">Real-Time Verification</p>
               </div>
 
               <div className="glass-panel p-10 rounded-xl">
-                <span className="text-secondary font-headline text-4xl font-black mb-2 block">90%</span>
-                <h3 className="text-on-background font-headline text-lg font-bold mb-2">Faster Campaigns</h3>
-                <p className="text-on-surface-variant text-xs uppercase tracking-widest">Time to Market</p>
+                <span className="text-secondary font-headline text-4xl font-black mb-2 block">0</span>
+                <h3 className="text-on-background font-headline text-lg font-bold mb-2">Data Breaches</h3>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest">Perfect Security Record</p>
               </div>
 
               <div className="md:col-span-4 glass-panel p-8 flex justify-between items-center rounded-xl bg-surface-container-high/40">
                 <div className="flex items-center space-x-4">
                   <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>verified</span>
-                  <span className="font-headline font-bold uppercase tracking-widest text-sm">Data Integrity Protocol: 100% Verified across Commerce Mesh</span>
+                  <span className="font-headline font-bold uppercase tracking-widest text-sm">Data Integrity Protocol: 100% Verified across Security Mesh</span>
                 </div>
                 <div className="h-px flex-grow mx-12 bg-outline-variant/20"></div>
                 <div className="flex space-x-2">
@@ -89,31 +89,31 @@ function CaseStudyHeadlessCommerce() {
             <div className="lg:col-span-5">
               <div className="mb-16">
                 <span className="text-secondary label-md uppercase font-bold tracking-widest mb-4 block">01. The Challenge</span>
-                <h2 className="font-headline text-4xl font-extrabold text-on-background mb-8 tracking-tight">The Monolith Problem</h2>
+                <h2 className="font-headline text-4xl font-extrabold text-on-background mb-8 tracking-tight">The Authentication Crisis</h2>
                 <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                  A luxury fashion conglomerate with 15+ brands struggled with monolithic ecommerce platforms that couldn't deliver personalized experiences across markets. Their legacy system required weeks to launch new campaigns and couldn't handle flash sale traffic spikes.
+                  A leading FinTech platform faced escalating credential stuffing attacks and synthetic identity fraud. Traditional password-based authentication was vulnerable to breaches, while SMS 2FA suffered from SIM swapping attacks. They needed enterprise-grade security without sacrificing user experience.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start space-x-3 text-on-surface-variant">
                     <span className="material-symbols-outlined text-error text-sm mt-1">close</span>
-                    <span>6-week average campaign launch time</span>
+                    <span>Rising account takeover attempts via credential stuffing</span>
                   </li>
                   <li className="flex items-start space-x-3 text-on-surface-variant">
                     <span className="material-symbols-outlined text-error text-sm mt-1">close</span>
-                    <span>Site crashes during peak traffic events</span>
+                    <span>SIM swapping attacks bypassing SMS 2FA</span>
                   </li>
                   <li className="flex items-start space-x-3 text-on-surface-variant">
                     <span className="material-symbols-outlined text-error text-sm mt-1">close</span>
-                    <span>Inconsistent brand experiences across channels</span>
+                    <span>Friction causing user drop-off during onboarding</span>
                   </li>
                 </ul>
               </div>
 
               <div>
                 <span className="text-primary label-md uppercase font-bold tracking-widest mb-4 block">02. The Solution</span>
-                <h2 className="font-headline text-4xl font-extrabold text-on-background mb-8 tracking-tight">Headless Architecture</h2>
+                <h2 className="font-headline text-4xl font-extrabold text-on-background mb-8 tracking-tight">Biometric Security Kernel</h2>
                 <p className="text-on-surface-variant text-lg leading-relaxed">
-                  We implemented a proprietary <span className="text-on-background font-semibold">API-First Commerce Platform</span> with distributed edge CDN ensuring sub-100ms response times worldwide and independent frontend scaling for each brand.
+                  We deployed a proprietary <span className="text-on-background font-semibold">Multi-Layered Biometric Authentication Platform</span> combining device fingerprinting, behavioral biometrics, and cryptographic key management for passwordless security at scale.
                 </p>
               </div>
             </div>
@@ -121,21 +121,21 @@ function CaseStudyHeadlessCommerce() {
             <div className="lg:col-span-7 flex flex-col space-y-8">
               <div className="glass-panel p-1 rounded-2xl">
                 <img 
-                  src="/assets/images/ecommerce-hero.png" 
-                  alt="Headless commerce architecture visualization showing API connections between frontend and backend systems"
+                  src="/assets/images/security-ops.png" 
+                  alt="Biometric authentication architecture showing multi-factor verification layers and threat detection"
                   className="w-full h-80 object-cover rounded-xl" 
                 />
               </div>
               <div className="grid grid-cols-2 gap-8">
                 <div className="p-8 bg-surface-container-low rounded-xl">
-                  <span className="material-symbols-outlined text-secondary mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>api</span>
-                  <h4 className="font-headline font-bold text-on-background mb-2">API-First Architecture</h4>
-                  <p className="text-on-surface-variant text-xs">Decoupled frontend and backend enabling independent scaling, rapid iteration, and seamless third-party integrations.</p>
+                  <span className="material-symbols-outlined text-secondary mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>security</span>
+                  <h4 className="font-headline font-bold text-on-background mb-2">Zero-Trust Framework</h4>
+                  <p className="text-on-surface-variant text-xs">Continuous verification with device attestation, location analysis, and behavioral patterns for every transaction.</p>
                 </div>
                 <div className="p-8 bg-surface-container-low rounded-xl">
-                  <span className="material-symbols-outlined text-primary mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>cloud</span>
-                  <h4 className="font-headline font-bold text-on-background mb-2">Global Edge CDN</h4>
-                  <p className="text-on-surface-variant text-xs">Distributed content delivery across 200+ edge locations ensuring sub-100ms response times worldwide.</p>
+                  <span className="material-symbols-outlined text-primary mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>encryption</span>
+                  <h4 className="font-headline font-bold text-on-background mb-2">Military-Grade Encryption</h4>
+                  <p className="text-on-surface-variant text-xs">AES-256 encryption with hardware-backed key storage in secure enclaves preventing credential extraction.</p>
                 </div>
               </div>
             </div>
@@ -152,26 +152,26 @@ function CaseStudyHeadlessCommerce() {
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="text-center group">
               <div className="w-20 h-20 mx-auto bg-surface-container-highest rounded-full flex items-center justify-center mb-8 border border-outline-variant/20 group-hover:border-secondary transition-colors duration-500">
-                <span className="material-symbols-outlined text-3xl text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>api</span>
+                <span className="material-symbols-outlined text-3xl text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>fingerprint</span>
               </div>
-              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Headless Commerce</h3>
-              <p className="text-on-surface-variant text-sm leading-relaxed px-4">Decoupled frontend and backend enabling rapid iteration and independent scaling across brands.</p>
+              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Multi-Modal Biometrics</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed px-4">Face recognition, fingerprint, and voice authentication with liveness detection preventing spoofing.</p>
             </div>
 
             <div className="text-center group">
               <div className="w-20 h-20 mx-auto bg-surface-container-highest rounded-full flex items-center justify-center mb-8 border border-outline-variant/20 group-hover:border-primary transition-colors duration-500">
-                <span className="material-symbols-outlined text-3xl text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>cloud</span>
+                <span className="material-symbols-outlined text-3xl text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>psychology</span>
               </div>
-              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Edge CDN</h3>
-              <p className="text-on-surface-variant text-sm leading-relaxed px-4">200+ edge locations worldwide delivering sub-100ms page loads for global customers.</p>
+              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Behavioral Analytics</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed px-4">ML models analyzing typing patterns, device handling, and navigation behavior for continuous auth.</p>
             </div>
 
             <div className="text-center group">
               <div className="w-20 h-20 mx-auto bg-surface-container-highest rounded-full flex items-center justify-center mb-8 border border-outline-variant/20 group-hover:border-secondary transition-colors duration-500">
-                <span className="material-symbols-outlined text-3xl text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>tune</span>
+                <span className="material-symbols-outlined text-3xl text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>key</span>
               </div>
-              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Personalization Engine</h3>
-              <p className="text-on-surface-variant text-sm leading-relaxed px-4">AI-driven product recommendations and dynamic content adapting to individual preferences.</p>
+              <h3 className="font-headline font-bold text-xl mb-4 text-on-background">Hardware Key Management</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed px-4">Secure enclave storage with hardware-backed cryptographic keys preventing credential theft.</p>
             </div>
           </div>
         </section>
@@ -182,18 +182,18 @@ function CaseStudyHeadlessCommerce() {
           <div className="max-w-5xl mx-auto relative z-10 text-center">
             <span className="material-symbols-outlined text-6xl text-secondary mb-12 opacity-40">format_quote</span>
             <blockquote className="font-headline text-4xl md:text-5xl font-bold text-on-background leading-tight mb-12 tracking-tight">
-              "Exido's headless platform transformed our digital commerce. We now launch campaigns in days instead of weeks, and our conversion rates have never been higher."
+              "The biometric security kernel eliminated our fraud problem while improving user experience. Our customers love the seamless passwordless login, and our fraud losses dropped 94%."
             </blockquote>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 rounded-full bg-surface-container-high border border-outline-variant mb-4 overflow-hidden">
                 <img 
-                  src="/assets/images/design-julian.png" 
-                  alt="Professional portrait of luxury retail executive"
+                  src="/assets/images/cto-elena.png" 
+                  alt="Professional portrait of FinTech security executive"
                   className="w-full h-full object-cover" 
                 />
               </div>
-              <p className="font-headline font-bold text-on-background text-lg uppercase tracking-wider">Chief Digital Officer</p>
-              <p className="text-on-surface-variant text-xs uppercase tracking-[0.2em] mt-1">Luxury Fashion Conglomerate</p>
+              <p className="font-headline font-bold text-on-background text-lg uppercase tracking-wider">Chief Security Officer</p>
+              <p className="text-on-surface-variant text-xs uppercase tracking-[0.2em] mt-1">Leading FinTech Platform</p>
             </div>
           </div>
         </section>
@@ -202,8 +202,8 @@ function CaseStudyHeadlessCommerce() {
         <section className="py-24 px-12">
           <div className="max-w-7xl mx-auto bg-surface-bright/40 rounded-2xl p-20 text-center border border-outline-variant/10 backdrop-blur-xl relative overflow-hidden group">
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary/10 rounded-full blur-3xl group-hover:bg-secondary/20 transition-all duration-700"></div>
-            <h2 className="font-headline text-5xl font-black text-on-background mb-8 tracking-tighter">Reimagine Your Commerce Platform.</h2>
-            <p className="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto">Discover how headless architecture can accelerate your digital transformation.</p>
+            <h2 className="font-headline text-5xl font-black text-on-background mb-8 tracking-tighter">Secure Your Financial Platform.</h2>
+            <p className="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto">Discover how biometric authentication can eliminate fraud while improving user experience.</p>
             <a href="/contact" className="hero-gradient text-on-primary px-12 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_30px_#8ff5ff] transition-all duration-300 rounded-lg inline-block">
               Schedule a consultation
             </a>
@@ -215,4 +215,4 @@ function CaseStudyHeadlessCommerce() {
   );
 }
 
-export default CaseStudyHeadlessCommerce;
+export default CaseStudyBiometricSecurity;
