@@ -29,15 +29,15 @@ function ServicesPage() {
     <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
       <main className="pt-32">
         {/* Hero Section */}
-        <section className="max-w-[1440px] mx-auto px-12 mb-32 grid md:grid-cols-2 gap-16 items-center">
+        <section className="max-w-[1440px] mx-auto px-6 md:px-12 mb-32 grid md:grid-cols-2 gap-16 items-center">
           <div className="z-10">
             <span className="font-label text-xs font-bold uppercase tracking-[0.4em] text-secondary mb-6 block">
               {badge}
             </span>
-            <h1 className="font-headline text-7xl font-extrabold tracking-tighter text-on-surface mb-8 leading-[0.95]">
+            <h1 className="font-headline text-4xl md:text-7xl font-extrabold tracking-tighter text-on-surface mb-8 leading-[0.95]">
               {title.line1} <br/><span className="text-primary italic">{title.line2}</span>
             </h1>
-            <p className="text-on-surface-variant text-xl leading-relaxed max-w-xl mb-10">
+            <p className="text-on-surface-variant text-lg md:text-xl leading-relaxed max-w-xl mb-10">
               {description}
             </p>
             <div className="flex items-center gap-6">
@@ -72,10 +72,10 @@ function ServicesPage() {
         </section>
 
         {/* Service Bento Grid */}
-        <section className="max-w-[1440px] mx-auto px-12 mb-40" id="services">
+        <section className="max-w-[1440px] mx-auto px-6 md:px-12 mb-40" id="services">
           <div className="flex justify-between items-end mb-16">
             <div>
-              <h2 className="font-headline text-4xl font-bold tracking-tight mb-4">{servicesTitle}</h2>
+              <h2 className="font-headline text-3xl md:text-4xl font-bold tracking-tight mb-4">{servicesTitle}</h2>
               <div className="w-24 h-1 bg-secondary rounded-full"></div>
             </div>
             <p className="text-on-surface-variant max-w-xs text-sm italic">{servicesDesc}</p>
@@ -194,14 +194,14 @@ function ServicesPage() {
             {servicesItems.filter(s => ['ecommerce-card', 'mobile-app-dev', 'data-warehousing', 'hosting'].includes(s.id)).map((service, index) => (
               <div
                 key={index}
-                className="bg-surface-container-low p-10 rounded-xl relative overflow-hidden group border border-outline-variant/10"
+                className="bg-surface-container-low p-6 md:p-10 rounded-xl relative overflow-hidden group border border-outline-variant/10"
               >
                 <div className="relative z-10 flex flex-col h-full justify-between">
                   <div>
                     <span className={`material-symbols-outlined text-4xl ${getColorClass(service.color)} mb-6`}>
                       {service.icon}
                     </span>
-                    <h3 className="font-headline text-3xl font-bold mb-4">{service.title}</h3>
+                    <h3 className="font-headline text-2xl md:text-3xl font-bold mb-4">{service.title}</h3>
                     <p className="text-on-surface-variant text-lg max-w-md leading-relaxed">{service.description}</p>
                   </div>
                   <Link
@@ -221,10 +221,10 @@ function ServicesPage() {
 
         {/* Global Impact Stats */}
         <section className="bg-surface-container-low py-32 mb-40 border-y border-outline-variant/10">
-          <div className="max-w-[1440px] mx-auto px-12 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+          <div className="max-w-[1440px] mx-auto px-6 md:px-12 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
             {stats.map((stat, index) => (
               <div key={index}>
-                <div className="font-headline text-6xl font-black text-primary mb-2">
+                <div className="font-headline text-4xl md:text-6xl font-black text-primary mb-2">
                   {stat.value}
                 </div>
                 <div className="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant">
@@ -236,12 +236,12 @@ function ServicesPage() {
         </section>
 
         {/* Final CTA Section */}
-        <section className="max-w-[1440px] mx-auto px-12 mb-20 relative">
-          <div className="bg-surface-bright/40 glass-blur-md p-20 rounded-xl border border-outline-variant/20 text-center relative overflow-hidden">
+        <section className="max-w-[1440px] mx-auto px-6 md:px-12 mb-20 relative">
+          <div className="bg-surface-bright/40 glass-blur-md p-8 md:p-20 rounded-xl border border-outline-variant/20 text-center relative overflow-hidden">
             <div className="absolute -top-24 -left-24 w-96 h-96 bg-primary/10 rounded-full blur-[100px]"></div>
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary/10 rounded-full blur-[100px]"></div>
-            <h2 className="font-headline text-5xl font-extrabold mb-8 tracking-tighter">{ctaTitle}</h2>
-            <p className="text-on-surface-variant text-xl max-w-2xl mx-auto mb-12">{ctaDesc}</p>
+            <h2 className="font-headline text-3xl md:text-5xl font-extrabold mb-8 tracking-tighter">{ctaTitle}</h2>
+            <p className="text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto mb-12">{ctaDesc}</p>
             <div className="flex flex-col md:flex-row gap-6 justify-center">
               {ctaButtons.map((button, index) => (
                 <button
