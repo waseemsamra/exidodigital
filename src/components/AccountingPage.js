@@ -1,7 +1,5 @@
 import React from 'react';
 import accountingContent from '../data/accounting-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function AccountingPage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = accountingContent.hero;
@@ -37,9 +35,7 @@ function AccountingPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface selection:bg-primary selection:text-on-primary">
-      <NavBar links={accountingContent.navigation.links} buttons={accountingContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="bg-surface text-on-surface selection:bg-primary selection:text-on-primary">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[870px] flex items-center px-8 md:px-24 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -289,14 +285,7 @@ function AccountingPage() {
             </button>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: accountingContent.footer.company.name, description: accountingContent.footer.company.description }}
-        columns={accountingContent.footer.columns}
-        copyright={accountingContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

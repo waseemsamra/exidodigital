@@ -1,13 +1,9 @@
 import React from 'react';
-import NavBar from '../NavBar';
-import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
 function ObsidianLayerBlog() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[500px] flex items-center overflow-hidden px-8 md:px-20 py-24 bg-surface-container-low">
           <div className="max-w-4xl mx-auto text-center">
@@ -325,9 +321,7 @@ function ObsidianLayerBlog() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

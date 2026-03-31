@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function PartnerEcosystem() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed">
-      <NavBar />
-      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[500px] flex items-center px-8 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0 opacity-20">
@@ -159,9 +155,7 @@ function PartnerEcosystem() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

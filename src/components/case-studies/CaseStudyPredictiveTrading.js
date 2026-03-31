@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from '../NavBar';
-import Footer from '../Footer';
 
 function CaseStudyPredictiveTrading() {
   return (
-    <div className="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative h-[870px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -209,9 +205,7 @@ function CaseStudyPredictiveTrading() {
             </button>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

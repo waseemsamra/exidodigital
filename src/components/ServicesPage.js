@@ -1,13 +1,11 @@
 import React from 'react';
 import servicesContent from '../data/services-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 function ServicesPage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = servicesContent.hero;
   const { title: servicesTitle, description: servicesDesc, items: servicesItems } = servicesContent.services;
-  
+
   const { stats } = servicesContent;
   const { title: ctaTitle, description: ctaDesc, buttons: ctaButtons } = servicesContent.cta;
 
@@ -29,7 +27,6 @@ function ServicesPage() {
 
   return (
     <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
-      <NavBar links={servicesContent.navigation.links} buttons={servicesContent.navigation.buttons} />
       <main className="pt-32">
         {/* Hero Section */}
         <section className="max-w-[1440px] mx-auto px-12 mb-32 grid md:grid-cols-2 gap-16 items-center">
@@ -262,12 +259,6 @@ function ServicesPage() {
           </div>
         </section>
       </main>
-      <Footer
-        company={{ name: servicesContent.footer.company.name, description: servicesContent.footer.company.description }}
-        columns={servicesContent.footer.columns}
-        copyright={servicesContent.footer.copyright}
-        socialIcons={[]}
-      />
     </div>
   )
 }

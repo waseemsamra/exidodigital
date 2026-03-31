@@ -1,7 +1,5 @@
 import React from 'react';
 import networkContent from '../data/network-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 function NetworkPage() {
@@ -32,9 +30,7 @@ function NetworkPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
-      <NavBar links={networkContent.navigation.links} buttons={networkContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center justify-center px-6 hero-gradient overflow-hidden">
           <div className="absolute inset-0 opacity-20 pointer-events-none">
@@ -231,14 +227,7 @@ function NetworkPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: networkContent.footer.company.name, description: networkContent.footer.company.description }}
-        columns={networkContent.footer.columns}
-        copyright={networkContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

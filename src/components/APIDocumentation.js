@@ -1,6 +1,4 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function APIDocumentation() {
   const [activeTab, setActiveTab] = React.useState('curl');
@@ -83,9 +81,7 @@ func main() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">
-      <NavBar />
-      <main className="pt-24 px-8 py-12 lg:py-20 max-w-[1440px] mx-auto">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-24 px-8 py-12 lg:py-20 max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           {/* Documentation Text */}
           <div className="lg:col-span-7">
@@ -221,10 +217,7 @@ func main() {
             </div>
           </div>
         </div>
-      </main>
-      <Footer />
-      
-      {/* Ambient Glow Elements */}
+      </main>      {/* Ambient Glow Elements */}
       <div className="fixed bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/5 blur-[120px] rounded-full pointer-events-none z-0"></div>
       <div className="fixed top-[20%] right-[-5%] w-[30%] h-[30%] bg-secondary/5 blur-[100px] rounded-full pointer-events-none z-0"></div>
     </div>

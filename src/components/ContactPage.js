@@ -1,7 +1,5 @@
 import React from 'react';
 import contactContent from '../data/contact-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function ContactPage() {
   const { badge, title, description, steps } = contactContent.hero;
@@ -30,9 +28,7 @@ function ContactPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-secondary/30">
-      <NavBar links={contactContent.navigation.links} buttons={contactContent.navigation.buttons} />
-      <main className="pt-24 pb-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-secondary/30">      <main className="pt-24 pb-20">
         {/* Hero Section */}
         <section className="relative px-8 py-20 max-w-screen-2xl mx-auto overflow-hidden">
           <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
@@ -187,14 +183,7 @@ function ContactPage() {
             ))}
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: contactContent.footer.company.name, description: contactContent.footer.company.description }}
-        columns={contactContent.footer.columns}
-        copyright={contactContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

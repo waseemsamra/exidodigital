@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from '../NavBar';
-import Footer from '../Footer';
 
 function CaseStudyFleetManagement() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
-      <NavBar />
-      <main className="pt-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-24">
         <section className="px-8 py-20 max-w-[1440px] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -107,9 +103,7 @@ function CaseStudyFleetManagement() {
             <a href="/contact" className="inline-block bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-4 rounded-lg font-bold hover:shadow-[0_0_20px_rgba(143,245,255,0.4)] transition-all">Schedule a Consultation</a>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

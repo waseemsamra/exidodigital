@@ -1,7 +1,5 @@
 import React from 'react';
 import datawarehousingContent from '../data/datawarehousing-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function DataWarehousingPage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = datawarehousingContent.hero;
@@ -31,9 +29,7 @@ function DataWarehousingPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">
-      <NavBar links={datawarehousingContent.navigation.links} buttons={datawarehousingContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[870px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -254,14 +250,7 @@ function DataWarehousingPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: datawarehousingContent.footer.company.name, description: datawarehousingContent.footer.company.description }}
-        columns={datawarehousingContent.footer.columns}
-        copyright={datawarehousingContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

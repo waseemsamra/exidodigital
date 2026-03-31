@@ -1,13 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function AllArticles() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
         {/* Hero Section: The Intelligence Stream */}
         <section className="relative h-[716px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -281,9 +277,7 @@ function AllArticles() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

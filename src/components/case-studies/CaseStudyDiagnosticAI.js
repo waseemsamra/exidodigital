@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from '../NavBar';
-import Footer from '../Footer';
 
 function CaseStudyDiagnosticAI() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
-      <NavBar />
-      <main>
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main>
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex flex-col justify-center px-8 md:px-24 hero-gradient overflow-hidden">
           <div className="absolute inset-0 opacity-20 pointer-events-none">
@@ -151,9 +147,7 @@ function CaseStudyDiagnosticAI() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

@@ -1,7 +1,5 @@
 import React from 'react';
 import marketingContent from '../data/marketing-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function MarketingPage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = marketingContent.hero;
@@ -31,9 +29,7 @@ function MarketingPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
-      <NavBar links={marketingContent.navigation.links} buttons={marketingContent.navigation.buttons} />
-      <main>
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main>
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0">
@@ -211,14 +207,7 @@ function MarketingPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: marketingContent.footer.company.name, description: marketingContent.footer.company.description }}
-        columns={marketingContent.footer.columns}
-        copyright={marketingContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

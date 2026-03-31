@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function Contact() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[614px] flex flex-col justify-center items-center pt-24 pb-12 overflow-hidden bg-mesh-hero">
           <div 
@@ -225,9 +221,7 @@ function Contact() {
           <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 border border-outline-variant/10 rounded-full"></div>
           <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 border border-outline-variant/10 rounded-full"></div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

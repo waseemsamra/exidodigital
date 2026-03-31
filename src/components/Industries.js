@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function Industries() {
   return (
-    <div className="font-body text-on-surface selection:bg-primary/30 selection:text-primary bg-background">
-      <NavBar />
-      <main className="pt-24">
+    <div className="font-body text-on-surface selection:bg-primary/30 selection:text-primary bg-background">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[716px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -192,9 +188,7 @@ function Industries() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

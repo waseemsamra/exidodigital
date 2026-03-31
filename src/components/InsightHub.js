@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function InsightHub() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed">
-      <NavBar />
-      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative px-8 py-20 max-w-[1440px] mx-auto">
           <div className="text-center mb-16">
@@ -153,9 +149,7 @@ function InsightHub() {
             </form>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

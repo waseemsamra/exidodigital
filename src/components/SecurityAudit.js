@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function SecurityAudit() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
-      <NavBar />
-      <main className="pt-32 pb-20 px-6 md:px-12 max-w-[1440px] mx-auto">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-32 pb-20 px-6 md:px-12 max-w-[1440px] mx-auto">
         {/* Header Section */}
         <header className="mb-16 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8">
           <div className="max-w-3xl">
@@ -200,9 +196,7 @@ function SecurityAudit() {
             ))}
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

@@ -1,13 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function NewsPress() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[716px] flex flex-col items-center justify-center overflow-hidden border-b border-outline-variant/10">
           <div className="absolute inset-0 z-0 hero-gradient"></div>
@@ -241,9 +237,7 @@ function NewsPress() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

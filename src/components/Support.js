@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function Support() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[716px] flex items-center overflow-hidden px-12">
           <div className="absolute inset-0 z-0">
@@ -252,9 +248,7 @@ function Support() {
             </form>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

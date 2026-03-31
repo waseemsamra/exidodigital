@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function Travel() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30">
-      <NavBar />
-      <main>
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30">      <main>
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0">
@@ -220,9 +216,7 @@ function Travel() {
             <p className="text-on-surface-variant font-mono text-xs opacity-50 uppercase tracking-[0.3em]">Protocol // exido-x-travel</p>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

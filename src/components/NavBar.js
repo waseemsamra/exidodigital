@@ -1,25 +1,26 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import content from '../data/content.json';
 
-function NavBar() {
+const NavBar = React.memo(function NavBar() {
   const { links, buttons } = content.navigation;
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-[#060e20] shadow-[0_0_40px_rgba(248,241,255,0.04)]">
-      <div className="flex items-center justify-between px-8 py-4 w-full bg-[#091328]">
+    <header className="fixed top-0 w-full z-50 bg-white shadow-lg">
+      <div className="flex items-center justify-between px-8 py-4 w-full bg-white">
         <a href="/" className="hover:opacity-80 transition-opacity">
           <img src="/assets/images/exido-logo.png" alt="Exido" className="h-10 w-auto" />
         </a>
-        
+
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {links.map((link, index) => (
             link.label === 'About' ? (
               <div key={index} className="relative group">
                 <a
-                  className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#a3aac4] hover:text-[#dee5ff] flex items-center gap-1 cursor-pointer"
+                  className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-gray-600 hover:text-[#060e20] flex items-center gap-1 cursor-pointer"
                   href={link.href}
                 >
                   {link.label}
@@ -49,37 +50,57 @@ function NavBar() {
                 </div>
               </div>
             ) : (
-              <a
+              <NavLink
                 key={index}
-                className={`font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors ${
-                  link.active
-                    ? 'text-[#8ff5ff] border-b-2 border-[#8ff5ff] pb-1'
-                    : 'text-[#a3aac4] hover:text-[#dee5ff]'
-                }`}
-                href={link.href}
+                to={link.href}
+                className={({ isActive }) => 
+                  `font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors ${
+                    isActive
+                      ? 'text-[#060e20] border-b-2 border-[#060e20] pb-1'
+                      : 'text-gray-600 hover:text-[#060e20]'
+                  }`
+                }
               >
                 {link.label}
-              </a>
+              </NavLink>
             )
           ))}
-          <a
-            href="/platform"
-            className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#a3aac4] hover:text-[#dee5ff]"
+          <NavLink
+            to="/platform"
+            className={({ isActive }) => 
+              `font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors ${
+                isActive
+                  ? 'text-[#060e20] border-b-2 border-[#060e20] pb-1'
+                  : 'text-gray-600 hover:text-[#060e20]'
+              }`
+            }
           >
             Platform
-          </a>
-          <a
-            href="/industries"
-            className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#a3aac4] hover:text-[#dee5ff]"
+          </NavLink>
+          <NavLink
+            to="/industries"
+            className={({ isActive }) => 
+              `font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors ${
+                isActive
+                  ? 'text-[#060e20] border-b-2 border-[#060e20] pb-1'
+                  : 'text-gray-600 hover:text-[#060e20]'
+              }`
+            }
           >
             Industries
-          </a>
-          <a
-            href="/contact"
-            className="font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors text-[#8ff5ff] border-b-2 border-[#ac89ff] pb-1"
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => 
+              `font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold transition-colors ${
+                isActive
+                  ? 'text-[#060e20] border-b-2 border-[#060e20] pb-1'
+                  : 'text-gray-600 hover:text-[#060e20]'
+              }`
+            }
           >
             Contact
-          </a>
+          </NavLink>
         </nav>
 
         {/* Desktop Buttons */}
@@ -89,7 +110,7 @@ function NavBar() {
               <a
                 key={index}
                 href={button.href}
-                className="px-5 py-2 text-sm font-semibold transition-all text-[#a3aac4] hover:text-[#dee5ff]"
+                className="px-5 py-2 text-sm font-semibold transition-all text-gray-600 hover:text-[#060e20]"
               >
                 {button.label}
               </a>
@@ -97,7 +118,7 @@ function NavBar() {
               <a
                 key={index}
                 href={button.href}
-                className="px-6 py-2 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-lg font-bold text-sm hover:shadow-[0_0_15px_rgba(143,245,255,0.3)] transition-all duration-300 transform active:scale-95"
+                className="px-6 py-2 bg-[#060e20] text-white rounded-lg font-bold text-sm hover:opacity-90 transition-all duration-300 transform active:scale-95"
               >
                 {button.label}
               </a>
@@ -107,7 +128,7 @@ function NavBar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-[#dee5ff] p-2"
+          className="md:hidden text-gray-700 p-2"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           <span className="material-symbols-outlined text-2xl">
@@ -118,22 +139,22 @@ function NavBar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#091328] border-t border-outline-variant/20">
+        <div className="md:hidden bg-white border-t border-outline-variant/20">
           <div className="px-8 py-4 space-y-4">
             {links.map((link, index) => (
               link.label === 'About' ? (
                 <div key={index}>
                   <button
-                    className="flex items-center justify-between w-full text-[#a3aac4] font-semibold py-2"
+                    className="flex items-center justify-between w-full text-gray-600 font-semibold py-2"
                     onClick={() => setAboutDropdownOpen(!aboutDropdownOpen)}
                   >
                     <span>{link.label}</span>
                     <span className={`material-symbols-outlined text-sm transition-transform ${aboutDropdownOpen ? 'rotate-180' : ''}`}>expand_more</span>
                   </button>
                   {aboutDropdownOpen && (
-                    <div className="pl-4 mt-2 space-y-3 border-l-2 border-outline-variant/20">
-                      <a href="/about" className="block text-[#a3aac4] text-sm py-1">About Us</a>
-                      <a href="/mission-manifesto" className="block text-[#a3aac4] text-sm py-1">Mission & Manifesto</a>
+                    <div className="pl-4 mt-2 space-y-3 border-l-2 border-gray-200">
+                      <a href="/about" className="block text-gray-600 hover:text-[#060e20] text-sm py-1">About Us</a>
+                      <a href="/mission-manifesto" className="block text-gray-600 hover:text-[#060e20] text-sm py-1">Mission & Manifesto</a>
                     </div>
                   )}
                 </div>
@@ -141,23 +162,23 @@ function NavBar() {
                 <a
                   key={index}
                   href={link.href}
-                  className="block text-[#a3aac4] font-semibold py-2"
+                  className="block text-gray-600 hover:text-[#060e20] font-semibold py-2"
                 >
                   {link.label}
                 </a>
               )
             ))}
-            <a href="/platform" className="block text-[#8ff5ff] font-semibold py-2">Platform</a>
-            <a href="/works" className="block text-[#a3aac4] font-semibold py-2">Works</a>
-            <a href="/industries" className="block text-[#a3aac4] font-semibold py-2">Industries</a>
-            <a href="/contact" className="block text-[#8ff5ff] font-semibold py-2">Contact</a>
-            <div className="pt-4 border-t border-outline-variant/20 space-y-3">
+            <NavLink to="/platform" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Platform</NavLink>
+            <NavLink to="/works" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Works</NavLink>
+            <NavLink to="/industries" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Industries</NavLink>
+            <NavLink to="/contact" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Contact</NavLink>
+            <div className="pt-4 border-t border-gray-200 space-y-3">
               {buttons.map((button, index) => (
                 button.variant === 'ghost' ? (
                   <a
                     key={index}
                     href={button.href}
-                    className="block w-full text-left text-[#a3aac4] font-semibold py-2"
+                    className="block w-full text-left text-gray-600 hover:text-[#060e20] font-semibold py-2"
                   >
                     {button.label}
                   </a>
@@ -165,7 +186,7 @@ function NavBar() {
                   <a
                     key={index}
                     href={button.href}
-                    className="block w-full text-center px-6 py-3 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-lg font-bold text-sm"
+                    className="block w-full text-center px-6 py-3 bg-[#060e20] text-white rounded-lg font-bold text-sm"
                   >
                     {button.label}
                   </a>
@@ -177,6 +198,6 @@ function NavBar() {
       )}
     </header>
   );
-}
+});
 
 export default NavBar;

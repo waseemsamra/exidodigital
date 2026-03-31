@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function FinTech() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-20">
         {/* Hero Section */}
         <header className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0 opacity-40">
@@ -223,9 +219,7 @@ function FinTech() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

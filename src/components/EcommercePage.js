@@ -1,7 +1,5 @@
 import React from 'react';
 import ecommerceContent from '../data/ecommerce-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function EcommercePage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = ecommerceContent.hero;
@@ -13,9 +11,7 @@ function EcommercePage() {
 
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-secondary/30">
-      <NavBar links={ecommerceContent.navigation.links} buttons={ecommerceContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-secondary/30">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center justify-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -190,14 +186,7 @@ function EcommercePage() {
             </button>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: ecommerceContent.footer.company.name, description: ecommerceContent.footer.company.description }}
-        columns={ecommerceContent.footer.columns}
-        copyright={ecommerceContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

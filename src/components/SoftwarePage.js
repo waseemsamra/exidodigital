@@ -1,7 +1,5 @@
 import React from 'react';
 import softwareContent from '../data/software-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function SoftwarePage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = softwareContent.hero;
@@ -12,9 +10,7 @@ function SoftwarePage() {
   const { title: ctaTitle, description: ctaDesc, buttonLabel: ctaButtonLabel } = softwareContent.cta;
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
-      <NavBar links={softwareContent.navigation.links} buttons={softwareContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative px-8 py-24 md:py-32 max-w-[1440px] mx-auto overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -242,14 +238,7 @@ function SoftwarePage() {
             </button>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: softwareContent.footer.company.name, description: softwareContent.footer.company.description }}
-        columns={softwareContent.footer.columns}
-        copyright={softwareContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

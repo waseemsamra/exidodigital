@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function MissionManifesto() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
-      <NavBar />
-      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[600px] flex flex-col justify-center items-center px-6 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -201,9 +197,7 @@ function MissionManifesto() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

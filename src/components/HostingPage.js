@@ -1,7 +1,5 @@
 import React from 'react';
 import hostingContent from '../data/hosting-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function HostingPage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = hostingContent.hero;
@@ -31,9 +29,7 @@ function HostingPage() {
   };
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
-      <NavBar links={hostingContent.navigation.links} buttons={hostingContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -214,14 +210,7 @@ function HostingPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: hostingContent.footer.company.name, description: hostingContent.footer.company.description }}
-        columns={hostingContent.footer.columns}
-        copyright={hostingContent.footer.copyright}
-        socialIcons={[]}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

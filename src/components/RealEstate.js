@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function RealEstate() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
-      <NavBar />
-      <main className="relative pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main className="relative pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -223,9 +219,7 @@ function RealEstate() {
             </a>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

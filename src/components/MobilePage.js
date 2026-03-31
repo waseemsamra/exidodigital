@@ -1,7 +1,5 @@
 import React from 'react';
 import mobileContent from '../data/mobile-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function MobilePage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt, phoneImage, phoneAlt } = mobileContent.hero;
@@ -13,9 +11,7 @@ function MobilePage() {
   const { title: ctaTitle, description: ctaDesc, buttons: ctaButtons } = mobileContent.cta;
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">
-      <NavBar links={mobileContent.navigation.links} buttons={mobileContent.navigation.buttons} />
-      <main className="pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -232,14 +228,7 @@ function MobilePage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: mobileContent.footer.company.name, description: mobileContent.footer.company.description }}
-        columns={mobileContent.footer.columns}
-        copyright={mobileContent.footer.copyright}
-        socialIcons={mobileContent.footer.socialIcons}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

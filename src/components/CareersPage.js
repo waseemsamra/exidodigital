@@ -1,7 +1,5 @@
 import React from 'react';
 import careersContent from '../data/careers-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function CareersPage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt, stat, statLabel, quote } = careersContent.hero;
@@ -26,9 +24,7 @@ function CareersPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">
-      <NavBar links={careersContent.navigation.links} buttons={careersContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -194,14 +190,7 @@ function CareersPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: careersContent.footer.company.name, description: careersContent.footer.company.description }}
-        columns={careersContent.footer.columns}
-        copyright={careersContent.footer.copyright}
-        socialIcons={careersContent.footer.socialIcons}
-      />
-    </div>
+      </main>    </div>
   );
 }
 

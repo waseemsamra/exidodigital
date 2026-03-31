@@ -1,7 +1,5 @@
 import React from 'react';
 import aiContent from '../data/ai-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function AIPage() {
   const { badge, title, description, buttons, stats } = aiContent.hero;
@@ -11,9 +9,7 @@ function AIPage() {
 
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30">
-      <NavBar links={aiContent.navigation.links} buttons={aiContent.navigation.buttons} />
-      <main className="pt-24 min-h-screen">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30">      <main className="pt-24 min-h-screen">
         {/* Hero Section */}
         <section className="relative px-8 pt-20 pb-32 overflow-hidden circuit-pattern">
           <div className="max-w-[1440px] mx-auto grid lg:grid-cols-2 gap-16 items-center">
@@ -245,14 +241,7 @@ function AIPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: footer.company.name, description: footer.company.description }}
-        columns={footer.columns}
-        copyright={footer.copyright}
-        socialIcons={footer.company.icons}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

@@ -1,7 +1,5 @@
 import React from 'react';
 import aboutContent from '../data/about-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 function AboutPage() {
@@ -25,9 +23,7 @@ function AboutPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
-      <NavBar links={aboutContent.navigation.links} buttons={aboutContent.navigation.buttons} />
-      <main>
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main>
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center overflow-hidden px-8 md:px-20 py-24">
           <div className="absolute inset-0 z-0">
@@ -195,14 +191,7 @@ function AboutPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: aboutContent.footer.company.name, description: aboutContent.footer.company.description }}
-        columns={aboutContent.footer.columns}
-        copyright={aboutContent.footer.copyright}
-        socialIcons={aboutContent.footer.socialIcons}
-      />
-    </div>
+      </main>    </div>
   )
 }
 

@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function Platform() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
-      <NavBar />
-      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -246,9 +242,7 @@ function Platform() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

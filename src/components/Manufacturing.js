@@ -1,12 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function Manufacturing() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30">
-      <NavBar />
-      <main className="relative pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30">      <main className="relative pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden cyber-grid">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface to-surface z-10"></div>
@@ -307,9 +303,7 @@ function Manufacturing() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </div>
+      </main>    </div>
   );
 }
 

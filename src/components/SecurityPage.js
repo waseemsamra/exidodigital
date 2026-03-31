@@ -1,7 +1,5 @@
 import React from 'react';
 import securityContent from '../data/security-content.json';
-import NavBar from './NavBar';
-import Footer from './Footer';
 
 function SecurityPage() {
   const { badge, title, description, buttons, backgroundImage, backgroundAlt } = securityContent.hero;
@@ -27,9 +25,7 @@ function SecurityPage() {
   };
 
   return (
-    <div className="font-body selection:bg-primary selection:text-on-primary">
-      <NavBar links={securityContent.navigation.links} buttons={securityContent.navigation.buttons} />
-      <main className="pt-24">
+    <div className="font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -200,14 +196,7 @@ function SecurityPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer
-        company={{ name: securityContent.footer.company.name, description: securityContent.footer.company.description }}
-        columns={securityContent.footer.columns}
-        copyright={securityContent.footer.copyright}
-        socialIcons={securityContent.footer.company.icons}
-      />
-    </div>
+      </main>    </div>
   )
 }
 
