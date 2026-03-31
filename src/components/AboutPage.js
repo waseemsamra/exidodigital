@@ -23,9 +23,10 @@ function AboutPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main>
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+      <main className="pt-28">
         {/* Hero Section */}
-        <section className="relative min-h-[819px] flex items-center overflow-hidden px-8 md:px-20 py-24">
+        <section className="relative min-h-[819px] flex items-center overflow-hidden px-6 md:px-20 py-24">
           <div className="absolute inset-0 z-0">
             <img className="w-full h-full object-cover opacity-30 mix-blend-luminosity" src={backgroundImage} alt={backgroundAlt} />
             <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent"></div>
@@ -83,9 +84,9 @@ function AboutPage() {
               {leadershipMembers.map((member, index) => (
                 <div key={index} className="group relative overflow-hidden bg-surface-container-low p-6 rounded-lg transition-all duration-500 hover:bg-surface-container-high">
                   <div className="aspect-[3/4] mb-6 overflow-hidden bg-surface-container-highest rounded-sm">
-                    <img className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" src={member.image} alt={member.imageAlt} />
+                    <img className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-700" src={member.image} alt={member.imageAlt} />
                   </div>
-                  <h4 className="headline-font text-2xl font-bold">{member.name}</h4>
+                  <h4 className="headline-font text-xl md:text-2xl font-bold">{member.name}</h4>
                   <p className="font-body text-secondary text-xs uppercase tracking-widest font-bold mt-1">{member.title}</p>
                 </div>
               ))}

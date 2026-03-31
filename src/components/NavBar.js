@@ -7,6 +7,11 @@ const NavBar = React.memo(function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+    setAboutDropdownOpen(false);
+  };
+
   return (
     <header className="fixed top-0 w-full z-50 bg-white shadow-lg">
       <div className="flex items-center justify-between px-8 py-4 w-full bg-white">
@@ -153,8 +158,8 @@ const NavBar = React.memo(function NavBar() {
                   </button>
                   {aboutDropdownOpen && (
                     <div className="pl-4 mt-2 space-y-3 border-l-2 border-gray-200">
-                      <a href="/about" className="block text-gray-600 hover:text-[#060e20] text-sm py-1">About Us</a>
-                      <a href="/mission-manifesto" className="block text-gray-600 hover:text-[#060e20] text-sm py-1">Mission & Manifesto</a>
+                      <a href="/about" onClick={closeMobileMenu} className="block text-gray-600 hover:text-[#060e20] text-sm py-1">About Us</a>
+                      <a href="/mission-manifesto" onClick={closeMobileMenu} className="block text-gray-600 hover:text-[#060e20] text-sm py-1">Mission & Manifesto</a>
                     </div>
                   )}
                 </div>
@@ -162,22 +167,24 @@ const NavBar = React.memo(function NavBar() {
                 <a
                   key={index}
                   href={link.href}
+                  onClick={closeMobileMenu}
                   className="block text-gray-600 hover:text-[#060e20] font-semibold py-2"
                 >
                   {link.label}
                 </a>
               )
             ))}
-            <NavLink to="/platform" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Platform</NavLink>
-            <NavLink to="/works" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Works</NavLink>
-            <NavLink to="/industries" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Industries</NavLink>
-            <NavLink to="/contact" className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Contact</NavLink>
+            <NavLink to="/platform" onClick={closeMobileMenu} className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Platform</NavLink>
+            <NavLink to="/works" onClick={closeMobileMenu} className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Works</NavLink>
+            <NavLink to="/industries" onClick={closeMobileMenu} className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Industries</NavLink>
+            <NavLink to="/contact" onClick={closeMobileMenu} className={({ isActive }) => `block font-semibold py-2 ${isActive ? 'text-[#060e20] border-b-2 border-[#060e20]' : 'text-gray-600 hover:text-[#060e20]'}`}>Contact</NavLink>
             <div className="pt-4 border-t border-gray-200 space-y-3">
               {buttons.map((button, index) => (
                 button.variant === 'ghost' ? (
                   <a
                     key={index}
                     href={button.href}
+                    onClick={closeMobileMenu}
                     className="block w-full text-left text-gray-600 hover:text-[#060e20] font-semibold py-2"
                   >
                     {button.label}
@@ -186,6 +193,7 @@ const NavBar = React.memo(function NavBar() {
                   <a
                     key={index}
                     href={button.href}
+                    onClick={closeMobileMenu}
                     className="block w-full text-center px-6 py-3 bg-[#060e20] text-white rounded-lg font-bold text-sm"
                   >
                     {button.label}
