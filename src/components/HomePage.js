@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './Hero';
 import TrustedBy from './TrustedBy';
+import EnterpriseServices from './EnterpriseServices';
 import Services from './Services';
 import CTA from './CTA';
 
@@ -10,6 +11,7 @@ function HomePage() {
       <main>
         <Hero />
         <TrustedBy />
+        <EnterpriseServices />
         <Services />
         <CTA />
       </main>

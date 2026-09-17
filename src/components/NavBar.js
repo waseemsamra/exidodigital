@@ -17,7 +17,7 @@ const NavBar = React.memo(function NavBar() {
     <header className="fixed top-0 w-full z-50 bg-surface shadow-lg">
       <div className="flex items-center justify-between px-8 py-4 w-full bg-surface">
         <a href="/" className="hover:opacity-80 transition-opacity">
-          <img src="/assets/images/bluechip-logo.png" alt="Bluechip" className="h-10 w-auto" />
+          <img src="/blluechip-logo1.png" alt="Bluechip" className="h-10 w-auto" />
         </a>
 
         {/* Desktop Navigation */}
