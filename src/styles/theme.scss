@@ -14,15 +14,15 @@ $light-theme: (
   on-surface-variant: #5d6678,
   outline: #9aa4b5,
   outline-variant: #c7cedb,
-  primary: #007f8a,
+  primary: #2563eb,
   on-primary: #ffffff,
-  primary-container: #a7eef3,
-  on-primary-container: #003f45,
-  primary-fixed: #a7eef3,
-  primary-fixed-dim: #67d7e2,
-  on-primary-fixed: #003f45,
-  on-primary-fixed-variant: #005e64,
-  primary-dim: #008996,
+  primary-container: #dbeafe,
+  on-primary-container: #1e3a5f,
+  primary-fixed: #dbeafe,
+  primary-fixed-dim: #93c5fd,
+  on-primary-fixed: #1e3a5f,
+  on-primary-fixed-variant: #1e3a5f,
+  primary-dim: #1d4ed8,
   secondary: #6f4bb3,
   on-secondary: #ffffff,
   secondary-container: #e9dcff,
@@ -32,15 +32,15 @@ $light-theme: (
   on-secondary-fixed: #25005d,
   on-secondary-fixed-variant: #4a148c,
   secondary-dim: #7f5bc5,
-  tertiary: #316b78,
+  tertiary: #1e3a5f,
   on-tertiary: #ffffff,
-  tertiary-container: #c9e8ee,
-  on-tertiary-container: #003641,
-  tertiary-fixed: #c9e8ee,
-  tertiary-fixed-dim: #93d0db,
-  on-tertiary-fixed: #003641,
-  on-tertiary-fixed-variant: #005061,
-  tertiary-dim: #4d8793,
+  tertiary-container: #dbeafe,
+  on-tertiary-container: #1e3a5f,
+  tertiary-fixed: #dbeafe,
+  tertiary-fixed-dim: #93c5fd,
+  on-tertiary-fixed: #1e3a5f,
+  on-tertiary-fixed-variant: #1e3a5f,
+  tertiary-dim: #1e3a5f,
   error: #b3261e,
   on-error: #ffffff,
   error-container: #f9dedc,
@@ -48,8 +48,8 @@ $light-theme: (
   error-dim: #c94a44,
   inverse-surface: #172033,
   inverse-on-surface: #f7f9fc,
-  inverse-primary: #67d7e2,
-  surface-tint: #007f8a
+  inverse-primary: #93c5fd,
+  surface-tint: #2563eb
 );
 
 $dark-theme: (
@@ -68,15 +68,15 @@ $dark-theme: (
   on-surface-variant: #a3aac4,
   outline: #6d758c,
   outline-variant: #40485d,
-  primary: #8ff5ff,
-  on-primary: #005d63,
-  primary-container: #00eefc,
-  on-primary-container: #005359,
-  primary-fixed: #00eefc,
-  primary-fixed-dim: #00deec,
-  on-primary-fixed: #003f43,
-  on-primary-fixed-variant: #005e64,
-  primary-dim: #00deec,
+  primary: #60a5fa,
+  on-primary: #1e3a5f,
+  primary-container: #1d4ed8,
+  on-primary-container: #dbeafe,
+  primary-fixed: #dbeafe,
+  primary-fixed-dim: #93c5fd,
+  on-primary-fixed: #1e3a5f,
+  on-primary-fixed-variant: #1e3a5f,
+  primary-dim: #3b82f6,
   secondary: #ac89ff,
   on-secondary: #290067,
   secondary-container: #7000ff,
@@ -86,15 +86,15 @@ $dark-theme: (
   on-secondary-fixed: #41009a,
   on-secondary-fixed-variant: #6300e2,
   secondary-dim: #874cff,
-  tertiary: #e0ecff,
-  on-tertiary: #49586b,
-  tertiary-container: #cfdef5,
-  on-tertiary-container: #414f62,
-  tertiary-fixed: #cfdef5,
-  tertiary-fixed-dim: #c1d0e6,
-  on-tertiary-fixed: #2e3d4e,
-  on-tertiary-fixed-variant: #4a596c,
-  tertiary-dim: #c1d0e6,
+  tertiary: #93c5fd,
+  on-tertiary: #1e3a5f,
+  tertiary-container: #3b82f6,
+  on-tertiary-container: #dbeafe,
+  tertiary-fixed: #dbeafe,
+  tertiary-fixed-dim: #93c5fd,
+  on-tertiary-fixed: #1e3a5f,
+  on-tertiary-fixed-variant: #1e3a5f,
+  tertiary-dim: #60a5fa,
   error: #ff716c,
   on-error: #601410,
   error-container: #9f0519,
@@ -103,7 +103,7 @@ $dark-theme: (
   inverse-surface: #faf8ff,
   inverse-on-surface: #4d556b,
   inverse-primary: #006a71,
-  surface-tint: #8ff5ff
+  surface-tint: #60a5fa
 );
 
 @mixin theme-properties($theme) {
@@ -673,10 +673,6 @@ html[data-theme='light'] .text-\[\#060e20\] {
 html[data-theme='light'] .text-\[\#a3aac4\],
 html[data-theme='light'] .text-\[\#dee5ff\] {
   color: var(--color-on-surface-variant);
-}
-
-html[data-theme='light'] .text-\[\#8ff5ff\] {
-  color: var(--color-primary);
 }
 
 html[data-theme='light'] .border-\[\#40485d\] {
