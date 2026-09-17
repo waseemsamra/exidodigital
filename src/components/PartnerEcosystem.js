@@ -123,9 +123,9 @@ function PartnerEcosystem() {
                   </div>
                   <h3 className="text-xl font-headline font-bold mb-4 text-on-surface">{alliance.title}</h3>
                   <p className="text-on-surface-variant text-sm mb-6 leading-relaxed">{alliance.description}</p>
-                  <a className={`text-${alliance.color} text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all`} href="#">
+                  <button type="button" className={`text-${alliance.color} text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all`}>
                     View Alliance <span className="material-symbols-outlined text-xs">arrow_forward</span>
-                  </a>
+                  </button>
                 </div>
               ))}
             </div>

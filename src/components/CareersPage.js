@@ -150,7 +150,7 @@ function CareersPage() {
               ))}
             </div>
             <div className="mt-12 text-center">
-              <p className="text-on-surface-variant text-sm">{positionsGeneral} <a className="text-primary hover:underline underline-offset-4" href="#">Send us a general transmission.</a></p>
+              <p className="text-on-surface-variant text-sm">{positionsGeneral} <a className="text-primary hover:underline underline-offset-4" href="/contact">Send us a general transmission.</a></p>
             </div>
           </div>
         </section>

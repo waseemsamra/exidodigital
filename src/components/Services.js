@@ -46,7 +46,7 @@ function Services() {
             }`}
           >
             <div className={item.id === 'ai-data' || item.id === 'marketing' ? 'relative z-10' : ''}>
-              <span className="material-symbols-outlined text-4xl mb-6 ${item.id === 'ai-data' || item.id === 'enterprise' ? 'text-primary' : 'text-secondary'}">
+              <span className={`material-symbols-outlined text-4xl mb-6 ${item.id === 'ai-data' || item.id === 'enterprise' ? 'text-primary' : 'text-secondary'}`}>
                 {item.icon}
               </span>
               <h3 className="font-headline text-3xl font-bold mb-4">{item.title}</h3>

@@ -5,7 +5,6 @@ function AIPage() {
   const { badge, title, description, buttons, stats } = aiContent.hero;
   const { header, items } = aiContent.solutions;
   const cta = aiContent.cta;
-  const footer = aiContent.footer;
 
 
   return (

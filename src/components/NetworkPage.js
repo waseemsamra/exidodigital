@@ -3,7 +3,7 @@ import networkContent from '../data/network-content.json';
 import { Link } from 'react-router-dom';
 
 function NetworkPage() {
-  const { badge, title, description, buttons, backgroundImage, backgroundAlt } = networkContent.hero;
+  const { badge, title, description, buttons } = networkContent.hero;
   
   
   const { label: featuresLabel, title: featuresTitle, description: featuresDesc, items: featuresItems } = networkContent.features;

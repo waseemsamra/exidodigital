@@ -2,11 +2,11 @@ import React from 'react';
 import ecommerceContent from '../data/ecommerce-content.json';
 
 function EcommercePage() {
-  const { badge, title, description, buttons, backgroundImage, backgroundAlt } = ecommerceContent.hero;
+  const { badge, title, description, buttons, backgroundImage } = ecommerceContent.hero;
   const { header, items: headlessItems } = ecommerceContent.headlessCommerce;
-  const { title: opsTitle, items: opsItems, backgroundImage: opsBgImage, backgroundAlt: opsBgAlt } = ecommerceContent.operations;
+  const { title: opsTitle, items: opsItems, backgroundImage: opsBgImage } = ecommerceContent.operations;
   const { items: metricsItems } = ecommerceContent.metrics;
-  const { label: caseLabel, title: caseTitle, buttonLabel, image: caseImage, imageAlt: caseImageAlt } = ecommerceContent.caseStudy;
+  const { label: caseLabel, title: caseTitle, buttonLabel, image: caseImage } = ecommerceContent.caseStudy;
   const { title: ctaTitle, description: ctaDescription, buttonLabel: ctaButtonLabel } = ecommerceContent.cta;
 
 
@@ -146,7 +146,7 @@ function EcommercePage() {
         <section className="py-16 px-8 max-w-[1440px] mx-auto">
           <a
             className="block group relative bg-surface-container-high rounded-xl overflow-hidden border border-outline-variant/15 p-12 hover:border-primary/30 transition-all duration-500"
-            href="#"
+            href="/works/headless-commerce"
           >
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
               <div className="max-w-2xl">

@@ -194,7 +194,7 @@ function MobilePage() {
                 </span>
                 <h2 className="font-headline text-4xl font-bold mb-6">{caseTitle}</h2>
                 <p className="text-on-surface-variant text-lg mb-8 leading-relaxed">{caseDesc}</p>
-                <a className="inline-flex items-center gap-3 text-primary font-bold hover:gap-5 transition-all" href="#">
+                <a className="inline-flex items-center gap-3 text-primary font-bold hover:gap-5 transition-all" href="/works/fleet-management">
                   {caseButtonLabel} <span className="material-symbols-outlined">arrow_forward</span>
                 </a>
               </div>

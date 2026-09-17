@@ -19,15 +19,6 @@ function HostingPage() {
     return colorMap[color] || 'text-primary';
   };
 
-  const getBgClass = (color) => {
-    const colorMap = {
-      primary: 'bg-primary',
-      secondary: 'bg-secondary',
-      'on-surface': 'bg-on-surface'
-    };
-    return colorMap[color] || 'bg-primary';
-  };
-
   return (
     <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
         {/* Hero Section */}

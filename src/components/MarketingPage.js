@@ -104,7 +104,7 @@ function MarketingPage() {
                     </span>
                   </div>
                   <span className={`${getColorClass(pillar.color)} font-mono text-sm mb-6 block`}>
-                    {pillar.number} // {pillar.label}
+                    {pillar.number} {'//'} {pillar.label}
                   </span>
                   <h3 className="font-headline text-2xl font-bold text-on-surface mb-4">{pillar.title}</h3>
                   <p className="text-on-surface-variant leading-relaxed mb-8">{pillar.description}</p>

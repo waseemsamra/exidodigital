@@ -1,6 +1,5 @@
 import React from 'react';
 import aboutContent from '../data/about-content.json';
-import { Link } from 'react-router-dom';
 
 function AboutPage() {
   const { badge, title, description, backgroundImage, backgroundAlt } = aboutContent.hero;

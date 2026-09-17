@@ -134,7 +134,7 @@ function NewsPress() {
                     <h4 className="text-sm font-semibold group-hover:text-primary transition-colors mt-1">Annual 'Digital Obsidian' Summit Scheduled for Q2 2024</h4>
                   </div>
                 </div>
-                <a href="#" className="w-full mt-8 py-3 bg-surface-container-highest rounded-lg text-sm font-medium hover:text-primary transition-colors text-center">Download All Releases (PDF)</a>
+                <button type="button" className="w-full mt-8 py-3 bg-surface-container-highest rounded-lg text-sm font-medium hover:text-primary transition-colors text-center">Download All Releases (PDF)</button>
               </div>
             </div>
           </div>
@@ -157,25 +157,25 @@ function NewsPress() {
                 <span className="material-symbols-outlined text-4xl text-primary mb-6">image_search</span>
                 <h3 className="text-xl font-bold mb-4">High-Res Brand Identity</h3>
                 <p className="text-on-surface-variant text-sm mb-8">Full logo suite in SVG, PNG, and AI formats. Includes dark and light mode variations.</p>
-                <a href="#" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                <button type="button" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
                   Download Package <span className="material-symbols-outlined text-sm">download</span>
-                </a>
+                </button>
               </div>
               <div className="glass-panel p-8 rounded-xl border border-outline-variant/10 group hover:border-primary/40 transition-all">
                 <span className="material-symbols-outlined text-4xl text-primary mb-6">groups</span>
                 <h3 className="text-xl font-bold mb-4">Executive Portraits</h3>
                 <p className="text-on-surface-variant text-sm mb-8">Official headshots and bios of the leadership team.</p>
-                <a href="#" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                <button type="button" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
                   Download <span className="material-symbols-outlined text-sm">download</span>
-                </a>
+                </button>
               </div>
               <div className="glass-panel p-8 rounded-xl border border-outline-variant/10 group hover:border-primary/40 transition-all">
                 <span className="material-symbols-outlined text-4xl text-primary mb-6">architecture</span>
                 <h3 className="text-xl font-bold mb-4">Product Visuals</h3>
                 <p className="text-on-surface-variant text-sm mb-8">Technical diagrams and high-fidelity interface screenshots.</p>
-                <a href="#" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                <button type="button" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
                   Download <span className="material-symbols-outlined text-sm">download</span>
-                </a>
+                </button>
               </div>
             </div>
           </div>

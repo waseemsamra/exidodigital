@@ -43,9 +43,9 @@ function InsightHub() {
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-4">
                   How automated model optimization is transforming enterprise AI deployment strategies.
                 </p>
-                <a href="#" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
+                <button type="button" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
                   Read More <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                </a>
+                </button>
               </div>
             </article>
 
@@ -70,9 +70,9 @@ function InsightHub() {
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-4">
                   Building resilient streaming architectures for high-frequency data processing.
                 </p>
-                <a href="#" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
+                <button type="button" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
                   Read More <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                </a>
+                </button>
               </div>
             </article>
 
@@ -97,9 +97,9 @@ function InsightHub() {
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-4">
                   Implementing comprehensive security frameworks in distributed systems.
                 </p>
-                <a href="#" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
+                <button type="button" className="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 hover:gap-4 transition-all">
                   Read More <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                </a>
+                </button>
               </div>
             </article>
           </div>
@@ -111,16 +111,16 @@ function InsightHub() {
             <h2 className="text-3xl font-headline font-bold mb-12">Browse by Category</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {['AI & Machine Learning', 'Data Engineering', 'Cybersecurity', 'Cloud Infrastructure', 'Mobile Development', 'Ecommerce', 'Enterprise Systems', 'Digital Marketing'].map((category, index) => (
-                <a
+                <button
                   key={index}
-                  href="#"
+                  type="button"
                   className="p-6 bg-surface-container-high rounded-xl border border-outline-variant/10 hover:border-primary/30 transition-all group text-center"
                 >
                   <span className="material-symbols-outlined text-3xl text-primary mb-3 group-hover:scale-110 transition-transform">
                     category
                   </span>
                   <h3 className="text-sm font-bold text-on-surface">{category}</h3>
-                </a>
+                </button>
               ))}
             </div>
           </div>
