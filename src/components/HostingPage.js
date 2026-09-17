@@ -20,7 +20,8 @@ function HostingPage() {
   };
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -42,7 +43,7 @@ function HostingPage() {
                     key={index}
                     className={`px-8 py-4 rounded-lg font-bold uppercase tracking-wider text-sm transition-all ${
                       button.variant === 'primary'
-                        ? 'obsidian-gradient text-on-primary shadow-[0_0_20px_rgba(143,245,255,0.3] hover:scale-105'
+                        ? 'obsidian-gradient text-on-primary btn-glow hover:scale-105'
                         : 'bg-surface-container-high border border-outline-variant/30 text-on-surface hover:bg-surface-bright'
                     }`}
                   >
@@ -61,7 +62,7 @@ function HostingPage() {
                   </div>
                   <div className="space-y-6">
                     <div className="h-1 bg-surface-container-highest rounded-full overflow-hidden">
-                      <div className="h-full bg-primary w-full shadow-[0_0_10px_#8ff5ff]"></div>
+                      <div className="h-full bg-primary w-full glow-primary"></div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
                       <div className="p-4 bg-surface-container rounded-lg">
@@ -91,7 +92,7 @@ function HostingPage() {
               {tiersItems.map((tier, index) => (
                 <div
                   key={index}
-                  className={`group relative bg-surface-container-high p-8 rounded-xl border ${tier.featured ? 'border-primary/30 ring-1 ring-primary/20 shadow-[0_0_40px_-10px_rgba(143,245,255,0.15] transform scale-105 z-10' : 'border-outline-variant/10 hover:bg-surface-bright'} transition-all duration-500`}
+                  className={`group relative bg-surface-container-high p-8 rounded-xl border ${tier.featured ? 'border-primary/30 ring-1 ring-primary/20 glow-primary transform scale-105 z-10' : 'border-outline-variant/10 hover:bg-surface-bright'} transition-all duration-500`}
                 >
                   {tier.featured && (
                     <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary px-3 py-1 rounded text-[10px] font-bold text-on-primary uppercase tracking-widest">Elite</div>
@@ -146,12 +147,12 @@ function HostingPage() {
         </section>
 
         {/* Global Edge Infrastructure */}
-        <section className="py-24 px-8 bg-[#091328]">
+        <section className="py-24 px-8 bg-surface-container-low">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-headline font-bold mb-4">{meshTitle}</h2>
             <p className="text-on-surface-variant max-w-2xl mx-auto mb-16">{meshDesc}</p>
             <div className="relative w-full aspect-[21/9] bg-surface-container rounded-3xl p-8 overflow-hidden group">
-              <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, #40485d 1px, transparent 0', backgroundSize: '40px 40px' }}></div>
+              <div className="absolute inset-0 opacity-20 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, var(--color-outline-variant) 1px, transparent 0', backgroundSize: '40px 40px' }}></div>
               <div className="relative h-full flex items-center justify-center">
                 <img className="max-w-full h-auto opacity-40 group-hover:opacity-60 transition-opacity duration-1000" src={meshImage} alt={meshImageAlt} />
                 <div className="absolute top-[20%] left-[15%]"><span className="flex h-3 w-3 relative"><span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span><span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span></span></div>
@@ -194,7 +195,7 @@ function HostingPage() {
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-headline font-bold mb-6">{ctaTitle}</h2>
               <p className="text-on-surface-variant text-lg max-w-2xl mx-auto mb-10">{ctaDesc}</p>
-              <button className="bg-primary text-on-primary px-10 py-4 rounded-lg font-bold uppercase tracking-widest text-sm hover:shadow-[0_0_30px_rgba(143,245,255,0.4] transition-all">
+              <button className="bg-primary text-on-primary px-10 py-4 rounded-lg font-bold uppercase tracking-widest text-sm btn-glow transition-all">
                 {ctaButtonLabel}
               </button>
               <p className="mt-6 text-xs text-on-surface-variant">{ctaNote}</p>

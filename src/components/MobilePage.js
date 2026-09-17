@@ -11,7 +11,8 @@ function MobilePage() {
   const { title: ctaTitle, description: ctaDesc, buttons: ctaButtons } = mobileContent.cta;
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -38,7 +39,7 @@ function MobilePage() {
                   button.variant === 'primary' ? (
                     <button
                       key={index}
-                      className="bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold px-8 py-4 rounded-lg shadow-[0_0_25px_rgba(143,245,255,0.2] hover:scale-105 transition-transform"
+                      className="bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold px-8 py-4 rounded-lg glow-primary hover:scale-105 transition-transform"
                     >
                       {button.label}
                     </button>
@@ -141,7 +142,7 @@ function MobilePage() {
               <div className="relative mt-12 h-64 border border-outline-variant/20 rounded-xl overflow-hidden bg-surface-container-lowest">
                 <div className="absolute inset-0 flex items-center justify-around px-12">
                   <div className="flex flex-col items-center gap-2">
-                    <div className="w-16 h-16 rounded-full border border-primary flex items-center justify-center text-primary shadow-[0_0_20px_rgba(143,245,255,0.2]">
+                    <div className="w-16 h-16 rounded-full border border-primary flex items-center justify-center text-primary glow-primary">
                       <span className="material-symbols-outlined">smartphone</span>
                     </div>
                     <span className="text-[10px] font-bold uppercase tracking-widest">{diagram.client}</span>
@@ -152,7 +153,7 @@ function MobilePage() {
                     </div>
                   </div>
                   <div className="flex flex-col items-center gap-2">
-                    <div className="w-20 h-20 rounded-lg bg-surface-variant border border-secondary flex items-center justify-center text-secondary shadow-[0_0_30px_rgba(172,137,255,0.2]">
+                    <div className="w-20 h-20 rounded-lg bg-surface-variant border border-secondary flex items-center justify-center text-secondary glow-secondary">
                       <span className="material-symbols-outlined text-4xl">psychology</span>
                     </div>
                     <span className="text-[10px] font-bold uppercase tracking-widest">{diagram.core}</span>
@@ -218,7 +219,7 @@ function MobilePage() {
                   key={index}
                   className={`w-full md:w-auto font-bold px-12 py-5 rounded-lg transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-primary text-on-primary shadow-[0_0_30px_rgba(143,245,255,0.4] hover:shadow-[0_0_50px_rgba(143,245,255,0.6]'
+                      ? 'bg-primary text-on-primary glow-primary btn-glow'
                       : 'bg-surface-container-highest border border-outline-variant/30 text-on-surface hover:bg-surface-bright'
                   }`}
                 >

@@ -8,7 +8,8 @@ function AIPage() {
 
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30">      <main className="pt-24 min-h-screen">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-24 min-h-screen">
         {/* Hero Section */}
         <section className="relative px-8 pt-20 pb-32 overflow-hidden circuit-pattern">
           <div className="max-w-[1440px] mx-auto grid lg:grid-cols-2 gap-16 items-center">
@@ -28,7 +29,7 @@ function AIPage() {
                     key={index}
                     className={`px-8 py-4 rounded-lg font-bold transition-all ${
                       button.variant === 'primary'
-                        ? 'bg-primary text-on-primary hover:shadow-[0_0_20px_rgba(143,245,255,0.4)]'
+                        ? 'bg-primary text-on-primary btn-glow'
                         : 'bg-surface-container-highest text-on-surface border border-outline-variant/15 hover:bg-surface-bright'
                     }`}
                   >
@@ -230,7 +231,7 @@ function AIPage() {
                   key={index}
                   className={`px-10 py-5 rounded-lg font-bold text-lg transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-primary text-on-primary hover:shadow-[0_0_30px_rgba(143,245,255,0.3]'
+                      ? 'bg-primary text-on-primary btn-glow'
                       : 'bg-surface-bright text-on-surface border border-outline-variant/30 hover:bg-surface-container-highest'
                   }`}
                 >

@@ -2,7 +2,8 @@ import React from 'react';
 
 function Travel() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30">      <main>
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30">
+      <main>
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0">
@@ -29,9 +30,9 @@ function Travel() {
                 Exido deploys sophisticated neural architectures to orchestrate the global travel lifecycle, turning legacy friction into seamless guest velocity.
               </p>
               <div className="flex flex-wrap gap-6 pt-4">
-                <a href="/contact" className="group relative px-8 py-4 bg-primary text-on-primary font-bold rounded-lg overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(143,245,255,0.3)]">
+                <a href="/contact" className="group relative px-8 py-4 bg-primary text-on-primary font-bold rounded-lg overflow-hidden transition-all btn-glow">
                   <span className="relative z-10">Explore Solutions</span>
-                  <div className="absolute inset-0 bg-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                  <div className="absolute inset-0 bg-surface/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 </a>
                 <a href="/contact" className="px-8 py-4 border border-outline-variant/30 text-on-surface font-bold rounded-lg hover:bg-surface-container-high transition-colors">
                   Watch Vision Film

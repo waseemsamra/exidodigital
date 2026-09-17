@@ -2,7 +2,8 @@ import React from 'react';
 
 function MediaSolutions() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -25,7 +26,7 @@ function MediaSolutions() {
                 Deploy enterprise-grade infrastructure built for the next era of content synthesis, global distribution, and sovereign digital rights.
               </p>
               <div className="mt-12 flex flex-wrap gap-6">
-                <a href="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-headline font-extrabold text-sm tracking-widest uppercase hover:shadow-[0_0_20px_rgba(143,245,255,0.3)] transition-all">
+                <a href="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-headline font-extrabold text-sm tracking-widest uppercase btn-glow transition-all">
                   Explore The Mesh
                 </a>
                 <a href="/contact" className="border border-outline-variant/30 bg-surface-container-high/40 backdrop-blur-md text-on-surface px-8 py-4 rounded-lg font-headline font-bold text-sm tracking-widest uppercase hover:bg-surface-container-highest transition-all">
@@ -204,7 +205,7 @@ function MediaSolutions() {
             </h2>
             <a href="/contact" className="group relative inline-block px-12 py-6 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-lg font-headline font-extrabold text-lg tracking-widest uppercase overflow-hidden shadow-2xl scale-100 active:scale-95 transition-all">
               <span className="relative z-10">Engage the Vanguard</span>
-              <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+              <div className="absolute inset-0 bg-surface/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
             </a>
             <div className="mt-12 text-on-surface-variant font-headline text-sm tracking-widest uppercase flex items-center justify-center gap-4">
               <span>Consult with an Architect</span>

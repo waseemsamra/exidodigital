@@ -29,7 +29,8 @@ function DataWarehousingPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[870px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -243,7 +244,7 @@ function DataWarehousingPage() {
             <div className="relative z-10 space-y-8">
               <h2 className="text-5xl font-headline font-bold tracking-tight">{ctaTitle}</h2>
               <p className="text-on-surface-variant max-w-2xl mx-auto text-lg font-light">{ctaDesc}</p>
-              <button className="bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold px-12 py-5 rounded-lg text-lg hover:shadow-[0_0_30px_rgba(143,245,255,0.4] transition-all">
+              <button className="bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold px-12 py-5 rounded-lg text-lg btn-glow transition-all">
                 {ctaButtonLabel}
               </button>
               <p className="text-xs text-on-surface-variant uppercase tracking-widest">{ctaNote}</p>

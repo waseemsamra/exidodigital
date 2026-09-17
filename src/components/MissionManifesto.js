@@ -2,7 +2,8 @@ import React from 'react';
 
 function MissionManifesto() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[600px] flex flex-col justify-center items-center px-6 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -62,7 +63,7 @@ function MissionManifesto() {
                 </p>
               </div>
               <div className="mt-12 h-1 bg-surface-container-highest w-full overflow-hidden">
-                <div className="h-full bg-secondary w-2/3 shadow-[0_0_10px_#ac89ff]"></div>
+                <div className="h-full bg-secondary w-2/3 glow-secondary"></div>
               </div>
             </div>
             {/* The Human Nexus */}
@@ -154,7 +155,7 @@ function MissionManifesto() {
                   {
                     era: 'Era III: Transcendence',
                     color: 'text-on-surface-variant opacity-50',
-                    dotColor: 'bg-white/20',
+                    dotColor: 'bg-surface/20',
                     title: 'Universal Synthetics',
                     description: 'The final phase of atmospheric computing where the interface becomes invisible and the response is instantaneous.',
                     opacity: 'opacity-50'
@@ -187,7 +188,7 @@ function MissionManifesto() {
                 The manifesto is just the beginning. Access the technical whitepapers to understand the underlying mechanics of the Exido.
               </p>
               <div className="flex flex-col md:flex-row justify-center gap-6">
-                <button className="bg-primary text-on-primary font-headline font-bold px-10 py-4 rounded-lg shadow-[0_0_20px_rgba(143,245,255,0.3)] hover:scale-105 transition-all">
+                <button className="bg-primary text-on-primary font-headline font-bold px-10 py-4 rounded-lg glow-primary hover:scale-105 transition-all">
                   Read the Whitepaper
                 </button>
                 <button className="bg-surface-container-highest border border-outline-variant/30 text-primary font-headline font-bold px-10 py-4 rounded-lg hover:bg-surface-bright transition-all">

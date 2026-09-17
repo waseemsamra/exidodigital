@@ -2,7 +2,8 @@ import React from 'react';
 
 function Industries() {
   return (
-    <div className="font-body text-on-surface selection:bg-primary/30 selection:text-primary bg-background">      <main className="pt-24">
+    <div className="font-body text-on-surface selection:bg-primary/30 selection:text-primary bg-background">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[716px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -26,7 +27,7 @@ function Industries() {
               We deploy Digital Obsidian protocols to transform standard legacy infrastructure into high-frequency, precision environments. Secure. Sovereign. Scalable.
             </p>
             <div className="flex gap-4">
-              <a href="/services" className="bg-primary text-on-primary px-8 py-4 rounded-lg font-headline font-bold text-sm transition-all hover:shadow-[0_0_20px_rgba(143,245,255,0.4)] inline-block">
+              <a href="/services" className="bg-primary text-on-primary px-8 py-4 rounded-lg font-headline font-bold text-sm transition-all btn-glow inline-block">
                 View Solutions
               </a>
               <a href="/contact" className="bg-surface-container-highest/60 border border-outline-variant/20 text-on-surface px-8 py-4 rounded-lg font-headline font-bold text-sm backdrop-blur-md inline-block">

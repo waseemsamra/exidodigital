@@ -2,7 +2,8 @@ import React from 'react';
 
 function Ecommerce() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-20">
         {/* Hero Section */}
         <header className="relative min-h-screen flex items-center pt-20 overflow-hidden hero-gradient">
           <div className="absolute inset-0 z-0 opacity-40">
@@ -41,7 +42,7 @@ function Ecommerce() {
                     <span className="text-primary text-2xl font-black">99.99%</span>
                   </div>
                   <div className="h-2 bg-surface-container-low rounded-full overflow-hidden">
-                    <div className="h-full bg-primary w-full shadow-[0_0_8px_#8ff5ff]"></div>
+                    <div className="h-full bg-primary w-full glow-primary"></div>
                   </div>
                   <div className="grid grid-cols-2 gap-4 pt-4">
                     <div className="p-4 bg-surface-container-low rounded-lg">
@@ -201,7 +202,7 @@ function Ecommerce() {
             <h2 className="font-headline text-4xl md:text-6xl font-extrabold mb-8 tracking-tighter">Global Scale, <span className="text-primary">Instant Delivery</span></h2>
             <p className="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto">Join the world's most innovative retailers. Deploy your high-performance commerce infrastructure today.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-6">
-              <a href="/contact" className="px-10 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg shadow-[0_0_30px_rgba(143,245,255,0.2)] hover:shadow-[0_0_40px_rgba(143,245,255,0.4)] transition-all">Start Your Transformation</a>
+              <a href="/contact" className="px-10 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg glow-primary btn-glow transition-all">Start Your Transformation</a>
               <a href="/contact" className="px-10 py-5 bg-surface-container-highest text-on-surface font-bold rounded-lg border border-outline-variant transition-colors hover:bg-surface-bright">Request Demo</a>
             </div>
           </div>

@@ -10,7 +10,8 @@ function SoftwarePage() {
   const { title: ctaTitle, description: ctaDesc, buttonLabel: ctaButtonLabel } = softwareContent.cta;
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative px-8 py-24 md:py-32 max-w-[1440px] mx-auto overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -166,7 +167,7 @@ function SoftwarePage() {
         </section>
 
         {/* Enterprise Accounting */}
-        <section className="px-8 py-24 bg-[#091328] relative overflow-hidden">
+        <section className="px-8 py-24 bg-surface-container-low relative overflow-hidden">
           <div className="max-w-[1440px] mx-auto grid lg:grid-cols-2 gap-20 items-center">
             <div className="order-2 lg:order-1">
               <div className="glass-panel p-8 rounded-2xl border border-outline-variant/15 relative">
@@ -188,7 +189,7 @@ function SoftwarePage() {
                     <div className="flex-1 bg-primary/20 h-[40%] rounded-t-sm"></div>
                     <div className="flex-1 bg-primary/40 h-[60%] rounded-t-sm"></div>
                     <div className="flex-1 bg-primary/60 h-[50%] rounded-t-sm"></div>
-                    <div className="flex-1 bg-primary h-[90%] rounded-t-sm shadow-[0_0_15px_rgba(143,245,255,0.4]"></div>
+                    <div className="flex-1 bg-primary h-[90%] rounded-t-sm glow-primary"></div>
                     <div className="flex-1 bg-primary/40 h-[70%] rounded-t-sm"></div>
                     <div className="flex-1 bg-primary/20 h-[30%] rounded-t-sm"></div>
                   </div>

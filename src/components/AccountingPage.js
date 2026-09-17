@@ -35,7 +35,8 @@ function AccountingPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface selection:bg-primary selection:text-on-primary">      <main className="pt-24">
+    <div className="bg-surface text-on-surface selection:bg-primary selection:text-on-primary">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[870px] flex items-center px-8 md:px-24 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -54,7 +55,7 @@ function AccountingPage() {
                   key={index}
                   className={`px-10 py-5 font-bold rounded-lg transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary-container shadow-[0_0_25px_-5px_rgba(143,245,255,0.4] hover:shadow-[0_0_35px_-5px_rgba(143,245,255,0.6]'
+                      ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary-container btn-glow'
                       : 'bg-surface-container-highest text-primary border border-outline-variant/20 hover:bg-surface-bright'
                   }`}
                 >
@@ -118,8 +119,8 @@ function AccountingPage() {
                   <>
                     <span className="material-symbols-outlined text-on-secondary-container text-4xl">{item.icon}</span>
                     <div>
-                      <h3 className="text-2xl font-bold text-white mb-2">{item.title}</h3>
-                      <p className="text-white/70 text-sm">{item.description}</p>
+                      <h3 className="text-2xl font-bold text-on-secondary mb-2">{item.title}</h3>
+                        <p className="text-on-secondary opacity-70 text-sm">{item.description}</p>
                     </div>
                   </>
                 ) : item.size === 'medium' ? (
@@ -220,7 +221,7 @@ function AccountingPage() {
 
         {/* Financial Intelligence */}
         <section className="py-32 px-8 md:px-24 bg-surface relative">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops] from-secondary/5 via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-secondary/5 from-secondary/5 via-transparent to-transparent"></div>
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <span className="text-xs font-bold text-secondary uppercase tracking-[0.2em]">{intelligenceLabel}</span>
@@ -259,12 +260,12 @@ function AccountingPage() {
                 </div>
                 <div className="mt-12 h-32 w-full relative">
                   <svg className="w-full h-full" viewBox="0 0 400 100">
-                    <path d="M0 80 Q 50 20, 100 70 T 200 40 T 300 60 T 400 10" fill="none" stroke="#ac89ff" strokeLinecap="round" strokeWidth="3"></path>
+                    <path d="M0 80 Q 50 20, 100 70 T 200 40 T 300 60 T 400 10" fill="none" stroke="var(--color-secondary)" strokeLinecap="round" strokeWidth="3"></path>
                     <path d="M0 80 Q 50 20, 100 70 T 200 40 T 300 60 T 400 10 V 100 H 0 Z" fill="url(#grad" opacity="0.1"></path>
                     <defs>
                       <linearGradient id="grad" x1="0%" x2="0%" y1="0%" y2="100%">
-                        <stop offset="0%" style={{ stopColor: '#ac89ff', stopOpacity: 1 }}></stop>
-                        <stop offset="100%" style={{ stopColor: '#ac89ff', stopOpacity: 0 }}></stop>
+                        <stop offset="0%" style={{ stopColor: 'var(--color-secondary)', stopOpacity: 1 }}></stop>
+                        <stop offset="100%" style={{ stopColor: 'var(--color-secondary)', stopOpacity: 0 }}></stop>
                       </linearGradient>
                     </defs>
                   </svg>

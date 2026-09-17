@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 function AllArticles() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-20">
         {/* Hero Section: The Intelligence Stream */}
         <section className="relative h-[716px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -40,7 +41,7 @@ function AllArticles() {
               />
             </div>
             <div className="flex flex-wrap items-center gap-2 p-1">
-              <button className="px-6 py-2.5 rounded-lg bg-primary text-on-primary font-bold text-sm transition-all shadow-[0_0_15px_rgba(143,245,255,0.3)]">All</button>
+              <button className="px-6 py-2.5 rounded-lg bg-primary text-on-primary font-bold text-sm transition-all glow-primary">All</button>
               <button className="px-6 py-2.5 rounded-lg bg-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all text-sm font-medium">AI</button>
               <button className="px-6 py-2.5 rounded-lg bg-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all text-sm font-medium">Security</button>
               <button className="px-6 py-2.5 rounded-lg bg-transparent text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all text-sm font-medium">Infrastructure</button>
@@ -269,7 +270,7 @@ function AllArticles() {
                   placeholder="Enter your corporate email" 
                   type="email"
                 />
-                <button className="bg-primary text-on-primary font-bold px-10 py-4 rounded-lg hover:shadow-[0_0_20px_rgba(143,245,255,0.4)] transition-all">
+                <button className="bg-primary text-on-primary font-bold px-10 py-4 rounded-lg btn-glow transition-all">
                   Subscribe Now
                 </button>
               </form>

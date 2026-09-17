@@ -2,7 +2,8 @@ import React from 'react';
 
 function Healthcare() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -251,7 +252,7 @@ function Healthcare() {
               <p className="text-on-surface-variant mb-8 text-lg">Partner with Exido to build the next generation of life-saving digital infrastructure.</p>
               <div className="flex flex-wrap gap-4">
                 <a href="/contact" className="primary-gradient-btn text-on-primary font-headline font-bold px-8 py-3 rounded-lg">Speak with an Engineer</a>
-                <a href="/contact" className="bg-white/5 backdrop-blur-md border border-white/10 text-on-surface font-headline font-bold px-8 py-3 rounded-lg hover:bg-white/10 transition-colors">Request Platform Demo</a>
+                <a href="/contact" className="bg-surface/5 backdrop-blur-md border border-outline-variant/10 text-on-surface font-headline font-bold px-8 py-3 rounded-lg hover:bg-surface/10 transition-colors">Request Platform Demo</a>
               </div>
             </div>
           </div>

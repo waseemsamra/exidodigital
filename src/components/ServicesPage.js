@@ -45,7 +45,7 @@ function ServicesPage() {
                 button.variant === 'primary' ? (
                   <button
                     key={index}
-                    className="bg-power-cell text-on-primary px-8 py-4 font-bold text-sm uppercase tracking-widest rounded-lg hover:shadow-[0_0_20px_rgba(143,245,255,0.5] transition-all"
+                    className="bg-power-cell text-on-primary px-8 py-4 font-bold text-sm uppercase tracking-widest rounded-lg btn-glow transition-all"
                   >
                     {button.label}
                   </button>
@@ -248,7 +248,7 @@ function ServicesPage() {
                   key={index}
                   className={`px-10 py-5 font-bold text-sm uppercase tracking-widest rounded-lg transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-power-cell text-on-primary hover:shadow-[0_0_30px_rgba(143,245,255,0.4]'
+                      ? 'bg-power-cell text-on-primary btn-glow'
                       : 'bg-surface text-on-surface border border-outline-variant hover:bg-surface-container-high'
                   }`}
                 >

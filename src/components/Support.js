@@ -2,7 +2,8 @@ import React from 'react';
 
 function Support() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[716px] flex items-center overflow-hidden px-12">
           <div className="absolute inset-0 z-0">
@@ -69,7 +70,7 @@ function Support() {
             </div>
             {/* System Status Mini */}
             <div className="md:col-span-4 bg-surface-container-low p-8 flex items-center gap-6">
-              <div className="w-3 h-3 bg-primary rounded-full animate-pulse shadow-[0_0_10px_#8ff5ff]"></div>
+              <div className="w-3 h-3 bg-primary rounded-full animate-pulse glow-primary"></div>
               <div>
                 <h3 className="text-on-surface font-headline font-bold">All Systems Operational</h3>
                 <p className="text-on-surface-variant text-xs">Updated 2 minutes ago</p>

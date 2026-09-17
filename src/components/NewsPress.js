@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 function NewsPress() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[716px] flex flex-col items-center justify-center overflow-hidden border-b border-outline-variant/10">
           <div className="absolute inset-0 z-0 hero-gradient"></div>
@@ -218,7 +219,7 @@ function NewsPress() {
                 <div className="md:col-span-2">
                   <button 
                     type="submit"
-                    className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-4 rounded-lg font-bold shadow-[0_0_20px_rgba(143,245,255,0.2)] hover:shadow-[0_0_30px_rgba(143,245,255,0.4)] transition-all"
+                    className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-4 rounded-lg font-bold glow-primary btn-glow transition-all"
                   >
                     Submit Inquiry
                   </button>

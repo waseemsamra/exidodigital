@@ -2,7 +2,8 @@ import React from 'react';
 
 function RealEstate() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main className="relative pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+      <main className="relative pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -99,7 +100,7 @@ function RealEstate() {
                 <h3 className="text-lg font-bold mb-2 text-on-secondary-container">24/7 Global Trading</h3>
                 <p className="text-xs text-on-secondary-container/80">Institutional grade security for cross-border capital flow.</p>
               </div>
-              <span className="material-symbols-outlined absolute -right-4 -bottom-4 text-9xl text-white/5 rotate-12">public</span>
+              <span className="material-symbols-outlined absolute -right-4 -bottom-4 text-9xl text-on-surface/5 rotate-12">public</span>
             </div>
           </div>
         </section>
@@ -214,7 +215,7 @@ function RealEstate() {
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary/5 rounded-full blur-[120px]"></div>
             <h2 className="font-headline text-4xl md:text-6xl font-extrabold mb-8 tracking-tighter">Ready to Tokenize your Portfolio?</h2>
             <p className="text-on-surface-variant text-xl max-w-2xl mx-auto mb-12 font-light">Join the vanguard of the real estate evolution. Secure your digital obsidian infrastructure today.</p>
-            <a href="/contact" className="bg-primary text-on-primary font-bold uppercase tracking-[0.2em] text-sm px-12 py-6 rounded-lg hover:shadow-[0_0_30px_rgba(143,245,255,0.4)] transition-all inline-block">
+            <a href="/contact" className="bg-primary text-on-primary font-bold uppercase tracking-[0.2em] text-sm px-12 py-6 rounded-lg btn-glow transition-all inline-block">
               Contact Enterprise Solutions
             </a>
           </div>

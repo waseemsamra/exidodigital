@@ -30,7 +30,8 @@ function NetworkPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center justify-center px-6 hero-gradient overflow-hidden">
           <div className="absolute inset-0 opacity-20 pointer-events-none">
@@ -53,7 +54,7 @@ function NetworkPage() {
                   key={index}
                   className={`w-full sm:w-auto px-10 py-5 rounded-lg font-bold text-lg transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-gradient-to-r from-primary to-primary-container text-on-primary hover:shadow-[0_0_30px_rgba(143,245,255,0.4] transform active:scale-95'
+                      ? 'bg-gradient-to-r from-primary to-primary-container text-on-primary btn-glow transform active:scale-95'
                       : 'bg-surface-container-highest border border-outline-variant/30 text-on-surface hover:bg-surface-bright'
                   }`}
                 >
@@ -147,7 +148,7 @@ function NetworkPage() {
         </section>
 
         {/* Global Network Section */}
-        <section className="bg-[#000000] py-32 px-8 overflow-hidden">
+        <section className="bg-surface-container-lowest py-32 px-8 overflow-hidden">
           <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div>
               <h2 className="text-5xl font-headline font-extrabold tracking-tighter mb-8 leading-tight">{networkTitle}</h2>
@@ -217,7 +218,7 @@ function NetworkPage() {
                   key={index}
                   className={`px-12 py-5 rounded-lg font-bold text-lg transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-primary text-on-primary hover:shadow-[0_0_25px_rgba(143,245,255,0.5] transform hover:scale-105 active:scale-95'
+                      ? 'bg-primary text-on-primary btn-glow transform hover:scale-105 active:scale-95'
                       : 'text-on-surface border border-outline hover:bg-surface-variant'
                   }`}
                 >

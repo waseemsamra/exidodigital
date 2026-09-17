@@ -81,7 +81,8 @@ func main() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-24 px-8 py-12 lg:py-20 max-w-[1440px] mx-auto">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">
+      <main className="pt-24 px-8 py-12 lg:py-20 max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           {/* Documentation Text */}
           <div className="lg:col-span-7">
@@ -188,7 +189,7 @@ func main() {
                       <span className="material-symbols-outlined text-sm">description</span>
                       Response Sample
                     </h4>
-                    <div className="bg-black/40 p-6 rounded-lg border border-outline-variant/10">
+                    <div className="bg-surface-container-low/40 p-6 rounded-lg border border-outline-variant/10">
                       <pre className="text-secondary text-xs">
 {`{
   "status": "success",

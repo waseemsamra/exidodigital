@@ -2,7 +2,8 @@ import React from 'react';
 
 function PartnerEcosystem() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed">      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[500px] flex items-center px-8 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0 opacity-20">
@@ -135,7 +136,7 @@ function PartnerEcosystem() {
         {/* Become a Partner CTA */}
         <section className="py-32 px-8 bg-surface-container-highest relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-            <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(#8ff5ff 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
+            <div className="absolute inset-0 circuit-pattern bg-[length:40px_40px]"></div>
           </div>
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <span className="label-md uppercase tracking-[0.4em] text-primary font-bold text-xs mb-6 block">Expansion Protocol</span>

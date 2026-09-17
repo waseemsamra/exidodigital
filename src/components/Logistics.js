@@ -2,7 +2,8 @@ import React from 'react';
 
 function Logistics() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0 hero-gradient-logistics">
@@ -163,7 +164,7 @@ function Logistics() {
               Contact our systems engineering team to deploy Exido across your logistics network.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
-              <a href="/contact" className="px-12 py-5 bg-primary text-on-primary font-bold rounded-lg shadow-[0_0_30px_rgba(143,245,255,0.2)] hover:shadow-primary/40 transition-all uppercase tracking-widest text-sm">Schedule Demo</a>
+              <a href="/contact" className="px-12 py-5 bg-primary text-on-primary font-bold rounded-lg glow-primary btn-glow transition-all uppercase tracking-widest text-sm">Schedule Demo</a>
               <a href="/contact" className="px-12 py-5 bg-transparent border border-outline-variant text-on-surface font-bold rounded-lg hover:bg-surface-bright transition-all uppercase tracking-widest text-sm">Technical Spec</a>
             </div>
           </div>

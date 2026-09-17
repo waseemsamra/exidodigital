@@ -2,7 +2,8 @@ import React from 'react';
 
 function Partnership() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[716px] flex items-center overflow-hidden px-12">
           <div className="absolute inset-0 z-0">
@@ -202,7 +203,7 @@ function Partnership() {
               <a href="#form" className="w-full py-3 border border-primary/30 text-primary font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary/5 transition-colors text-center">Select Tier</a>
             </div>
             {/* Strategic */}
-            <div className="bg-[#0b1731] p-8 rounded-lg border-b-2 border-on-surface flex flex-col">
+            <div className="bg-surface-container-low p-8 rounded-lg border-b-2 border-on-surface flex flex-col">
               <h3 className="font-headline font-bold text-lg mb-6 text-on-surface uppercase tracking-widest">Strategic</h3>
               <div className="text-3xl font-headline font-extrabold mb-8 leading-tight">Bespoke<br/>Alliances</div>
               <p className="text-sm text-on-surface-variant mb-10">Exclusive tier for foundational ecosystem architects and nation-state scale integration.</p>
@@ -328,7 +329,7 @@ function Partnership() {
                 <div className="col-span-2 mt-4">
                   <button 
                     type="submit"
-                    className="bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-bold px-10 py-4 rounded-lg uppercase tracking-widest text-sm shadow-[0_0_20px_rgba(143,245,255,0.15)] hover:shadow-primary/30 transition-all"
+                    className="bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-bold px-10 py-4 rounded-lg uppercase tracking-widest text-sm glow-primary hover:shadow-primary/30 transition-all"
                   >
                     Submit Inquiry
                   </button>

@@ -28,7 +28,8 @@ function ContactPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-secondary/30">      <main className="pt-24 pb-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-secondary/30">
+      <main className="pt-24 pb-20">
         {/* Hero Section */}
         <section className="relative px-8 py-20 max-w-screen-2xl mx-auto overflow-hidden">
           <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
@@ -139,7 +140,7 @@ function ContactPage() {
                 </div>
               </div>
               <div className="glass-panel p-8 rounded-xl border border-outline-variant/15 relative">
-                <h3 className="font-headline font-bold text-xl mb-4 text-[#dee5ff]">{statusTitle}</h3>
+                <h3 className="font-headline font-bold text-xl mb-4 text-on-surface">{statusTitle}</h3>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-sm text-on-surface-variant">{statusLabel}</span>
                   <span className="text-xs font-bold text-primary px-2 py-0.5 bg-primary/10 rounded">{statusStatus}</span>

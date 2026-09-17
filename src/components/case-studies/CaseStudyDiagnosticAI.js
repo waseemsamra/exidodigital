@@ -2,7 +2,8 @@ import React from 'react';
 
 function CaseStudyDiagnosticAI() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">      <main>
+    <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+      <main>
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex flex-col justify-center px-8 md:px-24 hero-gradient overflow-hidden">
           <div className="absolute inset-0 opacity-20 pointer-events-none">
@@ -138,7 +139,7 @@ function CaseStudyDiagnosticAI() {
               Scale Your Clinical <br/><span className="text-primary">Intelligence</span>
             </h2>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a href="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-12 py-5 rounded-lg font-bold text-lg uppercase tracking-widest hover:shadow-[0_0_30px_rgba(143,245,255,0.4)] transition-all inline-block">
+              <a href="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-12 py-5 rounded-lg font-bold text-lg uppercase tracking-widest hover:btn-glow transition-all inline-block">
                 Request Protocol Access
               </a>
               <button className="bg-surface-container-highest border border-outline-variant/30 text-on-surface px-12 py-5 rounded-lg font-bold text-lg uppercase tracking-widest hover:bg-surface-bright transition-all">

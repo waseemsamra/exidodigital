@@ -25,7 +25,8 @@ function SecurityPage() {
   };
 
   return (
-    <div className="font-body selection:bg-primary selection:text-on-primary">      <main className="pt-24">
+    <div className="font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -53,7 +54,7 @@ function SecurityPage() {
                   key={index}
                   className={`px-8 py-4 font-bold rounded-lg transition-all flex items-center gap-2 ${
                     button.variant === 'primary'
-                      ? 'bg-primary text-on-primary hover:shadow-[0_0_20px_rgba(143,245,255,0.4]'
+                      ? 'bg-primary text-on-primary btn-glow'
                       : 'border border-outline-variant text-on-surface hover:bg-surface-container-high'
                   }`}
                 >

@@ -24,7 +24,8 @@ function CareersPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 selection:text-primary">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[819px] flex items-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">

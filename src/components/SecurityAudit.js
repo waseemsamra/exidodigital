@@ -2,7 +2,8 @@ import React from 'react';
 
 function SecurityAudit() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-32 pb-20 px-6 md:px-12 max-w-[1440px] mx-auto">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-32 pb-20 px-6 md:px-12 max-w-[1440px] mx-auto">
         {/* Header Section */}
         <header className="mb-16 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8">
           <div className="max-w-3xl">
@@ -186,7 +187,7 @@ function SecurityAudit() {
               { icon: 'shield_with_heart', title: 'GDPR', subtitle: 'Privacy Tier A', color: 'primary' },
               { icon: 'account_balance', title: 'FINRA', subtitle: 'Institutional Grade', color: 'secondary' }
             ].map((cert, index) => (
-              <div key={index} className="glass-panel p-10 rounded-2xl text-center border border-white/5 hover:-translate-y-2 transition-all duration-300 shadow-xl group">
+              <div key={index} className="glass-panel p-10 rounded-2xl text-center border border-outline-variant/10 hover:-translate-y-2 transition-all duration-300 shadow-xl group">
                 <div className={`w-16 h-16 bg-${cert.color}/10 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-${cert.color}/20 transition-colors`}>
                   <span className={`material-symbols-outlined text-${cert.color} text-3xl`} style={{ fontVariationSettings: "'FILL' 1" }}>{cert.icon}</span>
                 </div>

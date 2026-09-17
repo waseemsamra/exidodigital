@@ -29,7 +29,7 @@ function Hero() {
               key={index}
               className={`group relative px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 ${
                 button.variant === 'primary'
-                  ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary hover:shadow-[0_0_30px_rgba(143,245,255,0.4)]'
+                  ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary btn-glow'
                   : 'bg-surface-container-highest border border-outline-variant/15 text-on-surface hover:bg-surface-bright'
               }`}
             >

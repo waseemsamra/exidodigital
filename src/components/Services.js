@@ -100,7 +100,7 @@ function Services() {
                   <div className="bg-primary/20 w-full h-1/2"></div>
                   <div className="bg-primary/40 w-full h-2/3"></div>
                   <div className="bg-primary/60 w-full h-1/3"></div>
-                  <div className="bg-primary w-full h-full shadow-[0_0_10px_#8ff5ff]"></div>
+                  <div className="bg-primary w-full h-full glow-primary"></div>
                 </div>
               </div>
             )}

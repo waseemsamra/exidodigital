@@ -2,7 +2,8 @@ import React from 'react';
 
 function FreeConsultation() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[614px] flex flex-col justify-center items-center pt-24 pb-12 overflow-hidden bg-mesh-hero">
           <div 
@@ -74,7 +75,7 @@ function FreeConsultation() {
                     <span className="text-xs font-mono text-on-surface-variant">TARGET: &lt;24H</span>
                   </div>
                   <div className="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
-                    <div className="h-full w-[94%] bg-gradient-to-r from-primary to-secondary shadow-[0_0_8px_#8ff5ff]"></div>
+                    <div className="h-full w-[94%] bg-gradient-to-r from-primary to-secondary glow-primary"></div>
                   </div>
                   <p className="mt-4 text-xs text-on-surface-variant leading-relaxed italic">
                     All communications are routed through our Digital Obsidian security layer, ensuring absolute confidentiality and data integrity.
@@ -136,7 +137,7 @@ function FreeConsultation() {
                   </div>
                   <button 
                     type="submit"
-                    className="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold py-5 rounded-lg text-sm uppercase tracking-widest hover:shadow-[0_0_25px_#8ff5ff40] active:scale-[0.98] transition-all group flex items-center justify-center gap-3"
+                    className="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold py-5 rounded-lg text-sm uppercase tracking-widest btn-glow active:scale-[0.98] transition-all group flex items-center justify-center gap-3"
                   >
                     Execute Connection Sequence
                     <span className="material-symbols-outlined text-xl group-hover:translate-x-1 transition-transform">arrow_forward</span>

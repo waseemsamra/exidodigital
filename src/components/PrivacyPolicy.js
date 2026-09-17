@@ -2,7 +2,8 @@ import React from 'react';
 
 function PrivacyPolicy() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-24 px-8 md:px-16 lg:px-24 max-w-[1440px] mx-auto">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-24 px-8 md:px-16 lg:px-24 max-w-[1440px] mx-auto">
         {/* Hero Header */}
         <header className="mb-20">
           <div className="flex flex-col lg:flex-row justify-between items-end border-b border-outline-variant/15 pb-8 gap-6">

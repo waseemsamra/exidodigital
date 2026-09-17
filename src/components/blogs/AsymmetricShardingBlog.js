@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 function AsymmetricShardingBlog() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[500px] flex items-center overflow-hidden px-8 md:px-20 py-24 bg-surface-container-low">
           <div className="max-w-4xl mx-auto text-center">
@@ -256,7 +257,7 @@ function AsymmetricShardingBlog() {
                 Access the complete technical specification, mathematical proofs, and implementation details in our comprehensive whitepaper.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-4 rounded-lg font-bold hover:shadow-[0_0_20px_rgba(143,245,255,0.4)] transition-all flex items-center justify-center gap-2">
+                <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-4 rounded-lg font-bold hover:btn-glow transition-all flex items-center justify-center gap-2">
                   Download PDF <span className="material-symbols-outlined">download</span>
                 </button>
                 <Link to="/contact" className="bg-surface-container-highest border border-outline-variant/30 text-on-surface px-10 py-4 rounded-lg font-bold hover:bg-surface-bright transition-all">

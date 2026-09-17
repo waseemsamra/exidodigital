@@ -2,7 +2,8 @@ import React from 'react';
 
 function CaseStudyAutonomousInventory() {
   return (
-    <div className="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
+    <div className="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative h-[870px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -16,7 +17,7 @@ function CaseStudyAutonomousInventory() {
           
           <div className="relative z-20 max-w-7xl mx-auto px-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <span className="inline-block label-sm text-secondary font-bold tracking-[0.3em] uppercase mb-6 drop-shadow-[0_0_4px_#ac89ff]">
+              <span className="inline-block label-sm text-secondary font-bold tracking-[0.3em] uppercase mb-6 glow-secondary">
                 Phase 04: Active Implementation
               </span>
               <h1 className="font-headline text-6xl font-extrabold tracking-tighter text-on-background leading-tight mb-8">
@@ -26,7 +27,7 @@ function CaseStudyAutonomousInventory() {
                 How Exido's AI Mesh reduced stockouts by 85% and optimized supply chain throughput for a Fortune 500 retailer.
               </p>
               <div className="flex items-center space-x-8">
-                <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_25px_#8ff5ff] transition-all duration-300 rounded-lg">
+                <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:btn-glow transition-all duration-300 rounded-lg">
                   Read Full Report
                 </button>
                 <div className="flex flex-col">
@@ -196,7 +197,7 @@ function CaseStudyAutonomousInventory() {
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-all duration-700"></div>
             <h2 className="font-headline text-5xl font-black text-on-background mb-8 tracking-tighter">Architect Your Retail Transformation.</h2>
             <p className="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto">Join the new era of autonomous commerce. Schedule a technical deep-dive with our solutions architects.</p>
-            <button className="hero-gradient text-on-primary px-12 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_30px_#8ff5ff] transition-all duration-300 rounded-lg">
+            <button className="hero-gradient text-on-primary px-12 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:btn-glow transition-all duration-300 rounded-lg">
               Schedule a consultation
             </button>
           </div>

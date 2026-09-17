@@ -2,7 +2,8 @@ import React from 'react';
 
 function CaseStudyZeroTrustNetwork() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative h-[870px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -16,7 +17,7 @@ function CaseStudyZeroTrustNetwork() {
           
           <div className="relative z-20 max-w-7xl mx-auto px-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <span className="inline-block label-sm text-secondary font-bold tracking-[0.3em] uppercase mb-6 drop-shadow-[0_0_4px_#ac89ff]">
+              <span className="inline-block label-sm text-secondary font-bold tracking-[0.3em] uppercase mb-6 glow-secondary">
                 Phase 04: Active Implementation
               </span>
               <h1 className="font-headline text-6xl font-extrabold tracking-tighter text-on-background leading-tight mb-8">
@@ -26,7 +27,7 @@ function CaseStudyZeroTrustNetwork() {
                 How Exido's complete security infrastructure overhaul with micro-segmentation and continuous verification protocols protects Fortune 500 enterprise networks.
               </p>
               <div className="flex items-center space-x-8">
-                <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_25px_#8ff5ff] transition-all duration-300 rounded-lg">
+                <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:btn-glow transition-all duration-300 rounded-lg">
                   Read Full Report
                 </button>
                 <div className="flex flex-col">
@@ -200,7 +201,7 @@ function CaseStudyZeroTrustNetwork() {
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary/10 rounded-full blur-3xl group-hover:bg-secondary/20 transition-all duration-700"></div>
             <h2 className="font-headline text-5xl font-black text-on-background mb-8 tracking-tighter">Transform Your Network Security.</h2>
             <p className="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto">Discover how zero-trust architecture can eliminate lateral threats and protect your enterprise.</p>
-            <a href="/contact" className="hero-gradient text-on-primary px-12 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:shadow-[0_0_30px_#8ff5ff] transition-all duration-300 rounded-lg inline-block">
+            <a href="/contact" className="hero-gradient text-on-primary px-12 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:btn-glow transition-all duration-300 rounded-lg inline-block">
               Schedule a consultation
             </a>
           </div>

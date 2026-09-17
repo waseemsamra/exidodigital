@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './styles/global.css';
 import Layout from './components/Layout';
 import HomePage from './components/HomePage';
 import AIPage from './components/AIPage';
@@ -30,7 +29,6 @@ import Healthcare from './components/Healthcare';
 import FinTech from './components/FinTech';
 import Logistics from './components/Logistics';
 import RealEstate from './components/RealEstate';
-import Ecommerce from './components/Ecommerce';
 import Travel from './components/Travel';
 import Education from './components/Education';
 import Manufacturing from './components/Manufacturing';
@@ -95,7 +93,6 @@ function App() {
           <Route path="/fintech" element={<FinTech />} />
           <Route path="/logistics" element={<Logistics />} />
           <Route path="/realestate" element={<RealEstate />} />
-          <Route path="/ecommerce" element={<Ecommerce />} />
           <Route path="/travel" element={<Travel />} />
           <Route path="/education" element={<Education />} />
           <Route path="/manufacturing" element={<Manufacturing />} />

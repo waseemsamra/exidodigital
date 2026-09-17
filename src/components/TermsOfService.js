@@ -2,7 +2,8 @@ import React from 'react';
 
 function TermsOfService() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 min-h-screen">      <main className="pt-24 px-8 md:px-16 lg:px-24">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30 min-h-screen">
+      <main className="pt-24 px-8 md:px-16 lg:px-24">
         <div className="max-w-4xl mx-auto">
           {/* Hero Header */}
           <div className="mb-16 text-center md:text-left">

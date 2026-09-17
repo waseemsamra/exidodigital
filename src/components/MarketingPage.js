@@ -29,11 +29,12 @@ function MarketingPage() {
   };
 
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main>
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main>
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-[radial-gradient(circle_at_center,_rgba(143,245,255,0.05_0%,_transparent_50%]"></div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-primary/5"></div>
             <img
               className="w-full h-full object-cover opacity-20 mix-blend-screen"
               src={backgroundImage}
@@ -56,7 +57,7 @@ function MarketingPage() {
                   button.variant === 'primary' ? (
                     <button
                       key={index}
-                      className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-bold text-lg hover:shadow-[0_0_20px_rgba(143,245,255,0.4] transition-all transform active:scale-95"
+                      className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-bold text-lg btn-glow transition-all transform active:scale-95"
                     >
                       {button.label}
                     </button>
@@ -197,7 +198,7 @@ function MarketingPage() {
                   key={index}
                   className={`px-10 py-5 rounded-lg font-bold text-xl transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary hover:shadow-[0_0_30px_rgba(143,245,255,0.4]'
+                      ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary btn-glow'
                       : 'border border-outline-variant text-on-surface hover:bg-surface-container-high'
                   }`}
                 >

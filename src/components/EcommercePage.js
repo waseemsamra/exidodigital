@@ -11,7 +11,8 @@ function EcommercePage() {
 
 
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-secondary/30">      <main className="pt-24">
+    <div className="bg-background text-on-surface font-body selection:bg-secondary/30">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center justify-center px-8 overflow-hidden">
           <div className="absolute inset-0 z-0">
@@ -38,7 +39,7 @@ function EcommercePage() {
                   key={index}
                   className={`px-10 py-5 rounded-lg font-bold text-lg transition-all ${
                     button.variant === 'primary'
-                      ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary hover:shadow-[0_0_25px_rgba(143,245,255,0.4] transform hover:-translate-y-1'
+                      ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary btn-glow transform hover:-translate-y-1'
                       : 'glass-panel text-on-surface hover:bg-surface-container-high'
                   }`}
                 >
@@ -181,7 +182,7 @@ function EcommercePage() {
             <p className="text-xl text-on-surface-variant mb-14 max-w-2xl mx-auto leading-relaxed">
               {ctaDescription}
             </p>
-            <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-12 py-6 rounded-lg font-bold text-xl hover:shadow-[0_0_30px_rgba(143,245,255,0.5] transition-all transform hover:scale-105 active:scale-95">
+            <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-12 py-6 rounded-lg font-bold text-xl btn-glow transition-all transform hover:scale-105 active:scale-95">
               {ctaButtonLabel}
             </button>
           </div>

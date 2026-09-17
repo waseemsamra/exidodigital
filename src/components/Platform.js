@@ -2,7 +2,8 @@ import React from 'react';
 
 function Platform() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -102,14 +103,14 @@ function Platform() {
                 </div>
                 <div className="flex-1">
                   <div className="h-2 w-full bg-surface-container-low rounded-full mb-2 overflow-hidden">
-                    <div className="h-full w-full bg-primary shadow-[0_0_10px_#8ff5ff]"></div>
+                    <div className="h-full w-full bg-primary glow-primary"></div>
                   </div>
                   <div className="text-xs uppercase text-on-surface-variant tracking-tighter">Security Mesh Integrity</div>
                 </div>
               </div>
             </div>
             {/* Physical Layer */}
-            <div className="lg:col-span-5 glass-panel p-8 rounded-xl border border-outline-variant/10 bg-[#000]/30 hover:border-primary/30 transition-all">
+            <div className="lg:col-span-5 glass-panel p-8 rounded-xl border border-outline-variant/10 bg-surface/30 hover:border-primary/30 transition-all">
               <div className="flex items-center justify-between mb-8">
                 <span className="material-symbols-outlined text-4xl text-primary">memory</span>
                 <span className="text-xs font-mono text-primary px-2 py-1 bg-primary/10 rounded">L1</span>
@@ -233,7 +234,7 @@ function Platform() {
             <h2 className="text-5xl font-headline font-bold mb-8">Ready to Engineer Your <span className="text-secondary italic">Obsidian</span>?</h2>
             <p className="text-on-surface-variant text-lg mb-12">Join the elite cohort of enterprises running on the most secure, high-performance architecture ever designed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/contact" className="bg-primary text-on-primary px-10 py-4 rounded-lg font-bold hover:shadow-[0_0_30px_#8ff5ff50] transition-all">
+              <a href="/contact" className="bg-primary text-on-primary px-10 py-4 rounded-lg font-bold btn-glow transition-all">
                 Consult Infrastructure Architect
               </a>
               <a href="/contact" className="border border-outline text-on-surface px-10 py-4 rounded-lg font-bold hover:bg-surface-variant transition-all">

@@ -2,7 +2,8 @@ import React from 'react';
 
 function Education() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">      <main className="relative pt-20">
+    <div className="bg-surface text-on-surface font-body selection:bg-primary/30">
+      <main className="relative pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden px-8">
           <div className="absolute inset-0 z-0">
@@ -23,7 +24,7 @@ function Education() {
                 Synthesizing cognitive science and machine intelligence to build education systems that adapt to the individual, not the institution.
               </p>
               <div className="flex flex-wrap gap-6">
-                <a href="/contact" className="bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold py-4 px-10 rounded-lg text-sm uppercase tracking-widest hover:brightness-110 transition-all shadow-[0_0_20px_rgba(0,222,236,0.3)]">
+                <a href="/contact" className="bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold py-4 px-10 rounded-lg text-sm uppercase tracking-widest hover:brightness-110 transition-all glow-primary">
                   Deploy Nexus
                 </a>
                 <a href="/contact" className="px-10 py-4 border border-outline-variant/30 glass-panel rounded-lg text-sm font-bold uppercase tracking-widest hover:bg-surface-container-high transition-colors">
@@ -34,7 +35,7 @@ function Education() {
             <div className="lg:col-span-5 hidden lg:block">
               <div className="relative glass-panel rounded-xl p-8 overflow-hidden aspect-square flex items-center justify-center border-l-4 border-secondary shadow-2xl">
                 <div className="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none">
-                  <div className="w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-secondary via-transparent to-transparent"></div>
+                  <div className="w-full h-full bg-secondary/10 from-secondary via-transparent to-transparent"></div>
                 </div>
                 <div className="text-center">
                   <span className="material-symbols-outlined text-8xl text-secondary mb-6" style={{ fontVariationSettings: "'FILL' 1" }}>psychology</span>
@@ -161,7 +162,7 @@ function Education() {
         <section className="py-32 px-8 bg-surface-container-highest/30">
           <div className="max-w-7xl mx-auto">
             <div className="bg-surface rounded-3xl p-8 md:p-16 border border-outline-variant/20 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none bg-[radial-gradient(circle_at_top_right,_#00eefc,_transparent)]"></div>
+              <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none bg-[radial-gradient(circle_at_top_right,_var(--color-primary-container),_transparent)]"></div>
               <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div>
                   <h2 className="text-4xl md:text-5xl font-headline font-bold mb-8">Secure Student <span className="text-primary">Data Lakes</span></h2>

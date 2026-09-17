@@ -134,7 +134,8 @@ function Works() {
     ? projects 
     : projects.filter(project => project.category === activeFilter);
   return (
-    <div className="bg-surface selection:bg-primary selection:text-on-primary overflow-x-hidden">      <main className="pt-24 pb-20">
+    <div className="bg-surface selection:bg-primary selection:text-on-primary overflow-x-hidden">
+      <main className="pt-24 pb-20">
         {/* Hero Section */}
         <section className="px-8 pt-20 pb-32 max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7">
@@ -199,7 +200,7 @@ function Works() {
                 <p className="text-on-surface-variant body-md max-w-lg mb-8">
                   A complete overhaul of mission-critical fleet management systems using blockchain verification and edge-computing security protocols.
                 </p>
-                <button className="gradient-button px-8 py-4 rounded-lg text-on-primary font-bold tracking-tight hover:shadow-[0_0_20px_rgba(143,245,255,0.4)] transition-all bg-gradient-to-br from-primary to-primary-container">
+                <button className="gradient-button px-8 py-4 rounded-lg text-on-primary font-bold tracking-tight hover:btn-glow transition-all bg-gradient-to-br from-primary to-primary-container">
                   View Case Study
                 </button>
               </div>
@@ -344,7 +345,7 @@ function Works() {
               Let's build the next era of your digital infrastructure. Our engineers are ready to initialize your deployment strategy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/contact" className="gradient-button px-10 py-4 rounded-lg text-on-primary font-bold tracking-tight hover:shadow-[0_0_25px_rgba(143,245,255,0.4)] transition-all flex items-center justify-center gap-2 bg-gradient-to-br from-primary to-primary-container">
+              <a href="/contact" className="gradient-button px-10 py-4 rounded-lg text-on-primary font-bold tracking-tight hover:btn-glow transition-all flex items-center justify-center gap-2 bg-gradient-to-br from-primary to-primary-container">
                 Initialize Consultation
                 <span className="material-symbols-outlined text-lg">terminal</span>
               </a>

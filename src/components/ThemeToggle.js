@@ -7,7 +7,7 @@ function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="flex items-center gap-2 px-4 py-2 rounded-lg bg-surface-container-high border border-outline-variant/20 hover:bg-surface-container-highest transition-all text-on-surface font-semibold text-sm"
+      className="flex w-full md:w-auto items-center justify-center gap-2 px-4 py-2 rounded-lg bg-surface-container-high border border-outline-variant/20 hover:bg-surface-container-highest transition-all text-on-surface font-semibold text-sm"
       aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
     >
       <span className="material-symbols-outlined text-base">

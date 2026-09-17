@@ -2,7 +2,8 @@ import React from 'react';
 
 function Manufacturing() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30">      <main className="relative pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30">
+      <main className="relative pt-20">
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex items-center overflow-hidden cyber-grid">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface to-surface z-10"></div>
@@ -22,7 +23,7 @@ function Manufacturing() {
           <div className="container mx-auto px-8 relative z-20">
             <div className="max-w-3xl">
               <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full glass-panel border border-outline-variant/15 mb-8">
-                <span className="w-2 h-2 rounded-full bg-secondary shadow-[0_0_8px_#ac89ff]"></span>
+                <span className="w-2 h-2 rounded-full bg-secondary glow-secondary"></span>
                 <span className="font-label text-[0.65rem] uppercase tracking-[0.2em] text-secondary font-bold">Industrial Intelligence v4.0</span>
               </div>
               <h1 className="font-headline text-7xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8">
@@ -34,7 +35,7 @@ function Manufacturing() {
                 Deploy Exido's neural mesh to transform legacy hardware into a living, breathing industrial ecosystem. Real-time cognitive manufacturing starts here.
               </p>
               <div className="flex flex-wrap gap-6">
-                <a href="/contact" className="px-10 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-extrabold uppercase tracking-widest rounded-lg hover:shadow-[0_0_30px_rgba(143,245,255,0.4)] transition-all">
+                <a href="/contact" className="px-10 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-headline font-extrabold uppercase tracking-widest rounded-lg btn-glow transition-all">
                   Initialize Mesh
                 </a>
                 <a href="/contact" className="px-10 py-5 glass-panel text-on-surface font-headline font-extrabold uppercase tracking-widest rounded-lg border border-outline-variant/30 hover:bg-surface-container-high transition-all">
@@ -161,11 +162,11 @@ function Manufacturing() {
               <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto"></div>
             </div>
             {/* Dashboard Mockup View */}
-            <div className="glass-panel border border-outline-variant/20 rounded-2xl overflow-hidden shadow-[0_0_100px_rgba(0,0,0,0.5)]">
+            <div className="glass-panel border border-outline-variant/20 rounded-2xl overflow-hidden shadow-glow">
               <div className="bg-surface-container-high border-b border-outline-variant/15 px-6 py-4 flex items-center justify-between">
                 <div className="flex items-center gap-6">
                   <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-error shadow-[0_0_8px_#ff716c]"></span>
+                    <span className="w-2 h-2 rounded-full bg-error shadow-glow"></span>
                     <span className="text-[0.65rem] font-bold uppercase tracking-widest text-on-surface-variant">Live Feed</span>
                   </div>
                   <div className="h-4 w-[1px] bg-outline-variant/30"></div>
@@ -184,7 +185,7 @@ function Manufacturing() {
                     <div className="text-[0.6rem] text-on-surface-variant uppercase font-black tracking-widest mb-2">Throughput</div>
                     <div className="text-3xl font-headline font-bold text-primary">2,481 <span className="text-sm font-normal text-on-surface-variant">u/hr</span></div>
                     <div className="mt-2 h-1 w-full bg-outline-variant/20 rounded-full overflow-hidden">
-                      <div className="h-full bg-primary w-[88%] shadow-[0_0_10px_#8ff5ff]"></div>
+                      <div className="h-full bg-primary w-[88%] glow-primary"></div>
                     </div>
                   </div>
                   <div className="p-6 rounded-lg bg-surface/50 border border-outline-variant/10">
@@ -219,7 +220,7 @@ function Manufacturing() {
 
         {/* Autonomous Supply Chain Synergy */}
         <section className="py-32 relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_#141f38_0%,_transparent_70%)] opacity-30"></div>
+          <div className="absolute top-0 left-0 w-full h-full hero-gradient opacity-30"></div>
           <div className="container mx-auto px-8 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
               <div>

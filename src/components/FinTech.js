@@ -2,7 +2,8 @@ import React from 'react';
 
 function FinTech() {
   return (
-    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">      <main className="pt-20">
+    <div className="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">
+      <main className="pt-20">
         {/* Hero Section */}
         <header className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-surface">
           <div className="absolute inset-0 z-0 opacity-40">
@@ -27,7 +28,7 @@ function FinTech() {
                 Engineering the next epoch of global value transfer. Secure, deterministic, and operating at the theoretical limits of hardware-accelerated consensus.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
-                <a href="/contact" className="bg-gradient-to-r from-primary to-primary-container px-8 py-4 rounded-lg text-on-primary font-bold tracking-tight flex items-center gap-2 shadow-lg shadow-primary/20 hover:primary-glow transition-all">
+                <a href="/contact" className="bg-gradient-to-r from-primary to-primary-container px-8 py-4 rounded-lg text-on-primary font-bold tracking-tight flex items-center gap-2 shadow-lg shadow-primary/20 hover:btn-glow transition-all">
                   Deploy Infrastructure
                   <span className="material-symbols-outlined">arrow_forward</span>
                 </a>
