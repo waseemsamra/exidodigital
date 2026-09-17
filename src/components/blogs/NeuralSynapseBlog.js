@@ -16,7 +16,7 @@ function NeuralSynapseBlog() {
               Neural Synapse Integration for <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Predictive Commerce Engines</span>
             </h1>
             <p className="font-body text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              Exido's breakthrough AI research introduces neural synapse technology that predicts consumer behavior with 94% accuracy, revolutionizing how enterprises approach demand forecasting and personalized commerce.
+              Bluechip's breakthrough AI research introduces neural synapse technology that predicts consumer behavior with 94% accuracy, revolutionizing how enterprises approach demand forecasting and personalized commerce.
             </p>
             <div className="mt-12 flex items-center justify-center gap-8">
               <div className="flex items-center gap-3">
@@ -24,7 +24,7 @@ function NeuralSynapseBlog() {
                   <span className="material-symbols-outlined text-tertiary text-sm">science</span>
                 </div>
                 <div className="text-left">
-                  <p className="text-sm font-bold text-on-surface">Exido AI Research Lab</p>
+                  <p className="text-sm font-bold text-on-surface">Bluechip AI Research Lab</p>
                   <p className="text-xs text-on-surface-variant">Advanced AI Research Division</p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ function NeuralSynapseBlog() {
             {/* Introduction */}
             <div className="prose prose-invert prose-lg max-w-none mb-16">
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                In a groundbreaking advancement that bridges neuroscience and artificial intelligence, Exido's research team has developed Neural Synapse Integration—a revolutionary AI architecture that mimics the human brain's synaptic connections to predict consumer behavior with unprecedented accuracy.
+                In a groundbreaking advancement that bridges neuroscience and artificial intelligence, Bluechip's research team has developed Neural Synapse Integration—a revolutionary AI architecture that mimics the human brain's synaptic connections to predict consumer behavior with unprecedented accuracy.
               </p>
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
                 This breakthrough technology is already transforming how Fortune 500 retailers approach demand forecasting, inventory management, and personalized customer experiences, delivering an average 94% prediction accuracy rate.
@@ -225,7 +225,7 @@ function NeuralSynapseBlog() {
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">Continuous Innovation</h2>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Exido's AI Research Lab continues to advance Neural Synapse Integration through ongoing research initiatives:
+                  Bluechip's AI Research Lab continues to advance Neural Synapse Integration through ongoing research initiatives:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-surface-container-low p-6 rounded-lg border border-outline-variant/10">
@@ -288,8 +288,8 @@ function NeuralSynapseBlog() {
                 </div>
                 <div className="p-6">
                   <p className="text-xs text-secondary uppercase tracking-widest mb-2">Cloud Security</p>
-                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Exido's Obsidian Layer: Redefining Cloud Security</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's revolutionary zero-trust architecture is setting new industry standards.</p>
+                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Bluechip's Obsidian Layer: Redefining Cloud Security</h3>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's revolutionary zero-trust architecture is setting new industry standards.</p>
                 </div>
               </Link>
               
@@ -300,7 +300,7 @@ function NeuralSynapseBlog() {
                 <div className="p-6">
                   <p className="text-xs text-primary uppercase tracking-widest mb-2">Infrastructure</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Global Node Expansion: Reaching the Edge of the Atmosphere</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">Exido's historic 500+ node deployment across 40 countries.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">Bluechip's historic 500+ node deployment across 40 countries.</p>
                 </div>
               </Link>
               
@@ -311,7 +311,7 @@ function NeuralSynapseBlog() {
                 <div className="p-6">
                   <p className="text-xs text-tertiary uppercase tracking-widest mb-2">User Experience</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Atmospheric Data Visualization Sets New UI Benchmark</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's revolutionary UI/UX approach is transforming enterprise data experience.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's revolutionary UI/UX approach is transforming enterprise data experience.</p>
                 </div>
               </Link>
             </div>

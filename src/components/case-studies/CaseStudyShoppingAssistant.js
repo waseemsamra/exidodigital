@@ -24,7 +24,7 @@ function CaseStudyShoppingAssistant() {
                 Personalized Shopping with <span className="text-primary glow-text">AI Intelligence</span>
               </h1>
               <p className="text-on-surface-variant text-xl leading-relaxed font-light max-w-xl mb-12">
-                How Exido's AI-driven recommendation engine increases average order value by 47% for enterprise retailers through personalized product discovery.
+                How Bluechip's AI-driven recommendation engine increases average order value by 47% for enterprise retailers through personalized product discovery.
               </p>
               <div className="flex items-center space-x-8">
                 <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:btn-glow transition-all duration-300 rounded-lg">
@@ -142,7 +142,7 @@ function CaseStudyShoppingAssistant() {
         {/* Tech Stack Component */}
         <section className="py-32 px-12 bg-surface-container-low">
           <div className="max-w-7xl mx-auto text-center mb-20">
-            <span className="text-primary-dim label-sm font-bold tracking-[0.4em] uppercase mb-4 block">The Exido Architecture</span>
+            <span className="text-primary-dim label-sm font-bold tracking-[0.4em] uppercase mb-4 block">The Bluechip Architecture</span>
             <h2 className="font-headline text-5xl font-black text-on-background tracking-tighter">The Tech Stack</h2>
           </div>
           

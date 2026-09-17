@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Exido | Software & App Development",
+    "title": "Bluechip | Software & App Development",
     "badge": "Architecting the Future"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -122,13 +122,13 @@
   },
   "cta": {
     "title": "Ready to Build the Invisible?",
-    "description": "Join the elite enterprises leveraging Exido for their mission-critical digital infrastructure.",
+    "description": "Join the elite enterprises leveraging Bluechip for their mission-critical digital infrastructure.",
     "buttonLabel": "Initiate Consultation"
   },
   "footer": {
     "company": {
-      "name": "Exido",
-      "description": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+      "name": "Bluechip",
+      "description": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
     },
     "columns": [
       {
@@ -153,6 +153,6 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    "copyright": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
   }
 }

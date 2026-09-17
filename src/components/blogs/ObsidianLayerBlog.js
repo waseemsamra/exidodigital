@@ -13,10 +13,10 @@ function ObsidianLayerBlog() {
               <span className="font-label text-xs tracking-widest text-primary uppercase">TechCrunch Feature</span>
             </div>
             <h1 className="font-headline text-4xl md:text-6xl font-extrabold tracking-tighter mb-8 leading-tight">
-              Exido is Redefining Cloud Security with the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Obsidian Layer</span>
+              Bluechip is Redefining Cloud Security with the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Obsidian Layer</span>
             </h1>
             <p className="font-body text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              How Exido's revolutionary zero-trust architecture is setting new industry standards for cloud-native security and data protection.
+              How Bluechip's revolutionary zero-trust architecture is setting new industry standards for cloud-native security and data protection.
             </p>
             <div className="mt-12 flex items-center justify-center gap-8">
               <div className="flex items-center gap-3">
@@ -42,10 +42,10 @@ function ObsidianLayerBlog() {
             {/* Introduction */}
             <div className="prose prose-invert prose-lg max-w-none mb-16">
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                In an era where data breaches cost organizations an average of $4.45 million per incident, traditional cloud security approaches are proving inadequate. Enter Exido's Obsidian Layer—a paradigm-shifting security architecture that's capturing attention across the technology sector.
+                In an era where data breaches cost organizations an average of $4.45 million per incident, traditional cloud security approaches are proving inadequate. Enter Bluechip's Obsidian Layer—a paradigm-shifting security architecture that's capturing attention across the technology sector.
               </p>
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                As featured in TechCrunch, Exido's innovative approach to cloud security is fundamentally changing how enterprises think about protecting their most valuable digital assets.
+                As featured in TechCrunch, Bluechip's innovative approach to cloud security is fundamentally changing how enterprises think about protecting their most valuable digital assets.
               </p>
             </div>
 
@@ -60,7 +60,7 @@ function ObsidianLayerBlog() {
               </div>
               <blockquote className="border-l-4 border-primary pl-6 py-4 my-6">
                 <p className="text-on-surface text-xl italic leading-relaxed">
-                  "Exido is redefining how we think about cloud security with their Obsidian Layer. This isn't just an incremental improvement—it's a fundamental reimagining of what zero-trust security can be."
+                  "Bluechip is redefining how we think about cloud security with their Obsidian Layer. This isn't just an incremental improvement—it's a fundamental reimagining of what zero-trust security can be."
                 </p>
               </blockquote>
             </div>
@@ -268,7 +268,7 @@ function ObsidianLayerBlog() {
             <div className="bg-gradient-to-br from-primary/10 via-surface-container-high to-secondary/10 p-12 rounded-2xl border border-outline-variant/10 text-center">
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-4">Secure Your Cloud Infrastructure</h2>
               <p className="text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Join leading enterprises that have transformed their security posture with Exido's Obsidian Layer.
+                Join leading enterprises that have transformed their security posture with Bluechip's Obsidian Layer.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-bold hover:btn-glow transition-all">
@@ -305,7 +305,7 @@ function ObsidianLayerBlog() {
                 <div className="p-6">
                   <p className="text-xs text-primary uppercase tracking-widest mb-2">Data Engineering</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">ETL Automation: The Future of Data Integration</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
                 </div>
               </Link>
               

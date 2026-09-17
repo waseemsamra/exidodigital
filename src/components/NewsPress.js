@@ -21,7 +21,7 @@ function NewsPress() {
               News <span className="text-primary-dim">&</span> Press Center
             </h1>
             <p className="font-body text-xl text-on-surface-variant max-w-2xl mx-auto mb-12">
-              Discover the latest breakthroughs in atmospheric computing and digital obsidian security from the core of Exido.
+              Discover the latest breakthroughs in atmospheric computing and digital obsidian security from the core of Bluechip.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <a href="#newsroom" className="bg-surface-container-highest border border-outline-variant/30 text-on-surface px-8 py-4 rounded-lg font-medium hover:bg-surface-bright transition-all">
@@ -66,7 +66,7 @@ function NewsPress() {
                     <div className="absolute bottom-8 left-8 right-8">
                       <span className="bg-primary/20 text-primary-fixed text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4 inline-block backdrop-blur-md">Data Engineering</span>
                       <h3 className="font-headline text-3xl font-bold text-on-surface group-hover:text-primary transition-colors">ETL Automation: The Future of Data Integration</h3>
-                      <p className="text-on-surface-variant mt-4 line-clamp-2 max-w-xl font-light">How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows with zero-touch orchestration.</p>
+                      <p className="text-on-surface-variant mt-4 line-clamp-2 max-w-xl font-light">How Bluechip's autonomous ETL pipelines are revolutionizing enterprise data workflows with zero-touch orchestration.</p>
                     </div>
                   </div>
                 </Link>
@@ -107,12 +107,12 @@ function NewsPress() {
                 <div className="flex flex-col gap-8">
                   <div className="p-6 rounded-lg bg-surface-container-low border border-outline-variant/10 hover:border-primary/30 transition-all">
                     <p className="font-label text-[10px] text-primary mb-2 uppercase tracking-widest">TechCrunch</p>
-                    <h4 className="font-body font-bold text-lg leading-snug">"Exido is redefining how we think about cloud security with their Obsidian Layer."</h4>
+                    <h4 className="font-body font-bold text-lg leading-snug">"Bluechip is redefining how we think about cloud security with their Obsidian Layer."</h4>
                     <Link to="/news/obsidian-layer" className="mt-4 inline-block text-xs text-on-surface-variant underline hover:text-on-surface">Read Full Story</Link>
                   </div>
                   <div className="p-6 rounded-lg bg-surface-container-low border border-outline-variant/10 hover:border-primary/30 transition-all">
                     <p className="font-label text-[10px] text-primary mb-2 uppercase tracking-widest">Wired</p>
-                    <h4 className="font-body font-bold text-lg leading-snug">"The atmospheric depth of data visualization at Exido sets a new UI benchmark."</h4>
+                    <h4 className="font-body font-bold text-lg leading-snug">"The atmospheric depth of data visualization at Bluechip sets a new UI benchmark."</h4>
                     <Link to="/news/atmospheric-viz" className="mt-4 inline-block text-xs text-on-surface-variant underline hover:text-on-surface">Read Full Story</Link>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ function NewsPress() {
                 <div className="flex flex-col gap-6">
                   <div className="group cursor-pointer">
                     <p className="text-[10px] text-on-surface-variant font-medium">DEC 20, 2023</p>
-                    <h4 className="text-sm font-semibold group-hover:text-primary transition-colors mt-1">Exido Announces $250M Series D Funding Round</h4>
+                    <h4 className="text-sm font-semibold group-hover:text-primary transition-colors mt-1">Bluechip Announces $250M Series D Funding Round</h4>
                   </div>
                   <div className="group cursor-pointer">
                     <p className="text-[10px] text-on-surface-variant font-medium">DEC 12, 2023</p>
@@ -150,7 +150,7 @@ function NewsPress() {
                 <h2 className="font-headline text-5xl font-extrabold tracking-tighter">Media Kit</h2>
               </div>
               <p className="text-on-surface-variant max-w-md text-sm leading-relaxed">
-                Authorized press assets including executive photography, brand iconography, and technical diagrams of the Exido ecosystem.
+                Authorized press assets including executive photography, brand iconography, and technical diagrams of the Bluechip ecosystem.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -228,7 +228,7 @@ function NewsPress() {
               <div className="mt-12 flex items-center gap-6 text-sm">
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-secondary text-base">alternate_email</span>
-                  <span className="text-on-surface-variant">press@exidodigital.com</span>
+                  <span className="text-on-surface-variant">press@bluechipdigital.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-secondary text-base">call</span>

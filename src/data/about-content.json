@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "About Us | Exido",
+    "title": "About Us | Bluechip",
     "badge": "The Philosophy"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about", "active": true }
@@ -18,7 +18,7 @@
       "line1": "The Architects of",
       "line2": "Digital Obsidian."
     },
-    "description": "We construct resilient digital environments where precision engineering meets advanced infrastructure. At Exido, we don't just build software; we forge the digital foundations for the next era of technological dominance.",
+    "description": "We construct resilient digital environments where precision engineering meets advanced infrastructure. At Bluechip, we don't just build software; we forge the digital foundations for the next era of technological dominance.",
     "backgroundImage": "/assets/images/about-hero.png",
     "backgroundAlt": "Abstract digital network visualization with flowing data particles and deep obsidian aesthetic in low light"
   },
@@ -55,7 +55,7 @@
   "leadership": {
     "title": {
       "line1": "The Minds Behind",
-      "line2": "the Exido"
+      "line2": "the Bluechip"
     },
     "description": "A collective of specialists dedicated to hyper-precision engineering.",
     "members": [
@@ -154,7 +154,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "Forging future-ready infrastructure for the world's most critical digital assets."
     },
     "columns": [
@@ -182,7 +182,7 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved.",
+    "copyright": "© 2024 Bluechip. All rights reserved.",
     "socialIcons": ["language", "public"]
   }
 }

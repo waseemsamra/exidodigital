@@ -135,7 +135,7 @@
   "footer": {
     "company": {
       "name": "KINETIC",
-      "description": "© 2024 Exido. All Rights Reserved."
+      "description": "© 2024 Bluechip. All Rights Reserved."
     },
     "columns": [
       {
@@ -160,6 +160,6 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All Rights Reserved."
+    "copyright": "© 2024 Bluechip. All Rights Reserved."
   }
 }

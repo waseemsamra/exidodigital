@@ -46,7 +46,7 @@ function FreeConsultation() {
                   </div>
                   <div>
                     <h4 className="font-headline font-bold text-on-surface">Direct Command</h4>
-                    <p className="text-on-surface-variant text-sm">ops@exidodigital.com</p>
+                    <p className="text-on-surface-variant text-sm">ops@bluechipdigital.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-6 group">
@@ -193,7 +193,7 @@ function FreeConsultation() {
                 <div className="space-y-3 text-on-surface-variant text-sm font-body">
                   <p className="flex items-center gap-2">
                     <span className="material-symbols-outlined text-xs">alternate_email</span> 
-                    india-ops@exidodigital.com
+                    india-ops@bluechipdigital.com
                   </p>
                 </div>
               </div>
@@ -212,7 +212,7 @@ function FreeConsultation() {
                 <div className="space-y-3 text-on-surface-variant text-sm font-body">
                   <p className="flex items-center gap-2">
                     <span className="material-symbols-outlined text-xs">alternate_email</span> 
-                    sng-ops@exidodigital.com
+                    sng-ops@bluechipdigital.com
                   </p>
                 </div>
               </div>

@@ -68,7 +68,7 @@ function AllArticles() {
                 <span className="text-on-surface-variant text-xs font-label">12 Min Read</span>
               </div>
               <Link to="/news/obsidian-layer" className="text-4xl font-headline font-extrabold tracking-tight mb-4 group-hover:text-primary transition-colors">
-                Exido's Obsidian Layer: Redefining Cloud Security
+                Bluechip's Obsidian Layer: Redefining Cloud Security
               </Link>
               <p className="text-on-surface-variant mb-8 line-clamp-3 font-light text-lg">
                 An in-depth analysis of next-generation cognitive models that prioritize energy efficiency and sparse activation patterns for enterprise-scale deployment.
@@ -107,9 +107,9 @@ function AllArticles() {
                   <span className="text-[10px] text-on-surface-variant font-label">8 min read</span>
                 </div>
                 <h3 className="text-xl font-headline font-bold mb-3 group-hover:text-primary transition-colors">ETL Automation: The Future of Data Integration</h3>
-                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows with zero-touch orchestration.</p>
+                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">How Bluechip's autonomous ETL pipelines are revolutionizing enterprise data workflows with zero-touch orchestration.</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-medium text-tertiary">Exido Engineering Team</span>
+                  <span className="text-xs font-medium text-tertiary">Bluechip Engineering Team</span>
                   <button className="text-primary hover:translate-x-1 transition-transform">
                     <span className="material-symbols-outlined">arrow_forward</span>
                   </button>
@@ -135,9 +135,9 @@ function AllArticles() {
                   <span className="text-[10px] text-on-surface-variant font-label">15 min read</span>
                 </div>
                 <h3 className="text-xl font-headline font-bold mb-3 group-hover:text-primary transition-colors">Global Node Expansion: Reaching the Edge of the Atmosphere</h3>
-                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">Exido's historic 500+ node deployment across 40 countries brings sub-10ms latency to 95% of the global population.</p>
+                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">Bluechip's historic 500+ node deployment across 40 countries brings sub-10ms latency to 95% of the global population.</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-medium text-tertiary">Exido Infrastructure Team</span>
+                  <span className="text-xs font-medium text-tertiary">Bluechip Infrastructure Team</span>
                   <button className="text-primary hover:translate-x-1 transition-transform">
                     <span className="material-symbols-outlined">arrow_forward</span>
                   </button>
@@ -163,7 +163,7 @@ function AllArticles() {
                   <span className="text-[10px] text-on-surface-variant font-label">7 min read</span>
                 </div>
                 <h3 className="text-xl font-headline font-bold mb-3 group-hover:text-primary transition-colors">Atmospheric Data Visualization Sets New UI Benchmark</h3>
-                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">How Exido's revolutionary UI/UX approach is transforming how enterprises interact with complex datasets.</p>
+                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">How Bluechip's revolutionary UI/UX approach is transforming how enterprises interact with complex datasets.</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-medium text-tertiary">Wired Design Team</span>
                   <button className="text-primary hover:translate-x-1 transition-transform">
@@ -191,9 +191,9 @@ function AllArticles() {
                   <span className="text-[10px] text-on-surface-variant font-label">8 min read</span>
                 </div>
                 <h3 className="text-xl font-headline font-bold mb-3 group-hover:text-primary transition-colors">Neural Synapse Integration for Predictive Commerce Engines</h3>
-                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">Exido's breakthrough AI research introduces neural synapse technology that predicts consumer behavior with 94% accuracy.</p>
+                <p className="text-on-surface-variant text-sm mb-6 line-clamp-2">Bluechip's breakthrough AI research introduces neural synapse technology that predicts consumer behavior with 94% accuracy.</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-medium text-tertiary">Exido AI Research Lab</span>
+                  <span className="text-xs font-medium text-tertiary">Bluechip AI Research Lab</span>
                   <button className="text-primary hover:translate-x-1 transition-transform">
                     <span className="material-symbols-outlined">arrow_forward</span>
                   </button>

@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Careers | Exido",
+    "title": "Careers | Bluechip",
     "badge": "Future Operations"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -18,7 +18,7 @@
       "line1": "Join the",
       "line2": "Vanguard"
     },
-    "description": "We are building the substrate of the next digital era. Exido seeks the architects of impossible structures.",
+    "description": "We are building the substrate of the next digital era. Bluechip seeks the architects of impossible structures.",
     "buttons": [
       {
         "label": "View Open Roles",
@@ -33,10 +33,10 @@
     "backgroundAlt": "abstract digital nexus representing global connectivity with deep blue and cyan light pulses in a dark obsidian space",
     "stat": "94%",
     "statLabel": "Retention Rate",
-    "quote": "The Exido isn't a workplace; it's an accelerator for human potential."
+    "quote": "The Bluechip isn't a workplace; it's an accelerator for human potential."
   },
   "culture": {
-    "title": "Life at the Exido",
+    "title": "Life at the Bluechip",
     "description": "A culture of silent precision, radical transparency, and unrelenting pursuit of the technical edge.",
     "linkLabel": "Culture Manifesto",
     "items": [
@@ -135,7 +135,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "The bedrock of high-frequency digital infrastructure. Obsidian-grade precision for the autonomous era."
     },
     "columns": [
@@ -172,7 +172,7 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. Digital Obsidian Precision.",
+    "copyright": "© 2024 Bluechip. Digital Obsidian Precision.",
     "socialIcons": ["terminal", "hub", "public"]
   }
 }

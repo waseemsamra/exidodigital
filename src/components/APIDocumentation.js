@@ -4,7 +4,7 @@ function APIDocumentation() {
   const [activeTab, setActiveTab] = React.useState('curl');
 
   const codeExamples = {
-    curl: `curl -X POST "https://api.exidodigital.com/v1/core/execute" \\
+    curl: `curl -X POST "https://api.bluechipdigital.com/v1/core/execute" \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
@@ -16,7 +16,7 @@ function APIDocumentation() {
   }'`,
     python: `import requests
 
-url = "https://api.exidodigital.com/v1/core/execute"
+url = "https://api.bluechipdigital.com/v1/core/execute"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
@@ -35,7 +35,7 @@ print(response.json())`,
 
 const config = {
   method: 'post',
-  url: 'https://api.exidodigital.com/v1/core/execute',
+  url: 'https://api.bluechipdigital.com/v1/core/execute',
   headers: { 
     'Authorization': 'Bearer YOUR_API_KEY', 
     'Content-Type': 'application/json'
@@ -62,7 +62,7 @@ import (
 )
 
 func main() {
-  url := "https://api.exidodigital.com/v1/core/execute"
+  url := "https://api.bluechipdigital.com/v1/core/execute"
   payload := map[string]interface{}{
     "flow_id": "a83f-9128-44dc-bd10",
     "sync_mode": true,
@@ -96,14 +96,14 @@ func main() {
                 Execute Kinetic Flow
               </h1>
               <p className="text-on-surface-variant leading-relaxed text-lg">
-                Initiate a synchronized data process across the Exido lattice. This endpoint triggers the underlying obsidian engine to process complex datasets with cryptographic proof-of-transit.
+                Initiate a synchronized data process across the Bluechip lattice. This endpoint triggers the underlying obsidian engine to process complex datasets with cryptographic proof-of-transit.
               </p>
             </header>
 
             <section className="mb-16">
               <div className="flex items-center gap-4 mb-8 bg-surface-container-low p-4 rounded-xl border border-outline-variant/15">
                 <span className="bg-primary text-on-primary px-3 py-1 font-mono text-xs font-bold rounded">POST</span>
-                <span className="font-mono text-on-surface text-sm tracking-tight break-all">https://api.exidodigital.com/v1/core/execute</span>
+                <span className="font-mono text-on-surface text-sm tracking-tight break-all">https://api.bluechipdigital.com/v1/core/execute</span>
               </div>
 
               <h3 className="text-on-surface font-headline font-bold text-xl mb-6">Request Parameters</h3>
@@ -131,7 +131,7 @@ func main() {
                     <span className="font-mono text-primary font-bold">metadata</span>
                     <span className="text-[10px] bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded uppercase">Optional</span>
                   </div>
-                  <p className="text-sm text-on-surface-variant mb-3">Custom key-value pairs for tracking purposes within the Exido.</p>
+                  <p className="text-sm text-on-surface-variant mb-3">Custom key-value pairs for tracking purposes within the Bluechip.</p>
                   <span className="font-mono text-[11px] text-secondary">object (max 10 keys)</span>
                 </div>
               </div>

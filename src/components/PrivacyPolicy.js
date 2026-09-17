@@ -15,7 +15,7 @@ function PrivacyPolicy() {
                 Privacy Policy
               </h1>
               <p className="text-lg text-on-surface-variant font-light leading-relaxed">
-                Our commitment to data sovereignty and transparent computational ethics. This document outlines how Exido manages user identity and data streams.
+                Our commitment to data sovereignty and transparent computational ethics. This document outlines how Bluechip manages user identity and data streams.
               </p>
             </div>
             <div className="text-right">
@@ -36,8 +36,8 @@ function PrivacyPolicy() {
               </div>
               <div className="lg:col-span-8">
                 <div className="space-y-6 text-on-surface-variant leading-relaxed font-light">
-                  <p>Exido ("we," "our," or "us") operates the high-performance Exido-compute platform. We respect your privacy and are committed to protecting it through our compliance with this policy.</p>
-                  <p>This policy describes the types of information we may collect from you or that you may provide when you visit the Exido console or use our distributed API services.</p>
+                  <p>Bluechip ("we," "our," or "us") operates the high-performance Bluechip-compute platform. We respect your privacy and are committed to protecting it through our compliance with this policy.</p>
+                  <p>This policy describes the types of information we may collect from you or that you may provide when you visit the Bluechip console or use our distributed API services.</p>
                 </div>
               </div>
             </div>
@@ -200,8 +200,8 @@ function PrivacyPolicy() {
                 </p>
               </div>
               <div className="flex flex-col items-start md:items-end justify-center">
-                <a className="text-2xl md:text-3xl font-headline font-bold text-primary hover:text-primary-container transition-colors tracking-tight" href="mailto:privacy@exidodigital.com">
-                  privacy@exidodigital.com
+                <a className="text-2xl md:text-3xl font-headline font-bold text-primary hover:text-primary-container transition-colors tracking-tight" href="mailto:privacy@bluechipdigital.com">
+                  privacy@bluechipdigital.com
                 </a>
                 <p className="text-on-surface-variant text-sm mt-2">Typical response window: 24-48 Business Hours</p>
               </div>

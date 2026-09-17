@@ -27,7 +27,7 @@ function Travel() {
                 Engineering the <span className="bg-gradient-to-r from-primary via-secondary to-primary-container bg-clip-text text-transparent">Extraordinary</span> in Travel.
               </h1>
               <p className="text-on-surface-variant text-lg max-w-xl leading-relaxed font-light">
-                Exido deploys sophisticated neural architectures to orchestrate the global travel lifecycle, turning legacy friction into seamless guest velocity.
+                Bluechip deploys sophisticated neural architectures to orchestrate the global travel lifecycle, turning legacy friction into seamless guest velocity.
               </p>
               <div className="flex flex-wrap gap-6 pt-4">
                 <a href="/contact" className="group relative px-8 py-4 bg-primary text-on-primary font-bold rounded-lg overflow-hidden transition-all btn-glow">
@@ -153,7 +153,7 @@ function Travel() {
                 <div className="space-y-4">
                   <h2 className="text-4xl font-headline font-bold text-on-surface">Operational Intelligence, <br/><span className="text-secondary">Refined.</span></h2>
                   <p className="text-on-surface-variant leading-relaxed text-lg">
-                    We eliminate the noise between back-of-house operations and front-of-house experience. Exido provides a unified observability layer for the entire guest journey.
+                    We eliminate the noise between back-of-house operations and front-of-house experience. Bluechip provides a unified observability layer for the entire guest journey.
                   </p>
                 </div>
                 <div className="grid grid-cols-2 gap-8">
@@ -214,7 +214,7 @@ function Travel() {
                 Request a Demo
               </a>
             </div>
-            <p className="text-on-surface-variant font-mono text-xs opacity-50 uppercase tracking-[0.3em]">Protocol // exido-x-travel</p>
+            <p className="text-on-surface-variant font-mono text-xs opacity-50 uppercase tracking-[0.3em]">Protocol // bluechip-x-travel</p>
           </div>
         </section>
       </main>    </div>

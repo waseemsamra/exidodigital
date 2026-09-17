@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Network Solutions | Exido",
+    "title": "Network Solutions | Bluechip",
     "badge": "Autonomous Infrastructure"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -134,7 +134,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "The Digital Obsidian."
     },
     "columns": [
@@ -155,6 +155,6 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    "copyright": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
   }
 }

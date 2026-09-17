@@ -14,7 +14,7 @@ function SecurityAudit() {
               Security <span className="text-primary">Audit</span>
             </h1>
             <p className="text-on-surface-variant text-xl max-w-xl leading-relaxed">
-              A high-level technical evaluation of Exido's architectural resilience, data integrity protocols, and global safety standards.
+              A high-level technical evaluation of Bluechip's architectural resilience, data integrity protocols, and global safety standards.
             </p>
           </div>
           <div className="flex flex-wrap gap-4">
@@ -178,7 +178,7 @@ function SecurityAudit() {
         <section className="mt-24">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h3 className="font-headline text-3xl font-bold mb-4">Global Compliance Standards</h3>
-            <p className="text-on-surface-variant">Exido maintains active certification with the world's most rigorous digital security and privacy frameworks.</p>
+            <p className="text-on-surface-variant">Bluechip maintains active certification with the world's most rigorous digital security and privacy frameworks.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[

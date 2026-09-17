@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Ecommerce Development | Exido",
+    "title": "Ecommerce Development | Bluechip",
     "badge": "Digital Retail Engineering"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -129,8 +129,8 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
-      "description": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+      "name": "Bluechip",
+      "description": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
     },
     "columns": [
       {
@@ -155,6 +155,6 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    "copyright": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
   }
 }

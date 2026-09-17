@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Exido | AI & BI Solutions",
+    "title": "Bluechip | AI & BI Solutions",
     "badge": "Advanced Analytics Suite"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -87,7 +87,7 @@
   },
   "cta": {
     "title": "Ready for the Obsidian Shift?",
-    "description": "Join the elite enterprises building their future on Exido's data-centric foundations.",
+    "description": "Join the elite enterprises building their future on Bluechip's data-centric foundations.",
     "buttons": [
       {
         "label": "Schedule a Strategic Audit",
@@ -101,7 +101,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "Precise Engineering for the Digital Obsidian.",
       "icons": ["terminal", "cloud", "encrypted"]
     },
@@ -135,6 +135,6 @@
         }
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    "copyright": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
   }
 }

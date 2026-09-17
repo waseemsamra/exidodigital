@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Contact & Consultation | Exido",
+    "title": "Contact & Consultation | Bluechip",
     "badge": "Consultation Protocol"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -61,14 +61,14 @@
       {
         "icon": "alternate_email",
         "label": "Primary Intel",
-        "value": "intelligence@exidodigital.com",
-        "href": "mailto:intelligence@exidodigital.com",
+        "value": "intelligence@bluechipdigital.com",
+        "href": "mailto:intelligence@bluechipdigital.com",
         "color": "primary"
       },
       {
         "icon": "forum",
         "label": "Secure Support",
-        "value": "portal.exidodigital.com",
+        "value": "portal.bluechipdigital.com",
         "href": "#",
         "color": "secondary"
       }
@@ -114,7 +114,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "Advanced digital infrastructure for the next generation of global industry. Precision at scale."
     },
     "columns": [
@@ -151,7 +151,7 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. Digital Obsidian Precision.",
+    "copyright": "© 2024 Bluechip. Digital Obsidian Precision.",
     "securityNote": "Security Level: Platinum",
     "version": "V: 2.0.4-Stable"
   }

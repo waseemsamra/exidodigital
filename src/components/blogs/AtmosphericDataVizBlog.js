@@ -13,10 +13,10 @@ function AtmosphericDataVizBlog() {
               <span className="font-label text-xs tracking-widest text-secondary uppercase">Wired Feature</span>
             </div>
             <h1 className="font-headline text-4xl md:text-6xl font-extrabold tracking-tighter mb-8 leading-tight">
-              The Atmospheric Depth of Data Visualization at Exido Sets a <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">New UI Benchmark</span>
+              The Atmospheric Depth of Data Visualization at Bluechip Sets a <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">New UI Benchmark</span>
             </h1>
             <p className="font-body text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              How Exido's revolutionary approach to data visualization is transforming how enterprises interact with complex datasets through immersive, atmospheric interfaces.
+              How Bluechip's revolutionary approach to data visualization is transforming how enterprises interact with complex datasets through immersive, atmospheric interfaces.
             </p>
             <div className="mt-12 flex items-center justify-center gap-8">
               <div className="flex items-center gap-3">
@@ -42,10 +42,10 @@ function AtmosphericDataVizBlog() {
             {/* Introduction */}
             <div className="prose prose-invert prose-lg max-w-none mb-16">
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                In an age where data overload has become the norm, Exido has pioneered a revolutionary approach to data visualization that transcends traditional dashboard design. Their "atmospheric depth" methodology creates immersive data environments that enable users to intuitively understand complex relationships within massive datasets.
+                In an age where data overload has become the norm, Bluechip has pioneered a revolutionary approach to data visualization that transcends traditional dashboard design. Their "atmospheric depth" methodology creates immersive data environments that enable users to intuitively understand complex relationships within massive datasets.
               </p>
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                As featured in Wired, Exido's innovative UI/UX philosophy is setting new industry standards for how enterprises interact with their most valuable asset: information.
+                As featured in Wired, Bluechip's innovative UI/UX philosophy is setting new industry standards for how enterprises interact with their most valuable asset: information.
               </p>
             </div>
 
@@ -60,7 +60,7 @@ function AtmosphericDataVizBlog() {
               </div>
               <blockquote className="border-l-4 border-secondary pl-6 py-4 my-6">
                 <p className="text-on-surface text-xl italic leading-relaxed">
-                  "The atmospheric depth of data visualization at Exido sets a new UI benchmark. This isn't just beautiful design—it's a fundamental reimagining of how humans interact with complex data systems."
+                  "The atmospheric depth of data visualization at Bluechip sets a new UI benchmark. This isn't just beautiful design—it's a fundamental reimagining of how humans interact with complex data systems."
                 </p>
               </blockquote>
             </div>
@@ -101,7 +101,7 @@ function AtmosphericDataVizBlog() {
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">Introducing Atmospheric Depth Visualization</h2>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Exido's atmospheric depth approach treats data visualization as an immersive environment rather than a flat presentation. By leveraging depth, motion, and spatial relationships, users can intuitively navigate complex datasets as if exploring a physical space.
+                  Bluechip's atmospheric depth approach treats data visualization as an immersive environment rather than a flat presentation. By leveraging depth, motion, and spatial relationships, users can intuitively navigate complex datasets as if exploring a physical space.
                 </p>
                 
                 <h3 className="font-headline text-2xl font-bold text-on-surface mt-8 mb-4">Core Principles:</h3>
@@ -163,7 +163,7 @@ function AtmosphericDataVizBlog() {
               </div>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Exido's design philosophy centers on the belief that beautiful design and functional utility are not mutually exclusive. The atmospheric depth approach demonstrates how aesthetic excellence can enhance rather than compromise usability.
+                  Bluechip's design philosophy centers on the belief that beautiful design and functional utility are not mutually exclusive. The atmospheric depth approach demonstrates how aesthetic excellence can enhance rather than compromise usability.
                 </p>
                 <ol className="space-y-4 ml-6 list-decimal">
                   <li className="leading-relaxed">
@@ -227,7 +227,7 @@ function AtmosphericDataVizBlog() {
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">Design Awards & Recognition</h2>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Exido's atmospheric depth visualization has received widespread acclaim from the design and technology communities:
+                  Bluechip's atmospheric depth visualization has received widespread acclaim from the design and technology communities:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-surface-container-low p-6 rounded-lg border border-outline-variant/10">
@@ -265,7 +265,7 @@ function AtmosphericDataVizBlog() {
             <div className="bg-gradient-to-br from-primary/10 via-surface-container-high to-secondary/10 p-12 rounded-2xl border border-outline-variant/10 text-center">
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-4">Experience Atmospheric Depth Visualization</h2>
               <p className="text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                See how Exido's revolutionary UI/UX approach can transform your enterprise data experience.
+                See how Bluechip's revolutionary UI/UX approach can transform your enterprise data experience.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-bold hover:btn-glow transition-all">
@@ -290,8 +290,8 @@ function AtmosphericDataVizBlog() {
                 </div>
                 <div className="p-6">
                   <p className="text-xs text-secondary uppercase tracking-widest mb-2">Cloud Security</p>
-                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Exido's Obsidian Layer: Redefining Cloud Security</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's revolutionary zero-trust architecture is setting new industry standards.</p>
+                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Bluechip's Obsidian Layer: Redefining Cloud Security</h3>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's revolutionary zero-trust architecture is setting new industry standards.</p>
                 </div>
               </Link>
               
@@ -302,7 +302,7 @@ function AtmosphericDataVizBlog() {
                 <div className="p-6">
                   <p className="text-xs text-primary uppercase tracking-widest mb-2">Data Engineering</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">ETL Automation: The Future of Data Integration</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
                 </div>
               </Link>
               

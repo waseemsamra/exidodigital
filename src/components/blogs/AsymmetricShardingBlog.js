@@ -24,7 +24,7 @@ function AsymmetricShardingBlog() {
                   <span className="material-symbols-outlined text-primary text-sm">science</span>
                 </div>
                 <div className="text-left">
-                  <p className="text-sm font-bold text-on-surface">Exido Research Lab</p>
+                  <p className="text-sm font-bold text-on-surface">Bluechip Research Lab</p>
                   <p className="text-xs text-on-surface-variant">Distributed Systems Research</p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function AsymmetricShardingBlog() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined text-primary text-lg mt-0.5">check_circle</span>
-                  <span><strong>Production Validation:</strong> Real-world performance data from Exido's global infrastructure</span>
+                  <span><strong>Production Validation:</strong> Real-world performance data from Bluechip's global infrastructure</span>
                 </li>
               </ul>
             </div>
@@ -190,7 +190,7 @@ function AsymmetricShardingBlog() {
                 
                 <h3 className="font-headline text-xl font-bold text-on-surface mb-4">Production Deployment Results</h3>
                 <p className="text-on-surface-variant leading-relaxed mb-6">
-                  ADS has been deployed across Exido's production infrastructure since Q2 2023, managing 2.4 PB of data across 500+ shards in 40 countries. Key performance improvements include:
+                  ADS has been deployed across Bluechip's production infrastructure since Q2 2023, managing 2.4 PB of data across 500+ shards in 40 countries. Key performance improvements include:
                 </p>
                 <ul className="space-y-3 ml-6">
                   <li className="flex items-start gap-3">
@@ -246,7 +246,7 @@ function AsymmetricShardingBlog() {
                 <li className="leading-relaxed">Stoica, I., et al. (2003). "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications." ACM SIGCOMM Computer Communication Review.</li>
                 <li className="leading-relaxed">Abadi, D. J., et al. (2013). "The Design and Implementation of Modern Column-Oriented Database Systems." Foundations and Trends in Databases.</li>
                 <li className="leading-relaxed">Bailis, P., et al. (2014). "Coordination Avoidance in Database Systems." Proceedings of the VLDB Endowment.</li>
-                <li className="leading-relaxed">Exido Research Lab (2024). "Asymmetric Data Sharding for Global Scale." Exido Technical Report #042.</li>
+                <li className="leading-relaxed">Bluechip Research Lab (2024). "Asymmetric Data Sharding for Global Scale." Bluechip Technical Report #042.</li>
               </ol>
             </div>
 
@@ -290,8 +290,8 @@ function AsymmetricShardingBlog() {
                 </div>
                 <div className="p-6">
                   <p className="text-xs text-secondary uppercase tracking-widest mb-2">Cloud Security</p>
-                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Exido's Obsidian Layer: Redefining Cloud Security</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's revolutionary zero-trust architecture is setting new industry standards.</p>
+                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Bluechip's Obsidian Layer: Redefining Cloud Security</h3>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's revolutionary zero-trust architecture is setting new industry standards.</p>
                 </div>
               </Link>
               
@@ -302,7 +302,7 @@ function AsymmetricShardingBlog() {
                 <div className="p-6">
                   <p className="text-xs text-primary uppercase tracking-widest mb-2">Infrastructure</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Global Node Expansion: Reaching the Edge of the Atmosphere</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">Exido's historic 500+ node deployment across 40 countries.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">Bluechip's historic 500+ node deployment across 40 countries.</p>
                 </div>
               </Link>
             </div>

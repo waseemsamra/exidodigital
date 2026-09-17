@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Exido | Data Warehousing",
+    "title": "Bluechip | Data Warehousing",
     "badge": "Enterprise Infrastructure"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -126,14 +126,14 @@
   },
   "cta": {
     "title": "Ready to Modernize Your Data Stack?",
-    "description": "Our engineers will analyze your current infrastructure and provide a custom blueprint for a Exido warehouse deployment.",
+    "description": "Our engineers will analyze your current infrastructure and provide a custom blueprint for a Bluechip warehouse deployment.",
     "buttonLabel": "Request a Data Architecture Audit",
     "note": "Limited availability for Q3 partnerships"
   },
   "footer": {
     "company": {
-      "name": "Exido",
-      "description": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+      "name": "Bluechip",
+      "description": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
     },
     "columns": [
       {
@@ -153,6 +153,6 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved."
+    "copyright": "© 2024 Bluechip. All rights reserved."
   }
 }

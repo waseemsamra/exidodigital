@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Services | Exido",
+    "title": "Services | Bluechip",
     "badge": "The Digital Obsidian Authority"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services", "active": true },
       { "label": "About", "href": "/about" }
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": {
-      "line1": "The Exido",
+      "line1": "The Bluechip",
       "line2": "Service Stack"
     },
     "description": "We architect atmospheric digital environments through high-fidelity precision. Our integrated approach treats enterprise infrastructure as a living, breathing ecosystem of data-driven authority.",
@@ -166,7 +166,7 @@
   ],
   "cta": {
     "title": "Architect Your Future",
-    "description": "Connect with our lead architects to discuss how Exido can redefine your digital boundaries.",
+    "description": "Connect with our lead architects to discuss how Bluechip can redefine your digital boundaries.",
     "buttons": [
       {
         "label": "Schedule Consultation",
@@ -180,7 +180,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "Elevating enterprise software to the realm of high-fidelity precision and atmospheric depth."
     },
     "columns": [
@@ -211,6 +211,6 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. Digital Obsidian Authority."
+    "copyright": "© 2024 Bluechip. Digital Obsidian Authority."
   }
 }

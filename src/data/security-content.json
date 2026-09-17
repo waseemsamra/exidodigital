@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Infrastructure & Security | Exido",
+    "title": "Infrastructure & Security | Bluechip",
     "badge": "Infrastructure Integrity"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -19,7 +19,7 @@
       "line1": "Fortifying Your",
       "line2": "Digital Infrastructure"
     },
-    "description": "Exido provides mission-critical security layers and robust architectural frameworks designed for the digital obsidian—where speed meets impenetrable defense.",
+    "description": "Bluechip provides mission-critical security layers and robust architectural frameworks designed for the digital obsidian—where speed meets impenetrable defense.",
     "buttons": [
       {
         "label": "Deploy Defense",
@@ -124,7 +124,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "Engineering the digital obsidian with precision and security at the core of every connection.",
       "icons": ["public", "terminal", "hub"]
     },
@@ -160,6 +160,6 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian."
+    "copyright": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian."
   }
 }

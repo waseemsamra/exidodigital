@@ -23,7 +23,7 @@ function Support() {
               The Pulse of <br/><span className="text-primary glow-text">Resolution.</span>
             </h1>
             <p className="text-on-surface-variant text-xl max-w-xl mb-10 leading-relaxed">
-              Navigate the Exido infrastructure with atmospheric precision. Our support ecosystem is engineered for zero-latency problem solving and high-fidelity technical assistance.
+              Navigate the Bluechip infrastructure with atmospheric precision. Our support ecosystem is engineered for zero-latency problem solving and high-fidelity technical assistance.
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="flex flex-col gap-1 px-6 py-4 bg-surface-container-low border-b-2 border-primary/50 backdrop-blur-md">
@@ -46,7 +46,7 @@ function Support() {
               <div>
                 <span className="material-symbols-outlined text-primary mb-4 text-4xl">menu_book</span>
                 <h2 className="text-3xl font-headline font-bold text-on-surface mb-4">Technical Documentation</h2>
-                <p className="text-on-surface-variant max-w-lg mb-8">Access the complete atlas of Exido. From API endpoints to security protocols, find your path through the data stream.</p>
+                <p className="text-on-surface-variant max-w-lg mb-8">Access the complete atlas of Bluechip. From API endpoints to security protocols, find your path through the data stream.</p>
               </div>
               <div className="relative">
                 <input 
@@ -218,7 +218,7 @@ function Support() {
                   <label className="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">Workspace ID</label>
                   <input 
                     className="bg-surface-container-low border-none border-b-2 border-outline-variant focus:border-primary py-3 px-4 text-on-surface outline-none transition-all" 
-                    placeholder="EXIDO-XXXX" 
+                    placeholder="BLUECHIP-XXXX" 
                     type="text"
                   />
                 </div>

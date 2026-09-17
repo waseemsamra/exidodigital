@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Exido | Future-Ready AI & Full-Stack Solutions",
-    "name": "Exido",
+    "title": "Bluechip | Future-Ready AI & Full-Stack Solutions",
+    "name": "Bluechip",
     "tagline": "Precise Engineering for the Digital Obsidian"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -39,7 +39,7 @@
   "trustedBy": {
     "title": "Trusted by industry titans",
     "companies": [
-      "EXIDO_CORP",
+      "BLUECHIP_CORP",
       "NEXUS_UI",
       "QUANTUM_SYS",
       "VORTEX_DATA",
@@ -104,7 +104,7 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
+      "name": "Bluechip",
       "description": "Precise Engineering for the Digital Obsidian. Scaling global infrastructures through localized intelligence and robust architectural patterns."
     },
     "columns": [
@@ -159,7 +159,7 @@
         ]
       }
     ],
-    "copyright": "© 2024 Exido. All rights reserved. Precise Engineering for the Digital Obsidian.",
+    "copyright": "© 2024 Bluechip. All rights reserved. Precise Engineering for the Digital Obsidian.",
     "socialIcons": ["hub", "terminal", "token", "link"]
   }
 }

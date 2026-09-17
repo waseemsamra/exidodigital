@@ -16,7 +16,7 @@ function ETLSAutomationBlog() {
               ETL Automation: The Future of <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Data Integration</span>
             </h1>
             <p className="font-body text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows with zero-touch orchestration and real-time synchronization.
+              How Bluechip's autonomous ETL pipelines are revolutionizing enterprise data workflows with zero-touch orchestration and real-time synchronization.
             </p>
             <div className="mt-12 flex items-center justify-center gap-8">
               <div className="flex items-center gap-3">
@@ -49,7 +49,7 @@ function ETLSAutomationBlog() {
                 In today's data-driven enterprise landscape, the ability to extract, transform, and load (ETL) data efficiently has become a critical competitive advantage. Traditional ETL processes, however, are plagued by manual intervention, error-prone workflows, and inability to scale with modern data volumes.
               </p>
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                At Exido, we've reimagined ETL from the ground up. Our autonomous ETL automation platform eliminates manual touchpoints, reduces errors by 94%, and enables real-time data synchronization across your entire enterprise ecosystem.
+                At Bluechip, we've reimagined ETL from the ground up. Our autonomous ETL automation platform eliminates manual touchpoints, reduces errors by 94%, and enables real-time data synchronization across your entire enterprise ecosystem.
               </p>
             </div>
 
@@ -102,10 +102,10 @@ function ETLSAutomationBlog() {
 
             {/* Section 2 */}
             <div className="mb-16">
-              <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">The Exido Solution: Autonomous ETL Automation</h2>
+              <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">The Bluechip Solution: Autonomous ETL Automation</h2>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Exido's ETL automation platform leverages advanced machine learning and distributed computing to create self-managing data pipelines that adapt, optimize, and heal themselves.
+                  Bluechip's ETL automation platform leverages advanced machine learning and distributed computing to create self-managing data pipelines that adapt, optimize, and heal themselves.
                 </p>
                 
                 <h3 className="font-headline text-2xl font-bold text-on-surface mt-8 mb-4">Key Features:</h3>
@@ -167,7 +167,7 @@ function ETLSAutomationBlog() {
               </div>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  The Exido ETL platform consists of four core components working in harmony:
+                  The Bluechip ETL platform consists of four core components working in harmony:
                 </p>
                 <ol className="space-y-4 ml-6 list-decimal">
                   <li className="leading-relaxed">
@@ -217,7 +217,7 @@ function ETLSAutomationBlog() {
                 
                 <blockquote className="border-l-4 border-primary pl-6 py-4 my-6">
                   <p className="text-on-surface-variant italic leading-relaxed">
-                    "Exido's ETL automation transformed our data operations. What used to take our team weeks now happens automatically. We've shifted from maintaining pipelines to deriving business value from our data."
+                    "Bluechip's ETL automation transformed our data operations. What used to take our team weeks now happens automatically. We've shifted from maintaining pipelines to deriving business value from our data."
                   </p>
                   <footer className="mt-4 text-sm text-on-surface">
                     — Chief Data Officer, Global Retail Corporation
@@ -228,10 +228,10 @@ function ETLSAutomationBlog() {
 
             {/* Section 5 - Getting Started */}
             <div className="mb-16">
-              <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">Getting Started with Exido ETL</h2>
+              <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">Getting Started with Bluechip ETL</h2>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Implementing autonomous ETL with Exido is straightforward:
+                  Implementing autonomous ETL with Bluechip is straightforward:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="bg-surface-container-low p-6 rounded-lg border border-outline-variant/10">
@@ -271,7 +271,7 @@ function ETLSAutomationBlog() {
             <div className="bg-gradient-to-br from-primary/10 via-surface-container-high to-secondary/10 p-12 rounded-2xl border border-outline-variant/10 text-center">
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-4">Ready to Automate Your ETL?</h2>
               <p className="text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Join leading enterprises that have transformed their data operations with Exido's autonomous ETL platform.
+                Join leading enterprises that have transformed their data operations with Bluechip's autonomous ETL platform.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-bold hover:btn-glow transition-all">

@@ -23,7 +23,7 @@ function MissionManifesto() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-container to-secondary">Unyielding Precision.</span>
             </h1>
             <p className="font-body text-xl md:text-2xl text-on-surface-variant max-w-3xl mx-auto leading-relaxed font-light">
-              We are building the digital foundations of the next era. A synthesis of cold logic and fluid power, engineered for those who demand absolute sovereignty in the Exido.
+              We are building the digital foundations of the next era. A synthesis of cold logic and fluid power, engineered for those who demand absolute sovereignty in the Bluechip.
             </p>
             <div className="mt-12 flex justify-center gap-6">
               <div className="h-px w-24 bg-gradient-to-r from-transparent to-primary self-center"></div>
@@ -71,7 +71,7 @@ function MissionManifesto() {
               <div className="md:w-1/2">
                 <h4 className="font-headline text-3xl font-bold mb-6">The Human Nexus</h4>
                 <p className="font-body text-on-surface-variant text-lg leading-relaxed">
-                  Technology without intent is noise. The Human Nexus is where intuition directs the precision of the 'Exido'. We provide the telemetry; you provide the soul. Our interfaces are designed to amplify human cognition, not replace it.
+                  Technology without intent is noise. The Human Nexus is where intuition directs the precision of the 'Bluechip'. We provide the telemetry; you provide the soul. Our interfaces are designed to amplify human cognition, not replace it.
                 </p>
               </div>
               <div className="md:w-1/2 grid grid-cols-2 gap-4">
@@ -129,7 +129,7 @@ function MissionManifesto() {
           <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row gap-20 items-start">
             <div className="md:w-1/3">
               <h2 className="font-headline text-sm uppercase tracking-[0.4em] text-secondary mb-4">Continuum</h2>
-              <h3 className="font-headline text-5xl font-bold mb-8 leading-tight">The Horizon of Exido</h3>
+              <h3 className="font-headline text-5xl font-bold mb-8 leading-tight">The Horizon of Bluechip</h3>
               <p className="font-body text-on-surface-variant text-lg">
                 We are not just iterating on software. We are redefining the relationship between the physical world and the digital layer.
               </p>
@@ -185,7 +185,7 @@ function MissionManifesto() {
             <div className="relative z-10">
               <h2 className="font-headline text-4xl md:text-5xl font-bold mb-8">Join the Vanguard</h2>
               <p className="font-body text-on-surface-variant max-w-2xl mx-auto mb-12 text-lg">
-                The manifesto is just the beginning. Access the technical whitepapers to understand the underlying mechanics of the Exido.
+                The manifesto is just the beginning. Access the technical whitepapers to understand the underlying mechanics of the Bluechip.
               </p>
               <div className="flex flex-col md:flex-row justify-center gap-6">
                 <button className="bg-primary text-on-primary font-headline font-bold px-10 py-4 rounded-lg glow-primary hover:scale-105 transition-all">

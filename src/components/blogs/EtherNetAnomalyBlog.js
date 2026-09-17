@@ -24,7 +24,7 @@ function EtherNetAnomalyBlog() {
                   <span className="material-symbols-outlined text-tertiary text-sm">science</span>
                 </div>
                 <div className="text-left">
-                  <p className="text-sm font-bold text-on-surface">Exido Security Research</p>
+                  <p className="text-sm font-bold text-on-surface">Bluechip Security Research</p>
                   <p className="text-xs text-on-surface-variant">Advanced Threat Detection Lab</p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ function EtherNetAnomalyBlog() {
             {/* Introduction */}
             <div className="prose prose-invert prose-lg max-w-none mb-16">
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                In an era where infrastructure threats evolve at machine speed, traditional reactive security measures are no longer sufficient. Exido's Ether-Net represents a paradigm shift toward proactive threat mitigation through advanced temporal convolution networks (TCNs) that detect anomalies before they escalate into critical incidents.
+                In an era where infrastructure threats evolve at machine speed, traditional reactive security measures are no longer sufficient. Bluechip's Ether-Net represents a paradigm shift toward proactive threat mitigation through advanced temporal convolution networks (TCNs) that detect anomalies before they escalate into critical incidents.
               </p>
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
                 This technical deep-dive explores the architecture, implementation, and real-world performance of our proprietary anomaly detection system that processes 2.4 TB/s of telemetry data across 500+ global edge nodes.
@@ -244,7 +244,7 @@ function EtherNetAnomalyBlog() {
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">Future Development</h2>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Exido's research team continues to advance Ether-Net through ongoing development initiatives:
+                  Bluechip's research team continues to advance Ether-Net through ongoing development initiatives:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-surface-container-low p-6 rounded-lg border border-outline-variant/10">
@@ -307,8 +307,8 @@ function EtherNetAnomalyBlog() {
                 </div>
                 <div className="p-6">
                   <p className="text-xs text-secondary uppercase tracking-widest mb-2">Cloud Security</p>
-                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Exido's Obsidian Layer: Redefining Cloud Security</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's revolutionary zero-trust architecture is setting new industry standards.</p>
+                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Bluechip's Obsidian Layer: Redefining Cloud Security</h3>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's revolutionary zero-trust architecture is setting new industry standards.</p>
                 </div>
               </Link>
               
@@ -319,7 +319,7 @@ function EtherNetAnomalyBlog() {
                 <div className="p-6">
                   <p className="text-xs text-primary uppercase tracking-widest mb-2">Data Engineering</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">ETL Automation: The Future of Data Integration</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
                 </div>
               </Link>
               
@@ -330,7 +330,7 @@ function EtherNetAnomalyBlog() {
                 <div className="p-6">
                   <p className="text-xs text-tertiary uppercase tracking-widest mb-2">Infrastructure</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Global Node Expansion: Reaching the Edge of the Atmosphere</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">Exido's historic 500+ node deployment across 40 countries.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">Bluechip's historic 500+ node deployment across 40 countries.</p>
                 </div>
               </Link>
             </div>

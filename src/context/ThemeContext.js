@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 
 const ThemeContext = createContext(null);
-const themeStorageKey = 'exido-theme';
+const themeStorageKey = 'bluechip-theme';
 
 function getInitialTheme() {
   if (typeof window === 'undefined') {

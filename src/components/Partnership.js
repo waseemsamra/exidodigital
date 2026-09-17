@@ -70,7 +70,7 @@ function Partnership() {
                     <div className="w-12 h-12 bg-surface-variant rounded flex items-center justify-center mb-4">
                       <span className="material-symbols-outlined text-secondary">lan</span>
                     </div>
-                    <h4 className="font-headline font-bold mb-1">Exido Grid</h4>
+                    <h4 className="font-headline font-bold mb-1">Bluechip Grid</h4>
                     <p className="text-xs text-on-surface-variant">Distributed Mesh Networking</p>
                   </div>
                 </div>
@@ -223,7 +223,7 @@ function Partnership() {
                 </div>
                 <div>
                   <h4 className="text-xl font-headline font-bold mb-1">Accelerated GTM</h4>
-                  <p className="text-on-surface-variant">Leverage Exido's global brand authority to shorten sales cycles by up to 40%.</p>
+                  <p className="text-on-surface-variant">Leverage Bluechip's global brand authority to shorten sales cycles by up to 40%.</p>
                 </div>
               </div>
               <div className="flex gap-6">
@@ -270,12 +270,12 @@ function Partnership() {
             <div className="md:w-1/3">
               <h2 className="text-4xl font-headline font-bold tracking-tight mb-6">Initiate Partnership</h2>
               <p className="text-on-surface-variant mb-10 leading-relaxed">
-                Ready to integrate with Exido? Fill out the inquiry form and our Ecosystem Architect team will contact you within 24 atmospheric cycles.
+                Ready to integrate with Bluechip? Fill out the inquiry form and our Ecosystem Architect team will contact you within 24 atmospheric cycles.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-4 text-on-surface-variant">
                   <span className="material-symbols-outlined text-primary">mail</span>
-                  <span className="text-sm">alliances@exidodigital.com</span>
+                  <span className="text-sm">alliances@bluechipdigital.com</span>
                 </div>
                 <div className="flex items-center gap-4 text-on-surface-variant">
                   <span className="material-symbols-outlined text-primary">location_on</span>

@@ -16,7 +16,7 @@ function GlobalNodeExpansionBlog() {
               Global Node Expansion: Reaching the <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Edge of the Atmosphere</span>
             </h1>
             <p className="font-body text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              Exido announces the largest infrastructure expansion in company history, deploying 500+ new edge nodes across 40 countries to deliver unprecedented global coverage and sub-10ms latency worldwide.
+              Bluechip announces the largest infrastructure expansion in company history, deploying 500+ new edge nodes across 40 countries to deliver unprecedented global coverage and sub-10ms latency worldwide.
             </p>
             <div className="mt-12 flex items-center justify-center gap-8">
               <div className="flex items-center gap-3">
@@ -24,7 +24,7 @@ function GlobalNodeExpansionBlog() {
                   <span className="material-symbols-outlined text-primary text-sm">person</span>
                 </div>
                 <div className="text-left">
-                  <p className="text-sm font-bold text-on-surface">Exido Infrastructure Team</p>
+                  <p className="text-sm font-bold text-on-surface">Bluechip Infrastructure Team</p>
                   <p className="text-xs text-on-surface-variant">Official Company Announcement</p>
                 </div>
               </div>
@@ -42,10 +42,10 @@ function GlobalNodeExpansionBlog() {
             {/* Introduction */}
             <div className="prose prose-invert prose-lg max-w-none mb-16">
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                In a landmark expansion that underscores Exido's commitment to global accessibility, the company today announced the deployment of over 500 new edge computing nodes across 40 countries, representing a 300% increase in global infrastructure capacity.
+                In a landmark expansion that underscores Bluechip's commitment to global accessibility, the company today announced the deployment of over 500 new edge computing nodes across 40 countries, representing a 300% increase in global infrastructure capacity.
               </p>
               <p className="text-on-surface-variant text-lg leading-relaxed mb-6">
-                This unprecedented expansion brings Exido's atmospheric computing platform closer to enterprises worldwide, enabling sub-10ms latency for 95% of the global population and establishing the foundation for the next generation of real-time enterprise applications.
+                This unprecedented expansion brings Bluechip's atmospheric computing platform closer to enterprises worldwide, enabling sub-10ms latency for 95% of the global population and establishing the foundation for the next generation of real-time enterprise applications.
               </p>
             </div>
 
@@ -94,7 +94,7 @@ function GlobalNodeExpansionBlog() {
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-6">Technical Innovation at the Edge</h2>
               <div className="space-y-6 text-on-surface-variant leading-relaxed">
                 <p>
-                  Each new node in the expanded network incorporates Exido's latest generation of atmospheric computing technology, featuring:
+                  Each new node in the expanded network incorporates Bluechip's latest generation of atmospheric computing technology, featuring:
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -226,7 +226,7 @@ function GlobalNodeExpansionBlog() {
             <div className="bg-gradient-to-br from-primary/10 via-surface-container-high to-secondary/10 p-12 rounded-2xl border border-outline-variant/10 text-center">
               <h2 className="font-headline text-3xl font-bold text-on-surface mb-4">Experience Global Edge Computing</h2>
               <p className="text-on-surface-variant mb-8 max-w-2xl mx-auto">
-                Join thousands of enterprises already benefiting from Exido's expanded global infrastructure.
+                Join thousands of enterprises already benefiting from Bluechip's expanded global infrastructure.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact" className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-lg font-bold hover:btn-glow transition-all">
@@ -251,8 +251,8 @@ function GlobalNodeExpansionBlog() {
                 </div>
                 <div className="p-6">
                   <p className="text-xs text-secondary uppercase tracking-widest mb-2">Cloud Security</p>
-                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Exido's Obsidian Layer: Redefining Cloud Security</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's revolutionary zero-trust architecture is setting new industry standards.</p>
+                  <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Bluechip's Obsidian Layer: Redefining Cloud Security</h3>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's revolutionary zero-trust architecture is setting new industry standards.</p>
                 </div>
               </Link>
               
@@ -263,7 +263,7 @@ function GlobalNodeExpansionBlog() {
                 <div className="p-6">
                   <p className="text-xs text-primary uppercase tracking-widest mb-2">User Experience</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">Atmospheric Data Visualization Sets New UI Benchmark</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's revolutionary UI/UX approach is transforming enterprise data experience.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's revolutionary UI/UX approach is transforming enterprise data experience.</p>
                 </div>
               </Link>
               
@@ -274,7 +274,7 @@ function GlobalNodeExpansionBlog() {
                 <div className="p-6">
                   <p className="text-xs text-tertiary uppercase tracking-widest mb-2">Data Engineering</p>
                   <h3 className="font-headline text-xl font-bold text-on-surface group-hover:text-primary transition-colors">ETL Automation: The Future of Data Integration</h3>
-                  <p className="text-on-surface-variant text-sm mt-2">How Exido's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
+                  <p className="text-on-surface-variant text-sm mt-2">How Bluechip's autonomous ETL pipelines are revolutionizing enterprise data workflows.</p>
                 </div>
               </Link>
             </div>

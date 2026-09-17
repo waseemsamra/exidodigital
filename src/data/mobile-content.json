@@ -1,10 +1,10 @@
 {
   "page": {
-    "title": "Exido | Mobile Engineering",
+    "title": "Bluechip | Mobile Engineering",
     "badge": "Next-Gen Mobility"
   },
   "navigation": {
-    "logo": "Exido",
+    "logo": "Bluechip",
     "links": [
       { "label": "Services", "href": "/services" },
       { "label": "About", "href": "/about" }
@@ -101,7 +101,7 @@
   },
   "sdk": {
     "title": "Seamless Backend Synergy",
-    "description": "Our mobile SDKs serve as high-speed conduits, connecting your interface directly to Exido's AI Neural Engines and BI Data Lakes via dedicated gRPC and GraphQL layers.",
+    "description": "Our mobile SDKs serve as high-speed conduits, connecting your interface directly to Bluechip's AI Neural Engines and BI Data Lakes via dedicated gRPC and GraphQL layers.",
     "diagram": {
       "client": "Client",
       "gateway": "Kinetic API Gateway",
@@ -117,7 +117,7 @@
       {
         "icon": "lock_reset",
         "title": "End-to-End Encryption",
-        "description": "Military-grade encryption for all data in transit between mobile devices and the Exido cloud.",
+        "description": "Military-grade encryption for all data in transit between mobile devices and the Bluechip cloud.",
         "color": "secondary"
       }
     ]
@@ -125,14 +125,14 @@
   "caseStudy": {
     "label": "Success in the Field",
     "title": "Global Logistics Corp",
-    "description": "How Exido developed a custom fleet management mobile OS that reduced delivery latency by 24% and empowered 15,000+ drivers with real-time AI routing.",
+    "description": "How Bluechip developed a custom fleet management mobile OS that reduced delivery latency by 24% and empowered 15,000+ drivers with real-time AI routing.",
     "buttonLabel": "Read the Case Study",
     "image": "/assets/images/logistics-dashboard.png",
     "imageAlt": "Digital representation of a global logistics fleet dashboard with moving light trails across a world map in shades of obsidian and cyan"
   },
   "cta": {
     "title": "Deploy Your Next-Gen Mobile Solution",
-    "description": "Join the ranks of elite enterprises leveraging Exido's engineering for high-stakes mobility.",
+    "description": "Join the ranks of elite enterprises leveraging Bluechip's engineering for high-stakes mobility.",
     "buttons": [
       {
         "label": "Start Development",
@@ -146,8 +146,8 @@
   },
   "footer": {
     "company": {
-      "name": "Exido",
-      "description": "© 2024 Exido. Digital Obsidian Intelligence."
+      "name": "Bluechip",
+      "description": "© 2024 Bluechip. Digital Obsidian Intelligence."
     },
     "columns": [
       {
@@ -173,6 +173,6 @@
       }
     ],
     "socialIcons": ["language", "share"],
-    "copyright": "© 2024 Exido. All rights reserved."
+    "copyright": "© 2024 Bluechip. All rights reserved."
   }
 }

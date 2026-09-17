@@ -24,7 +24,7 @@ function CaseStudyAutonomousInventory() {
                 Revolutionizing Retail with <span className="text-primary glow-text">Autonomous Intelligence</span>
               </h1>
               <p className="text-on-surface-variant text-xl leading-relaxed font-light max-w-xl mb-12">
-                How Exido's AI Mesh reduced stockouts by 85% and optimized supply chain throughput for a Fortune 500 retailer.
+                How Bluechip's AI Mesh reduced stockouts by 85% and optimized supply chain throughput for a Fortune 500 retailer.
               </p>
               <div className="flex items-center space-x-8">
                 <button className="hero-gradient text-on-primary px-10 py-4 font-headline font-bold text-sm uppercase tracking-widest hover:btn-glow transition-all duration-300 rounded-lg">
@@ -138,7 +138,7 @@ function CaseStudyAutonomousInventory() {
         {/* Tech Stack Component */}
         <section className="py-32 px-12 bg-surface-container-low">
           <div className="max-w-7xl mx-auto text-center mb-20">
-            <span className="text-primary-dim label-sm font-bold tracking-[0.4em] uppercase mb-4 block">The Exido Architecture</span>
+            <span className="text-primary-dim label-sm font-bold tracking-[0.4em] uppercase mb-4 block">The Bluechip Architecture</span>
             <h2 className="font-headline text-5xl font-black text-on-background tracking-tighter">The Tech Stack</h2>
           </div>
           
@@ -175,7 +175,7 @@ function CaseStudyAutonomousInventory() {
           <div className="max-w-5xl mx-auto relative z-10 text-center">
             <span className="material-symbols-outlined text-6xl text-secondary mb-12 opacity-40">format_quote</span>
             <blockquote className="font-headline text-4xl md:text-5xl font-bold text-on-background leading-tight mb-12 tracking-tight">
-              "Exido didn't just give us a tool; they gave us a <span className="text-secondary italic">brain</span> for our entire operation."
+              "Bluechip didn't just give us a tool; they gave us a <span className="text-secondary italic">brain</span> for our entire operation."
             </blockquote>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 rounded-full bg-surface-container-high border border-outline-variant mb-4 overflow-hidden">
